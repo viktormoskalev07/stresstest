@@ -53,6 +53,9 @@ const app = async () => {
     return config;
   });
 
+  //unsubscribe
+  await delayedFunctionCall(unsubscribeEmail)
+
   //go to home page
   await delayedFunctionCall(goToHomePage)
 
@@ -126,6 +129,15 @@ const goToMatchfinder = async () => {
   try {
     await loggedAxios.get(`https://duel-master-git-develop-duelmastersgg-s-team.vercel.app/matchfinder`);
     console.log('== visited matchfinder')
+  } catch (e) {
+    console.log(e.message)
+  }
+}
+
+const unsubscribeEmail = async () => {
+  try {
+    const unsubscribeResponse = await loggedAxios.post(`/emails/unsubscribe/`);
+    console.log(unsubscribeResponse.data)
   } catch (e) {
     console.log(e.message)
   }
