@@ -92,18 +92,19 @@ export const app = async (id) => {
   const delay2 = (ms) => new Promise(resolve => setTimeout(resolve, ms));
   const del =1;
   const sendMessage = async () => {
-    for(let i = 0; i < 15; i++) {
+    for(let i = 0; i < 30; i++) {
       try {
-        await delay2(1000*del);
+        await delay2(5000*del);
         const sendMessageResponse2 = await loggedAxios.post(`/chats/${1053}/send-message/`, {
           text: 'I am spam bot i am testing a website',
           type: 'default',
         });
-        await delay2(1000*del); // Задержк
+        await delay2(3000*del); // Задержк
+        await  goToMatchfinder()
         try {
          const userInfo =  await loggedAxios.get( "/user/info/");
           console.log(" message from " , userInfo.data.id ,"num ",  i  )
-          console.log('== visited matchfinder')
+
         } catch (e) {
           console.log(e.message)
         }
@@ -169,9 +170,11 @@ export const app = async (id) => {
 
   //create game
 
-  webSocket.close(1000);
+
   // delete account
   await delayedFunctionCall(deleteAcc,1000*60)
+    webSocket.close(1000);
+    console.log("webSocket closed" , id )
 };
 
 
