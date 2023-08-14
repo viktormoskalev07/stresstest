@@ -7,6 +7,7 @@ import {unsubscribeEmail} from "./unsubscribe.js";
 import {deleteAccount} from "./deleteAccount.js";
 import {playGame} from "./game.js";
 import {getBalance} from "./userInfo.js";
+import fs from 'fs';
 
 const baseUrl = "https://duel-api.smart-ui.pro";
 // const baseUrl = "https://api.duelmasters.io";
@@ -23,6 +24,10 @@ const createAxiosInstance = (baseURL) => {
   });
 }
 
+const saveTokenToFile = (token) => {
+  fs.appendFileSync('tokens.txt', token + '\n');
+}
+
 export const app = async (id) => {
     console.log("app started" + id)
 
@@ -35,6 +40,9 @@ export const app = async (id) => {
     createUser(instanceUser1, baseUrl),
     createUser(instanceUser2, baseUrl),
   ]);
+
+  saveTokenToFile(user1.token);
+  saveTokenToFile(user2.token);
 
   console.log('first user id -- ', user1.userId)
   console.log('second user id -- ', user2.userId)
@@ -73,11 +81,11 @@ export const app = async (id) => {
   // await delayedFunctionCall(() => cancelGame(instanceUser1), 3000)
 
   // delete account
-  await delayedFunctionCall(() => deleteAccount(instanceUser1),1000*15)
+  await delayedFunctionCall(() => deleteAccount(instanceUser1, user1.token),1000*15)
   user1.webSocket.close(1000);
     console.log("webSocket closed" , id )
 
-  await delayedFunctionCall(() => deleteAccount(instanceUser2),1000*15)
+  await delayedFunctionCall(() => deleteAccount(instanceUser2, user2.token),1000*15)
   user2.webSocket.close(1000);
   console.log("webSocket closed" , id )
 };
