@@ -1,180 +1,85 @@
 import axios from "axios";
-import WebSocket from 'ws';
-// const baseUrl = "https://duel-api.smart-ui.pro";
-const baseUrl = "https://api.duelmasters.io";
-// const frontendUrl ="https://duel-master-git-duelmasters-old-api-config-duelmastersgg-s-team.vercel.app/"
-const frontendUrl ="https://www.duelmasters.io/"
-let token = {};
+import {createUser} from "./createUser.js";
+import {delayedFunctionCall} from "./delayFunc.js";
+import {goToHomePage, goToMatchfinder} from "./goTo.js";
+import {sendMessage} from "./sendMessage.js";
+import {unsubscribeEmail} from "./unsubscribe.js";
+import {deleteAccount} from "./deleteAccount.js";
+import {playGame} from "./game.js";
+import {getBalance} from "./userInfo.js";
 
+const baseUrl = "https://duel-api.smart-ui.pro";
+// const baseUrl = "https://api.duelmasters.io";
+const frontendUrl ="https://duel-master-git-duelmasters-old-api-config-duelmastersgg-s-team.vercel.app/"
+// const frontendUrl ="https://www.duelmasters.io/"
 
-export const app = async (id) => {
-    console.log("app started" + id)
-    const loggedAxios = axios.create({
-    baseURL: baseUrl + "/api/v0",
+const createAxiosInstance = (baseURL) => {
+  return axios.create({
+    baseURL: baseURL + "/api/v0",
     headers: {
       accept: "application/json",
       "Content-Type": "application/json",
     },
   });
+}
 
-  let num = Math.floor(Math.random() * 100000) + 1;
-  const random = num.toString(16);
-  const email = "testUser" + random + "lul@kek.mek";
- let tokenData
+export const app = async (id) => {
+    console.log("app started" + id)
 
-  try{
-    tokenData = await axios.post(baseUrl + "/api/v0/auth/base/signup/", {
-      email,
-      password: "2222",
-      password_repeat: "2222",
-      accept: true,
-    });
-    console.log(tokenData.data.token)
-  } catch (e){
-    console.log(e.message ,  "sign")
-    return
-  }
+  const instanceUser1 = createAxiosInstance(baseUrl)
+  const instanceUser2 = createAxiosInstance(baseUrl)
 
+  const instanceUser1Frontend = createAxiosInstance(frontendUrl)
 
-  // connect webSocket
-  const wsUrl = baseUrl.replace('http', 'ws');
-  const webSocket = new WebSocket(`${wsUrl}/ws?token=${tokenData.data.token}`)
+  const [user1, user2] = await Promise.all([
+    createUser(instanceUser1, baseUrl),
+    createUser(instanceUser2, baseUrl),
+  ]);
 
-  webSocket.onopen = () => {
-    console.log('socket connected')
-  }
-
-  webSocket.onmessage = (message) => {
-    const data = JSON.parse(message.data);
-    console.log('web socket --- ', data.action)
-  };
-
-  webSocket.onerror = (error) => {
-    console.log('web socket error: ', error?.detail)
-    webSocket?.close();
-  }
-
-  loggedAxios.interceptors.request.use((config) => {
-    if (tokenData.data.token) {
-      config.headers.Authorization ="Token "+ tokenData.data.token;
-    } else {
-      console.log("NO TOKEN" );
-    }
-    return config;
-  });
-
-  const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms))
-  const delayedFunctionCall = async (func, delayTime = 1000) => {
-    await delay(delayTime)
-    return await func()
-  }
-  const createGame = async () => {
-    const xpOrCash = 'xp'
-    const body = {
-      games: [
-        {game: "fifa23_new", bid: 0},
-        {game: "fifa23_old", bid: 0},
-        {game: "mw2_console", bid: 0},
-        {game: "mw2_pc", bid: 0},
-        {game: "dota", bid: 0},
-        {game: "csgo", bid: 123},
-      ],
-      ready_to_play: true
-    }
-    try {
-      const createGameResponse = await loggedAxios.patch(`/user/set-ready-to-play/${xpOrCash}/`, body);
-      console.log(createGameResponse.data , "create game")
-    } catch (e) {
-      console.log(e.message)
-    }
-  };
-
-  const delay2 = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-  const del =1;
-  const sendMessage = async () => {
-    for(let i = 0; i < 30; i++) {
-      try {
-        await delay2(5000*del);
-        const sendMessageResponse2 = await loggedAxios.post(`/chats/${1053}/send-message/`, {
-          text: 'I am spam bot i am testing a website',
-          type: 'default',
-        });
-        await delay2(3000*del); // Задержк
-        await  goToMatchfinder()
-        try {
-         const userInfo =  await loggedAxios.get( "/user/info/");
-          console.log(" message from " , userInfo.data.id ,"num ",  i  )
-
-        } catch (e) {
-          console.log(e.message)
-        }
-        console.log(i)
-      } catch (e) {
-        console.log(e.message);
-      }
-    }
-  };
-
-
-
-  const goToHomePage = async () => {
-    try {
-      await axios.get(frontendUrl);
-      console.log('== visited home page')
-    } catch (e) {
-      console.log(e.message , "home")
-    }
-  }
-
-  const goToMatchfinder = async () => {
-    try {
-      await axios.get(frontendUrl+"/matchfinder");
-      console.log('== visited matchfinder')
-    } catch (e) {
-      console.log(e.message , "match")
-    }
-  }
-
-  const unsubscribeEmail = async () => {
-    try {
-      const unsubscribeResponse = await loggedAxios.post(`/emails/unsubscribe/`);
-      console.log(unsubscribeResponse.data ,`/emails/unsubscribe/` )
-    } catch (e) {
-      console.log(e.message)
-    }
-  }
-
-  const deleteAcc = async () => {
-    try {
-      const deleteResponse = await loggedAxios.post("/user/delete-account/");
-      console.log(deleteResponse.data, " /user/delete-account/");
-    } catch (e) {
-      console.log(e.message);
-    }
-  }
+  console.log('first user id -- ', user1.userId)
+  console.log('second user id -- ', user2.userId)
 
 
   //unsubscribe
-  await delayedFunctionCall(unsubscribeEmail)
+  await delayedFunctionCall(() => unsubscribeEmail(instanceUser1))
+  console.log('user 1 unsubscribed')
 
-  //go to home page
-  await delayedFunctionCall(goToHomePage)
+  await delayedFunctionCall(() => unsubscribeEmail(instanceUser2))
+  console.log('user 2 unsubscribed')
 
-  //go to matchfinder
-  await delayedFunctionCall(goToMatchfinder)
-  console.log('== start create game')
-  await delayedFunctionCall(createGame , 5000)
+  // go to home page
+  await delayedFunctionCall(() => goToHomePage(instanceUser1Frontend, frontendUrl))
+
+  // go to matchfinder
+  await delayedFunctionCall(() => goToMatchfinder(instanceUser1Frontend, frontendUrl))
+
   //send message
-  console.log('== start send message')
-  await delayedFunctionCall(sendMessage , 5000)
+  await delayedFunctionCall(() => sendMessage(instanceUser1))
 
-  //create game
+  // second user balance before verdict
+  console.log('start game')
+  console.log('=== get user balance before game')
+  await delayedFunctionCall(() => getBalance(instanceUser2))
 
+  // play game
+  await playGame(instanceUser1, instanceUser2, user1, user2)
+
+  // second user balance after verdict
+  console.log('finished game')
+  console.log('=== get user balance after game')
+  await delayedFunctionCall(() => getBalance(instanceUser2))
+
+  // first user canceled the game
+  // await delayedFunctionCall(() => cancelGame(instanceUser1), 3000)
 
   // delete account
-  await delayedFunctionCall(deleteAcc,1000*60)
-    webSocket.close(1000);
+  await delayedFunctionCall(() => deleteAccount(instanceUser1),1000*15)
+  user1.webSocket.close(1000);
     console.log("webSocket closed" , id )
+
+  await delayedFunctionCall(() => deleteAccount(instanceUser2),1000*15)
+  user2.webSocket.close(1000);
+  console.log("webSocket closed" , id )
 };
 
 
