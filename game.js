@@ -3,7 +3,6 @@ import {deleteAccount} from "./deleteAccount.js";
 
 let roomId
 
-
 const createGame = async (instanceUser) => {
 	const xpOrCash = 'xp'
 	const body = {

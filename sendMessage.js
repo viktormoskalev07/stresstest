@@ -1,4 +1,3 @@
-import {goToMatchfinder} from "./goTo.js";
 import {delayedFunctionCall} from "./delayFunc.js";
 import {deleteAccount} from "./deleteAccount.js";
 
@@ -13,7 +12,6 @@ export const sendMessage = async (instanceUser) => {
 				type: 'default',
 			});
 			await delay2(3000*del); // Задержка
-			// await  goToMatchfinder()
 			try {
 				const userInfo =  await instanceUser.get( "/user/info/");
 				console.log(" message from " , userInfo.data.id ,"num ",  i  )

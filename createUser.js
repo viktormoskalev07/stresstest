@@ -61,6 +61,6 @@ export const createUser = async (instanceUser, baseUrl) => {
 	return {
 		userId: userInfo.id,
 		webSocket: webSocket,
+		token: tokenData.data.token,
 	}
-
 }
