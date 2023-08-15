@@ -1,5 +1,6 @@
-import {delayedFunctionCall} from "./delayFunc.js";
-import {deleteAccount} from "./deleteAccount.js";
+import {delayedFunctionCall} from "../helpers/delayFunc.js"
+import {deleteAccount} from "../testsFunc/deleteAccount.js"
+import {getBalance} from "../testsFunc/userInfo.js"
 
 let roomId
 
@@ -114,7 +115,23 @@ export const cancelGame = async (instanceUser) => {
 }
 
 
-export const playGame = async (instanceUser1, instanceUser2, user1, user2) => {
+export const playGame = async (instanceUser1, instanceUser2, user1, user2, saveToFile) => {
+	let secondUserInitialBalance = 0
+	let secondUserFinalBalance = 0
+
+	const setInitialBalance = (balance) => {
+		secondUserInitialBalance = balance
+	}
+
+	const setFinalBalance = (balance) => {
+		secondUserFinalBalance = balance
+	}
+
+	console.log('start game')
+
+	// second user balance before verdict
+	console.log('=== get user balance before game')
+	await delayedFunctionCall(() => getBalance(instanceUser2, setInitialBalance))
 
 	// firs user created game
 	await delayedFunctionCall(() => createGame(instanceUser1))
@@ -142,4 +159,16 @@ export const playGame = async (instanceUser1, instanceUser2, user1, user2) => {
 
 	// second user win
 	await delayedFunctionCall(() => setVerdict(instanceUser2, user2.userId))
+
+	// second user balance after verdict
+	console.log('=== get user balance after game')
+	await delayedFunctionCall(() => getBalance(instanceUser2, setFinalBalance))
+
+	console.log('finished game')
+
+	const balanceDifference = secondUserFinalBalance - secondUserInitialBalance
+	const balanceChange = balanceDifference > 0 ? `+${balanceDifference}$` : balanceDifference.toString()
+	const balancePositive = balanceDifference > 0
+
+	saveToFile('data/gameLogs.txt', `UserId ${user2.userId} --- ${balanceChange} (${balancePositive})`)
 }

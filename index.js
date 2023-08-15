@@ -1,18 +1,15 @@
 import axios from "axios";
-import {createUser} from "./createUser.js";
-import {delayedFunctionCall} from "./delayFunc.js";
-import {goToHomePage, goToMatchfinder} from "./goTo.js";
-import {sendMessage} from "./sendMessage.js";
-import {unsubscribeEmail} from "./unsubscribe.js";
-import {deleteAccount} from "./deleteAccount.js";
-import {playGame} from "./game.js";
-import {getBalance} from "./userInfo.js";
-import fs from 'fs';
+import {saveToFile} from "./helpers/saveToFile.js";
+import {createUser} from "./testsFunc/createUser.js";
+import {delayedFunctionCall} from "./helpers/delayFunc.js";
+import {unsubscribeEmail} from "./testsFunc/unsubscribe.js";
+import {goToHomePage, goToMatchfinder} from "./testsFunc/goTo.js";
+import {sendMessage} from "./testsFunc/sendMessage.js";
+import {playGame} from "./game/game.js";
+import {deleteAccount} from "./testsFunc/deleteAccount.js";
 
-const baseUrl = "https://duel-api.smart-ui.pro";
-// const baseUrl = "https://api.duelmasters.io";
-const frontendUrl ="https://duel-master-git-duelmasters-old-api-config-duelmastersgg-s-team.vercel.app/"
-// const frontendUrl ="https://www.duelmasters.io/"
+import {baseUrl, frontendUrl} from "./helpers/constants.js";
+
 
 const createAxiosInstance = (baseURL) => {
   return axios.create({
@@ -22,10 +19,6 @@ const createAxiosInstance = (baseURL) => {
       "Content-Type": "application/json",
     },
   });
-}
-
-const saveTokenToFile = (token) => {
-  fs.appendFileSync('tokens.txt', token + '\n');
 }
 
 export const app = async (id) => {
@@ -41,8 +34,8 @@ export const app = async (id) => {
     createUser(instanceUser2, baseUrl),
   ]);
 
-  saveTokenToFile(user1.token);
-  saveTokenToFile(user2.token);
+  saveToFile('data/tokens.txt', user1.token);
+  saveToFile('data/tokens.txt', user2.token);
 
   console.log('first user id -- ', user1.userId)
   console.log('second user id -- ', user2.userId)
@@ -64,18 +57,8 @@ export const app = async (id) => {
   //send message
   await delayedFunctionCall(() => sendMessage(instanceUser1))
 
-  // second user balance before verdict
-  console.log('start game')
-  console.log('=== get user balance before game')
-  await delayedFunctionCall(() => getBalance(instanceUser2))
-
   // play game
-  await playGame(instanceUser1, instanceUser2, user1, user2)
-
-  // second user balance after verdict
-  console.log('finished game')
-  console.log('=== get user balance after game')
-  await delayedFunctionCall(() => getBalance(instanceUser2))
+  await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
 
   // first user canceled the game
   // await delayedFunctionCall(() => cancelGame(instanceUser1), 3000)

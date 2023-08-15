@@ -1,8 +1,7 @@
 import axios from "axios"
 import fs from 'fs'
-import {delay} from "./delayFunc.js";
-
-const baseUrl = "https://duel-api.smart-ui.pro"
+import {baseUrl} from "../helpers/constants.js"
+import {delay} from "../helpers/delayFunc.js"
 
 const createDeleteInstance = (token) => {
 	return axios.create({
@@ -16,13 +15,13 @@ const createDeleteInstance = (token) => {
 }
 
 export const removeTokenFromFile = (tokenToRemove) => {
-	const tokens = fs.readFileSync('tokens.txt', 'utf-8').split('\n');
+	const tokens = fs.readFileSync('data/tokens.txt', 'utf-8').split('\n');
 	const updatedTokens = tokens.filter(token => token !== tokenToRemove)
-	fs.writeFileSync('tokens.txt', updatedTokens.join('\n'))
+	fs.writeFileSync('data/tokens.txt', updatedTokens.join('\n'))
 };
 
-const deleteUsers = async () => {
-	const tokens = fs.readFileSync('tokens.txt', 'utf-8').split('\n').filter(token => token)
+export const deleteUsers = async () => {
+	const tokens = fs.readFileSync('data/tokens.txt', 'utf-8').split('\n').filter(token => token)
 
 	for (let token of tokens) {
 		const instance = createDeleteInstance(token)
@@ -34,8 +33,6 @@ const deleteUsers = async () => {
 			console.error(`Failed to delete user with token ${token}, ${error.message}`)
 		}
 
-		await delay(2000)
+		await delay(100)
 	}
 }
-
-await deleteUsers()
