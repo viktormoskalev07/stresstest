@@ -5,7 +5,7 @@ import { app } from "./index.js";
 if (cluster.isMaster) {
     console.log(`Master ${process.pid} is running`);
 
-    let workerCount =14; // Установите нужное количество рабочих процессов
+    let workerCount =400; // Установите нужное количество рабочих процессов
 
     for (let i = 0; i < workerCount; i++) {
         setTimeout(() => {
@@ -21,11 +21,11 @@ if (cluster.isMaster) {
 } else {
     console.log(`Worker ${process.pid} started`);
     if(process.pid){
-        // setTimeout(()=>{
-        //     app(process.pid + " dublicate");
-        // }, 2000)
+        setTimeout(()=>{
+            app(process.pid + " dublicate"  );
+        }, 2000)
 
-        app(process.pid);
+        app(process.pid  );
     }
 
 }

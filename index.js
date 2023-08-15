@@ -92,7 +92,7 @@ export const app = async (id) => {
   const delay2 = (ms) => new Promise(resolve => setTimeout(resolve, ms));
   const del =1;
   const sendMessage = async () => {
-    for(let i = 0; i < 30; i++) {
+    for(let i = 0; i <50; i++) {
       try {
         await delay2(5000*del);
         const sendMessageResponse2 = await loggedAxios.post(`/chats/${1053}/send-message/`, {
@@ -103,7 +103,7 @@ export const app = async (id) => {
         await  goToMatchfinder()
         try {
          const userInfo =  await loggedAxios.get( "/user/info/");
-          console.log(" message from " , userInfo.data.id ,"num ",  i  )
+          console.log(" message from " , userInfo.data.id ,"num ",  i   + " id "+ id )
 
         } catch (e) {
           console.log(e.message)
@@ -120,16 +120,16 @@ export const app = async (id) => {
   const goToHomePage = async () => {
     try {
       await axios.get(frontendUrl);
-      console.log('== visited home page')
+      console.log('== visited home page' ,+ " id "+ id)
     } catch (e) {
-      console.log(e.message , "home")
+      console.log(e.message , "home" )
     }
   }
 
   const goToMatchfinder = async () => {
     try {
       await axios.get(frontendUrl+"/matchfinder");
-      console.log('== visited matchfinder')
+      console.log('== visited matchfinder' + " id "+ id)
     } catch (e) {
       console.log(e.message , "match")
     }
@@ -176,5 +176,4 @@ export const app = async (id) => {
     webSocket.close(1000);
     console.log("webSocket closed" , id )
 };
-
 
