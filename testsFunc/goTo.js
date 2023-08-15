@@ -1,6 +1,5 @@
-import axios from "axios";
-import {delayedFunctionCall} from "./delayFunc.js";
-import {deleteAccount} from "./deleteAccount.js";
+import {deleteAccount} from "./deleteAccount.js"
+import {delayedFunctionCall} from "../helpers/delayFunc.js";
 
 export const goToHomePage = async (userInstance, frontendUrl) => {
 	try {

@@ -1,5 +1,5 @@
-import {delayedFunctionCall} from "./delayFunc.js";
-import {deleteAccount} from "./deleteAccount.js";
+import {deleteAccount} from "./deleteAccount.js"
+import {delayedFunctionCall} from "../helpers/delayFunc.js"
 
 export const unsubscribeEmail = async (instanceUser) => {
 	try {

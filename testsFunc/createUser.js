@@ -1,10 +1,10 @@
-import axios from "axios";
-import WebSocket from 'ws';
+import axios from "axios"
+import WebSocket from 'ws'
 
 export const createUser = async (instanceUser, baseUrl) => {
-	let num = Math.floor(Math.random() * 100000) + 1;
-	const random = num.toString(16);
-	const email = "testUser" + random + "lul@kek.mek";
+	let num = Math.floor(Math.random() * 100000) + 1
+	const random = num.toString(16)
+	const email = "testUser" + random + "lul@kek.mek"
 
 	let tokenData
 
