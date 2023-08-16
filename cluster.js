@@ -5,13 +5,13 @@ import { app } from "./index.js";
 if (cluster.isMaster) {
     console.log(`Master ${process.pid} is running`);
 
-    let workerCount =14; // Установите нужное количество рабочих процессов
+    let workerCount =200;
 
     for (let i = 0; i < workerCount; i++) {
         setTimeout(() => {
             cluster.fork();
             console.log(i , "from" ,workerCount )
-        }, i * 2000); // Запуск каждого рабочего процесса с интервалом в 5 секунд
+        }, i * 20);
     }
 
     cluster.on('exit', (worker, code, signal) => {

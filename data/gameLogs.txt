@@ -1,2 +1,0 @@
-UserId 1900 --- +50$ (true)
-UserId 1904 --- +50$ (true)

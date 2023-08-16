@@ -33,6 +33,6 @@ export const deleteUsers = async () => {
 			console.error(`Failed to delete user with token ${token}, ${error.message}`)
 		}
 
-		await delay(100)
+		await delay(50)
 	}
 }
