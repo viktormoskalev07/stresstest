@@ -9,6 +9,9 @@ import {playGame} from "./game/game.js";
 import {deleteAccount} from "./testsFunc/deleteAccount.js";
 
 import {baseUrl, frontendUrl} from "./helpers/constants.js";
+import {runMultipleTimes} from "./helpers/runMultipleTimes.js";
+import {getMatchfinderGames} from "./testsFunc/getMatchfinderGames.js";
+import {getGamesWithFilters} from "./testsFunc/getGamesWithFilters.js";
 
 
 const createAxiosInstance = (baseURL) => {
@@ -43,16 +46,20 @@ export const app = async (id) => {
 
   //unsubscribe
   await delayedFunctionCall(() => unsubscribeEmail(instanceUser1))
-  console.log('user 1 unsubscribed')
 
   await delayedFunctionCall(() => unsubscribeEmail(instanceUser2))
-  console.log('user 2 unsubscribed')
 
   // go to home page
   await delayedFunctionCall(() => goToHomePage(instanceUser1Frontend, frontendUrl))
 
   // go to matchfinder
   await delayedFunctionCall(() => goToMatchfinder(instanceUser1Frontend, frontendUrl))
+
+  // get matchfinder games
+  await runMultipleTimes((page) => getMatchfinderGames(instanceUser1, page),   25)
+
+  // get matchfinder games with filters
+  await runMultipleTimes(() => getGamesWithFilters(instanceUser1),   25)
 
   //send message
   await delayedFunctionCall(() => sendMessage(instanceUser1))

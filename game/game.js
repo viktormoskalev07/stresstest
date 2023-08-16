@@ -21,7 +21,7 @@ const createGame = async (instanceUser) => {
 		const createGameResponse = await instanceUser.patch(`/user/set-ready-to-play/${xpOrCash}/`, body);
 		console.log(createGameResponse.data , "create game")
 	} catch (e) {
-		console.log(e.message)
+		console.log(e.message, 'create game')
 		await delayedFunctionCall(() => deleteAccount(instanceUser))
 	}
 };
@@ -38,7 +38,7 @@ const inviteToGame = async (instanceUser, userId) => {
 		const inviteToGameResponse = await instanceUser.post(`/rooms/create-room/`, body);
 		console.log(inviteToGameResponse.data , "invite to game")
 	} catch (e) {
-		console.log(e.message)
+		console.log(e.message, 'invite to game')
 		await delayedFunctionCall(() => deleteAccount(instanceUser))
 	}
 
@@ -55,7 +55,7 @@ const acceptGame = async (instanceUser) => {
 		console.log(acceptGameResponse.data , "accepted game")
 
 	} catch (e) {
-		console.log(e.message)
+		console.log(e.message, 'accept game')
 		await delayedFunctionCall(() => deleteAccount(instanceUser))
 	}
 }
@@ -70,7 +70,7 @@ const setRoomBid = async (instanceUser, bid) => {
 		const setBidResponse = await instanceUser.post(`/rooms/${roomId}/set-bid/`, body)
 		console.log(setBidResponse.data, 'setting bid')
 	} catch (e) {
-		console.log(e.message)
+		console.log(e.message, 'set room bid')
 		await delayedFunctionCall(() => deleteAccount(instanceUser))
 	}
 }
@@ -82,7 +82,7 @@ const setReady = async (instanceUser) => {
 		console.log(setReadyResponse.data, 'set ready')
 
 	} catch (e) {
-		console.log(e.message)
+		console.log(e.message, 'set ready')
 		await delayedFunctionCall(() => deleteAccount(instanceUser))
 	}
 }
@@ -98,7 +98,7 @@ const setVerdict = async (instanceUser, userId) => {
 		console.log(setVerdictResponse.data, 'set verdict')
 
 	} catch (e) {
-		console.log(e.message)
+		console.log(e.message, 'set verdict')
 		await delayedFunctionCall(() => deleteAccount(instanceUser))
 	}
 }
@@ -164,7 +164,7 @@ export const playGame = async (instanceUser1, instanceUser2, user1, user2, saveT
 	console.log('=== get user balance after game')
 	await delayedFunctionCall(() => getBalance(instanceUser2, setFinalBalance))
 
-	console.log('finished game')
+	console.log('game finished')
 
 	const balanceDifference = secondUserFinalBalance - secondUserInitialBalance
 	const balanceChange = balanceDifference > 0 ? `+${balanceDifference}$` : balanceDifference.toString()
