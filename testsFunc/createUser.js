@@ -15,7 +15,10 @@ export const createUser = async (instanceUser, baseUrl) => {
 			password_repeat: "2222",
 			accept: true,
 		});
-		console.log(tokenData.data.token)
+		if(!tokenData.data?.token){
+			console.warn("NO TOKEN ")
+		}
+		console.log(tokenData.data?.token)
 	} catch (e){
 		console.log(e.message ,  "sign")
 		return
@@ -23,7 +26,7 @@ export const createUser = async (instanceUser, baseUrl) => {
 
 	// connect webSocket
 	const wsUrl = baseUrl.replace('http', 'ws');
-	const webSocket = new WebSocket(`${wsUrl}/ws?token=${tokenData.data.token}`)
+	let webSocket = new WebSocket(`${wsUrl}/ws?token=${tokenData.data?.token}`)
 
 	webSocket.onopen = () => {
 		console.log('socket connected')
@@ -39,9 +42,14 @@ export const createUser = async (instanceUser, baseUrl) => {
 		webSocket?.close();
 	}
 
+	webSocket.onclose= ()=>{
+		setTimeout(()=>{
+			webSocket	=new WebSocket(`${wsUrl}/ws?token=${tokenData.data.token}`)
+		},1000)
+	}
 	instanceUser.interceptors.request.use((config) => {
-		if (tokenData.data.token) {
-			config.headers.Authorization ="Token "+ tokenData.data.token;
+		if (tokenData.data?.token) {
+			config.headers.Authorization ="Token "+ tokenData.data?.token;
 		} else {
 			console.log("NO TOKEN" );
 		}

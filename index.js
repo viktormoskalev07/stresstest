@@ -37,11 +37,11 @@ export const app = async (id) => {
     createUser(instanceUser2, baseUrl),
   ]);
 
-  saveToFile('data/tokens.txt', user1.token);
-  saveToFile('data/tokens.txt', user2.token);
+  saveToFile('data/tokens.txt', user1?.token);
+  saveToFile('data/tokens.txt', user2?.token);
 
-  console.log('first user id -- ', user1.userId)
-  console.log('second user id -- ', user2.userId)
+  console.log('first user id -- ', user1?.userId)
+  console.log('second user id -- ', user2?.userId)
 
 
   //unsubscribe
@@ -68,7 +68,7 @@ export const app = async (id) => {
   await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
 
   // first user canceled the game
-  // await delayedFunctionCall(() => cancelGame(instanceUser1), 3000)
+  await delayedFunctionCall(() => cancelGame(instanceUser1), 3000)
 
   // delete account
   await delayedFunctionCall(() => deleteAccount(instanceUser1, user1.token),1000*15)

@@ -5,7 +5,7 @@ import { app } from "./index.js";
 if (cluster.isMaster) {
     console.log(`Master ${process.pid} is running`);
 
-    let workerCount =100;
+    let workerCount =500;
 
     for (let i = 0; i < workerCount; i++) {
         setTimeout(() => {
