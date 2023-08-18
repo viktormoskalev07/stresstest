@@ -56,10 +56,10 @@ export const app = async (id) => {
   await delayedFunctionCall(() => goToMatchfinder(instanceUser1Frontend, frontendUrl))
 
   // get matchfinder games
-  await runMultipleTimes((page) => getMatchfinderGames(instanceUser1, page),   25)
+  await runMultipleTimes((page) => getMatchfinderGames(instanceUser1, page),   100)
 
   // get matchfinder games with filters
-  await runMultipleTimes(() => getGamesWithFilters(instanceUser1),   25)
+  await runMultipleTimes(() => getGamesWithFilters(instanceUser1),   100)
 
   //send message
   await delayedFunctionCall(() => sendMessage(instanceUser1))

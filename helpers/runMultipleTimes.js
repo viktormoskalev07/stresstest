@@ -16,6 +16,6 @@ export const runMultipleTimes = (fn, times) => {
 				page = 1
 			}
 			counter--;
-		}, 100);
+		}, 500);
 	});
 };
