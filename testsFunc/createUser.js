@@ -4,7 +4,7 @@ import WebSocket from 'ws'
 export const createUser = async (instanceUser, baseUrl) => {
 	let num = Math.floor(Math.random() * 100000) + 1
 	const random = num.toString(16)
-	const email = "testUser" + random + "lul@kek.mek"
+	const email = "testUser" + random + new Date().getTime()+ "lul@kek.mek"
 
 	let tokenData
 

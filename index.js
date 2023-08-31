@@ -48,7 +48,7 @@ export const app = async (id) => {
   await delayedFunctionCall(() => unsubscribeEmail(instanceUser1))
 
   await delayedFunctionCall(() => unsubscribeEmail(instanceUser2))
-
+  await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
   // go to home page
   await delayedFunctionCall(() => goToHomePage(instanceUser1Frontend, frontendUrl))
 
@@ -56,19 +56,19 @@ export const app = async (id) => {
   await delayedFunctionCall(() => goToMatchfinder(instanceUser1Frontend, frontendUrl))
 
   // get matchfinder games
-  await runMultipleTimes((page) => getMatchfinderGames(instanceUser1, page),   100)
+  await runMultipleTimes((page) => getMatchfinderGames(instanceUser1, page),   15)
 
   // get matchfinder games with filters
-  await runMultipleTimes(() => getGamesWithFilters(instanceUser1),   100)
+  await runMultipleTimes(() => getGamesWithFilters(instanceUser1),   15)
 
   //send message
   await delayedFunctionCall(() => sendMessage(instanceUser1))
 
   // play game
-  await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
+
 
   // first user canceled the game
-  await delayedFunctionCall(() => cancelGame(instanceUser1), 3000)
+  // await delayedFunctionCall(() => cancelGame(instanceUser1), 3000)
 
   // delete account
   await delayedFunctionCall(() => deleteAccount(instanceUser1, user1.token),1000*15)

@@ -11,7 +11,7 @@ if (cluster.isMaster) {
         setTimeout(() => {
             cluster.fork();
             console.log(i , "from" ,workerCount )
-        }, i * 20);
+        }, i * 50);
     }
 
     cluster.on('exit', (worker, code, signal) => {
