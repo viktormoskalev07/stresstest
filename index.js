@@ -18,7 +18,7 @@ console.warn = function(message) {
 console.error = function(message) {
   console.log(chalk.red(message));
 };
-export const showLogs = true
+export const showLogs = false
 
 const createAxiosInstance = (baseURL) => {
   return axios.create({

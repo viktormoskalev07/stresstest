@@ -8,7 +8,7 @@ const testStartTime = new Date();
 if (cluster.isMaster) {
     showLogs&&  console.log(`Master ${process.pid} is running`);
     !showLogs&& console.error("mode only errors")
-    let workerCount =2;
+    let workerCount =100;
 
     for (let i = 0; i < workerCount; i++) {
         setTimeout(() => {
@@ -24,7 +24,7 @@ if (cluster.isMaster) {
                     requestsCounter++;
 
                     const testTime = (new Date()- testStartTime  )/1000
-                    console.log(`Online users =${usersCounter}  actions=${requestsCounter}  , duration = ${testTime}s  rps = ${testTime/requestsCounter}`);
+                    console.log(`Online users =${usersCounter}  actions=${requestsCounter}  , duration = ${testTime}s  rps = ${requestsCounter/testTime}`);
 
                 }
                 if (message === 'decrementUsers') {
