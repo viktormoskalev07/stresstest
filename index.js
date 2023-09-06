@@ -56,7 +56,7 @@ export const app = async (id) => {
 
   showLogs&&console.log('first user id -- ', user1?.userId)
   showLogs&&console.log('second user id -- ', user2?.userId)
-  await getGamesWithFilters(instanceUser1)
+  getGames&& await getGamesWithFilters(instanceUser1)
 
   //unsubscribe
   await delayedFunctionCall(() => unsubscribeEmail(instanceUser1))
