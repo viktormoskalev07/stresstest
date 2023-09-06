@@ -18,40 +18,61 @@
 const charting = async ()=>{
 
     const ctx = document.getElementById('myChart');
-    const response = await fetch('requestsCounter.json');  // Замените example.json на имя вашего файла
-    const requests  = await response.json();
+    const _requests = await fetch('requestsCounter.json');
+    const _errors = await fetch('errors.json');
+    const requests  = await _requests.json();
+    const errors  = await _errors.json();
 
     const start =new Date(requests[0]) ;
-    const end = new Date(requests[requests.length-1]);
-    const testLen = Math.floor((end - start)/1000)
+    const endTime = new Date(requests[requests.length-1])
+    const duration = (endTime-start)/1000
+
     const combined = []
+    const combinedErrors = []
     requests.forEach((item)=>{
         const thisTime =new Date(item);
         const diff =Math.floor((thisTime -start  )/1000)
-        console.log(diff)
         if(combined[diff]){
             combined[diff].push("t")
         }else {
             combined[diff]=["t"]
         }
     })
-    const labels =[];
-    const data = []
-    combined.forEach((item, i)=>{
-        labels.push(i);
-        data.push(item.length)
+    errors.forEach((item)=>{
+        const thisTime =new Date(item);
+        const diff =Math.floor((thisTime -start  )/1000)
+        if(combinedErrors[diff]){
+            combinedErrors[diff].push("t")
+        }else {
+            combinedErrors[diff]=["t"]
+        }
     })
-    console.log(data, labels)
+    const labels =[];
+    const dataRequests = []
+    const dataErrors= []
+    for(let i=1 ; i < duration ; i++){
+        labels.push(i);
+        dataRequests.push(combined[i]?.length||0)
+        dataErrors.push(combinedErrors[i]?.length||0)
+    }
+
+    console.log({dataRequests, labels})
 
     new Chart(ctx, {
         type: 'bar',
         data: {
-            labels ,
-            datasets: [{
-                label: '# of Votes',
-                data,
+            labels: labels,
+            datasets: [
+                {
+                label: 'requests',
+                data: dataRequests,
                 borderWidth: 1
-            }]
+            } ,{
+                label: 'errors',
+                data: dataErrors,
+                borderWidth: 1
+            }
+            ]
         },
         options: {
             scales: {

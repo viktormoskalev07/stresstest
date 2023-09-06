@@ -15,10 +15,7 @@ import chalk from "chalk";
 console.warn = function(message) {
   console.log(chalk.yellow(message));
 };
-console.error = function(message) {
-  process.send('errors')
-  console.log(chalk.red(message));
-};
+
 export const showLogs = false
 export const getGames = false
 export const pingMaxTimeError = 2000
@@ -33,12 +30,16 @@ const createAxiosInstance = (baseURL) => {
 }
 
 export const app = async (id) => {
+  console.error = function(message) {
+    process.send('errors')
+    console.log(chalk.red(message));
+  };
   showLogs&&   console.log("app started" + id)
 
   const instanceUser1 = createAxiosInstance(baseUrl)
   const instanceUser2 = createAxiosInstance(baseUrl)
 
-  process.send('incrementAction');
+
 
   const [user1, user2] = await Promise.all([
     createUser(instanceUser1, baseUrl),
