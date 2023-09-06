@@ -19,6 +19,7 @@ console.error = function(message) {
   console.log(chalk.red(message));
 };
 export const showLogs = false
+export const getGames = false
 
 const createAxiosInstance = (baseURL) => {
   return axios.create({
@@ -59,17 +60,18 @@ export const app = async (id) => {
 
   //unsubscribe
   await delayedFunctionCall(() => unsubscribeEmail(instanceUser1))
-  await getGamesWithFilters(instanceUser1)
+  getGames&&  await getGamesWithFilters(instanceUser1)
   await delayedFunctionCall(() => unsubscribeEmail(instanceUser2))
-  await getGamesWithFilters(instanceUser1)
+  getGames&&   await getGamesWithFilters(instanceUser1)
   await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
   // go to home page
-  await getGamesWithFilters(instanceUser1)
-  await getGamesWithFilters(instanceUser2)
+  getGames&&   await getGamesWithFilters(instanceUser1)
+  getGames&&   await getGamesWithFilters(instanceUser2)
   await sendMessage(instanceUser1)
-  await getGamesWithFilters(instanceUser2)
+  getGames&&  await getGamesWithFilters(instanceUser2)
 
-  console.log(global.counter)
+
+
   await delayedFunctionCall(() => sendMessage(instanceUser1))
 
 
@@ -81,7 +83,8 @@ export const app = async (id) => {
 
   await delayedFunctionCall(() => deleteAccount(instanceUser2, user2.token),100)
   user2.webSocket.close(1000);
-  console.log("webSocket closed" , id )
+
+
   process.send('decrementUsers')
   process.exit()
 };

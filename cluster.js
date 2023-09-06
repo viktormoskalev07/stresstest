@@ -1,14 +1,15 @@
 import cluster from 'node:cluster';
 
 import {app, showLogs} from "./index.js";
+import {createReport} from "./chart/index.js";
 
 let usersCounter = 0;
-let requestsCounter = 0;
+let requestsCounter = [];
 const testStartTime = new Date();
 if (cluster.isMaster) {
     showLogs&&  console.log(`Master ${process.pid} is running`);
     !showLogs&& console.error("mode only errors")
-    let workerCount =500;
+    let workerCount =1;
 
     for (let i = 0; i < workerCount; i++) {
         setTimeout(() => {
@@ -18,31 +19,30 @@ if (cluster.isMaster) {
             worker.on('message', (message) => {
                 if (message === 'incrementCluster') {
                     usersCounter++;
-                    console.log(`Number of clusters: ${usersCounter}`);
                 }
                 if (message === 'incrementAction') {
-                    requestsCounter++;
-
+                    requestsCounter.push(new Date());
+                    const now = new Date();
+                    const threeSecondsAgo = new Date(now - 3000);
+                    const recentRequests = requestsCounter.filter(requestDate => requestDate >= threeSecondsAgo);
+                    const numberOfRecentRequests = recentRequests.length;
                     const testTime = (new Date()- testStartTime  )/1000
-                    console.log(`Online users =${usersCounter}  actions=${requestsCounter}  , duration = ${testTime}s  rps = ${requestsCounter/testTime}`);
+                    console.log(`Online users =${usersCounter}  actions=${requestsCounter.length}  , duration = ${testTime}s  rps = ${numberOfRecentRequests/3}`);
 
                 }
                 if (message === 'decrementUsers') {
-                    requestsCounter++;
-                    console.log(`Number of actions: ${requestsCounter}`);
+                    usersCounter--;
+                    console.log(`user closed : ${requestsCounter.length}`);
                 }
             });
-        }, i * 1000);
+        }, i * 22);
     }
 
     cluster.on('exit', (worker, code, signal) => {
         showLogs&&    console.log(`Worker ${worker.process.pid} died`);
 
-        // cluster.fork();
-        const testEndTime = new Date();
-        const testDuration =(testEndTime- testStartTime ) / 1000
-        console.log({testDuration  ,usersCounter  , requestsCounter})
-
+        console.warn(` finish user , Online users =${usersCounter}  actions=${requestsCounter.length}`)
+        createReport(requestsCounter)
     });
 } else {
     console.log(`Worker ${process.pid} started`);

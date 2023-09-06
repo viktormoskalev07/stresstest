@@ -9,7 +9,7 @@ export const getBalance = async (instanceUser, setBalance) => {
 		showLogs&&	console.log('get second user balance -- ', getBalanceResponse.data.xp)
 		setBalance(getBalanceResponse.data.xp)
 	} catch (e) {
-		console.log(e.message)
+		console.error(e.message)
 		await delayedFunctionCall(() => deleteAccount(instanceUser))
 	}
 }

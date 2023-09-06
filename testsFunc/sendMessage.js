@@ -28,10 +28,10 @@ export const sendMessage = async (instanceUser) => {
 				showLogs&&console.log(" message from " , userInfo.data.id ,"num ",  i  )
 				process.send('incrementAction');
 			} catch (e) {
-				console.log(e.message)
+				console.error(e.message)
 				await delayedFunctionCall(() => deleteAccount(instanceUser))
 			}
-			console.log(i)
+
 		} catch (e) {
 			console.log(e.message);
 			await delayedFunctionCall(() => deleteAccount(instanceUser))

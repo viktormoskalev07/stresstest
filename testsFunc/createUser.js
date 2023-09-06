@@ -34,7 +34,7 @@ export const createUser = async (instanceUser, baseUrl) => {
 		process.send('incrementAction');
 		process.send('incrementCluster')
 	} catch (e){
-		console.log(e.message ,  "sign")
+		console.error(e.message ,  "sign")
 		return
 	}
 
@@ -53,7 +53,7 @@ export const createUser = async (instanceUser, baseUrl) => {
 	};
 
 	webSocket.onerror = (error) => {
-		console.log('web socket error: ', error?.detail)
+		console.error('web socket error: ', error?.detail)
 		webSocket?.close();
 	}
 
@@ -66,7 +66,7 @@ export const createUser = async (instanceUser, baseUrl) => {
 		if (tokenData.data?.token) {
 			config.headers.Authorization ="Token "+ tokenData.data?.token;
 		} else {
-			console.log("NO TOKEN" );
+			console.error("NO TOKEN" );
 		}
 		return config;
 	});
@@ -77,7 +77,7 @@ export const createUser = async (instanceUser, baseUrl) => {
 		const response = await instanceUser.get('/user/info')
 		userInfo = response.data
 	} catch (e) {
-		console.log(e.message)
+		console.error(e.message)
 	}
 
 
