@@ -1,6 +1,7 @@
 import axios from "axios"
 import WebSocket from 'ws'
-import {showLogs} from "../index.js";
+import {pingMaxTimeError, showLogs} from "../index.js";
+
 
 export const createUser = async (instanceUser, baseUrl) => {
 	let num = Math.floor(Math.random() * 100000) + 1
@@ -21,7 +22,7 @@ export const createUser = async (instanceUser, baseUrl) => {
 		const endTime = Date.now();
 		const elapsedTime = endTime - startTime;
 
-		if(elapsedTime>1000){
+		if(elapsedTime>pingMaxTimeError){
 			console.error(`Request Time: ${elapsedTime/1000}s createUser`);
 		} else {
 			showLogs&&console.log(`Request Time: ${elapsedTime/1000}s`);

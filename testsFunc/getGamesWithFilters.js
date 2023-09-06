@@ -1,6 +1,7 @@
 import {delayedFunctionCall} from "../helpers/delayFunc.js";
 import {deleteAccount} from "./deleteAccount.js";
-import {showLogs} from "../index.js";
+import {pingMaxTimeError, showLogs} from "../index.js";
+
 
 export const getGamesWithFilters = async (userInstance, page = 1, type = 'xp', pageSize = 20) => {
 
@@ -12,7 +13,7 @@ export const getGamesWithFilters = async (userInstance, page = 1, type = 'xp', p
 		const endTime = Date.now();
 		const elapsedTime = endTime - startTime;
 
-		if(elapsedTime>1000){
+		if(elapsedTime>pingMaxTimeError){
 			console.error(`Request Time: ${elapsedTime}s getGamesWithFilters`);
 		} else {
 			showLogs&&console.log(`Request Time: ${elapsedTime}s`);

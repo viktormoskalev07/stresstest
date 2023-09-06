@@ -1,6 +1,7 @@
 import {deleteAccount} from "./deleteAccount.js"
 import {delayedFunctionCall} from "../helpers/delayFunc.js"
-import {showLogs} from "../index.js";
+import {pingMaxTimeError, showLogs} from "../index.js";
+
 
 const delay2 = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 const del =1;
@@ -16,7 +17,7 @@ export const sendMessage = async (instanceUser) => {
 			});
 			const endTime = Date.now();
 			const elapsedTime = endTime - startTime;
-			if(elapsedTime>1000){
+			if(elapsedTime>pingMaxTimeError){
 				console.error(`Request Time: ${elapsedTime/1000}s createUser`);
 			} else {
 				showLogs&&console.log(`Request Time: ${elapsedTime/1000}s`);

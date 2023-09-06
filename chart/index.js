@@ -2,7 +2,7 @@
 
 
 import fs from 'fs/promises';
-export const createReport = (requestsCounter)=>{
+export const createReport = ({requestsCounter , errorsCounter})=>{
 
 
 
@@ -12,6 +12,13 @@ export const createReport = (requestsCounter)=>{
 
 // Запись JSON строки в файл
     fs.writeFile('./chart/requestsCounter.json', jsonString, (err) => {
+        if (err) {
+            console.log('Ошибка при записи файла', err);
+        } else {
+            console.log('Файл успешно сохранен');
+        }
+    });
+    fs.writeFile('./chart/errors.json', errorsCounter, (err) => {
         if (err) {
             console.log('Ошибка при записи файла', err);
         } else {

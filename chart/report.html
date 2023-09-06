@@ -16,17 +16,40 @@
 
 
 const charting = async ()=>{
+
     const ctx = document.getElementById('myChart');
     const response = await fetch('requestsCounter.json');  // Замените example.json на имя вашего файла
-    const data = await response.json();
-    console.log(data);
+    const requests  = await response.json();
+
+    const start =new Date(requests[0]) ;
+    const end = new Date(requests[requests.length-1]);
+    const testLen = Math.floor((end - start)/1000)
+    const combined = []
+    requests.forEach((item)=>{
+        const thisTime =new Date(item);
+        const diff =Math.floor((thisTime -start  )/1000)
+        console.log(diff)
+        if(combined[diff]){
+            combined[diff].push("t")
+        }else {
+            combined[diff]=["t"]
+        }
+    })
+    const labels =[];
+    const data = []
+    combined.forEach((item, i)=>{
+        labels.push(i);
+        data.push(item.length)
+    })
+    console.log(data, labels)
+
     new Chart(ctx, {
         type: 'bar',
         data: {
-            labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+            labels ,
             datasets: [{
                 label: '# of Votes',
-                data: [12, 19, 3, 5, 2, 3],
+                data,
                 borderWidth: 1
             }]
         },

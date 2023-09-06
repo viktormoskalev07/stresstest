@@ -16,11 +16,12 @@ console.warn = function(message) {
   console.log(chalk.yellow(message));
 };
 console.error = function(message) {
+  process.send('errors')
   console.log(chalk.red(message));
 };
 export const showLogs = false
 export const getGames = false
-
+export const pingMaxTimeError = 2000
 const createAxiosInstance = (baseURL) => {
   return axios.create({
     baseURL: baseURL + "/api/v0",

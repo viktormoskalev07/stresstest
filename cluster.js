@@ -5,11 +5,14 @@ import {createReport} from "./chart/index.js";
 
 let usersCounter = 0;
 let requestsCounter = [];
+let errorsCounter = [];
+
+
 const testStartTime = new Date();
 if (cluster.isMaster) {
     showLogs&&  console.log(`Master ${process.pid} is running`);
     !showLogs&& console.error("mode only errors")
-    let workerCount =1;
+    let workerCount =500;
 
     for (let i = 0; i < workerCount; i++) {
         setTimeout(() => {
@@ -19,6 +22,9 @@ if (cluster.isMaster) {
             worker.on('message', (message) => {
                 if (message === 'incrementCluster') {
                     usersCounter++;
+                }
+                if (message === 'errors') {
+                    errorsCounter.push(new Date());
                 }
                 if (message === 'incrementAction') {
                     requestsCounter.push(new Date());
@@ -42,7 +48,7 @@ if (cluster.isMaster) {
         showLogs&&    console.log(`Worker ${worker.process.pid} died`);
 
         console.warn(` finish user , Online users =${usersCounter}  actions=${requestsCounter.length}`)
-        createReport(requestsCounter)
+        createReport({requestsCounter, errorsCounter})
     });
 } else {
     console.log(`Worker ${process.pid} started`);
