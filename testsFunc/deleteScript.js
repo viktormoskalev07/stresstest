@@ -2,6 +2,7 @@ import axios from "axios"
 import fs from 'fs'
 import {baseUrl} from "../helpers/constants.js"
 import {delay} from "../helpers/delayFunc.js"
+import {showLogs} from "../index.js";
 
 const createDeleteInstance = (token) => {
 	return axios.create({
@@ -27,7 +28,7 @@ export const deleteUsers = async () => {
 		const instance = createDeleteInstance(token)
 		try {
 			const deleteScriptResponse = await instance.post('/user/delete-account/')
-			console.log(deleteScriptResponse.data, `token - ${token}`)
+			showLogs&&console.log(deleteScriptResponse.data, `token - ${token}`)
 			removeTokenFromFile(token)
 		} catch (error) {
 			console.error(`Failed to delete user with token ${token}, ${error.message}`)

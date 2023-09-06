@@ -1,12 +1,15 @@
 import axios from "axios"
 import WebSocket from 'ws'
+import {showLogs} from "../index.js";
 
 export const createUser = async (instanceUser, baseUrl) => {
 	let num = Math.floor(Math.random() * 100000) + 1
 	const random = num.toString(16)
-	const email = "testUser" + random + new Date().getTime()+ "lul@kek.mek"
+	const email = "ttestUser" + random + new Date().getTime()+ "lul@kek.mek"
 
 	let tokenData
+	const startTime = Date.now()
+
 
 	try {
 		tokenData = await axios.post(baseUrl + "/api/v0/auth/base/signup/", {
@@ -15,10 +18,20 @@ export const createUser = async (instanceUser, baseUrl) => {
 			password_repeat: "2222",
 			accept: true,
 		});
-		if(!tokenData.data?.token){
-			console.warn("NO TOKEN ")
+		const endTime = Date.now();
+		const elapsedTime = endTime - startTime;
+
+		if(elapsedTime>1000){
+			console.error(`Request Time: ${elapsedTime/1000}s createUser`);
+		} else {
+			showLogs&&console.log(`Request Time: ${elapsedTime/1000}s`);
 		}
-		console.log(tokenData.data?.token)
+		if(!tokenData.data?.token){
+			console.error("NO TOKEN ")
+
+		}
+		showLogs&&	console.log(tokenData.data?.token)
+		process.send('incrementAction');
 	} catch (e){
 		console.log(e.message ,  "sign")
 		return
@@ -26,15 +39,16 @@ export const createUser = async (instanceUser, baseUrl) => {
 
 	// connect webSocket
 	const wsUrl = baseUrl.replace('http', 'ws');
-	let webSocket = new WebSocket(`${wsUrl}/ws?token=${tokenData.data?.token}`)
 
+	let webSocket = new WebSocket(`${wsUrl}/ws?token=${tokenData.data?.token}`)
+	process.send('incrementAction');
 	webSocket.onopen = () => {
-		console.log('socket connected')
+		showLogs&&	console.log('socket connected')
 	}
 
 	webSocket.onmessage = (message) => {
 		const data = JSON.parse(message.data);
-		console.log('web socket --- ', data.action)
+		showLogs&&	console.log('web socket --- ', data.action)
 	};
 
 	webSocket.onerror = (error) => {

@@ -1,21 +1,16 @@
-export const runMultipleTimes = (fn, times) => {
-	return new Promise((resolve) => {
-		let counter = times;
-		let page = 1
+export const runMultipleTimes = async (fn, times) => {
+	let counter = times;
+	let page = 1;
 
-		const intervalId = setInterval(async () => {
-			if (counter <= 0) {
-				clearInterval(intervalId);
-				resolve();
-				return;
-			}
+	while (counter > 0) {
+		if (page <= 2) {
+			await fn(page);
+		} else {
+			page = 1;
+		}
 
-			if (page <= 2) {
-				await fn(page)
-			} else {
-				page = 1
-			}
-			counter--;
-		}, 500);
-	});
+		counter--;
+		page++;
+		await new Promise(resolve => setTimeout(resolve, 50));
+	}
 };

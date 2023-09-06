@@ -1,5 +1,6 @@
 import {delayedFunctionCall} from "../helpers/delayFunc.js";
 import {deleteAccount} from "./deleteAccount.js";
+import {showLogs} from "../index.js";
 
 export const getMatchfinderGames = async (userInstance, page = 1, type = 'xp', pageSize = 100) => {
 
@@ -7,7 +8,7 @@ export const getMatchfinderGames = async (userInstance, page = 1, type = 'xp', p
 
 	try {
 		await userInstance.get(url)
-		console.log(`== get matchfinder games`)
+		showLogs&&console.log(`== get matchfinder games`)
 	} catch (e) {
 		console.log(e.message , "get matchfinder games")
 		await delayedFunctionCall(() => deleteAccount(userInstance))
