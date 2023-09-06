@@ -35,7 +35,7 @@ export const app = async (id) => {
 
   const instanceUser1 = createAxiosInstance(baseUrl)
   const instanceUser2 = createAxiosInstance(baseUrl)
-  process.send('incrementCluster')
+
   process.send('incrementAction');
 
   const [user1, user2] = await Promise.all([

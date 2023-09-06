@@ -8,7 +8,7 @@ const testStartTime = new Date();
 if (cluster.isMaster) {
     showLogs&&  console.log(`Master ${process.pid} is running`);
     !showLogs&& console.error("mode only errors")
-    let workerCount =100;
+    let workerCount =50;
 
     for (let i = 0; i < workerCount; i++) {
         setTimeout(() => {
@@ -32,7 +32,7 @@ if (cluster.isMaster) {
                     console.log(`Number of actions: ${requestsCounter}`);
                 }
             });
-        }, i * 22);
+        }, i * 1000);
     }
 
     cluster.on('exit', (worker, code, signal) => {

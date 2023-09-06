@@ -32,6 +32,7 @@ export const createUser = async (instanceUser, baseUrl) => {
 		}
 		showLogs&&	console.log(tokenData.data?.token)
 		process.send('incrementAction');
+		process.send('incrementCluster')
 	} catch (e){
 		console.log(e.message ,  "sign")
 		return
