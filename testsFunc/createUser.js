@@ -1,6 +1,6 @@
 import axios from "axios"
 import WebSocket from 'ws'
-import {pingMaxTimeError, showLogs} from "../index.js";
+import {connectSocket, pingMaxTimeError, showLogs} from "../index.js";
 
 
 export const createUser = async (instanceUser, baseUrl) => {
@@ -28,7 +28,7 @@ export const createUser = async (instanceUser, baseUrl) => {
 			showLogs&&console.log(`Request Time: ${elapsedTime/1000}s`);
 		}
 		if(!tokenData.data?.token){
-			console.error("NO TOKEN ")
+			console.warn("NO TOKEN ")
 
 		}
 		showLogs&&	console.log(tokenData.data?.token)
@@ -41,8 +41,9 @@ export const createUser = async (instanceUser, baseUrl) => {
 
 	// connect webSocket
 	const wsUrl = baseUrl.replace('http', 'ws');
-
-	let webSocket = new WebSocket(`${wsUrl}/ws?token=${tokenData.data?.token}`)
+	let webSocket={}
+if(connectSocket){
+	  webSocket = new WebSocket(`${wsUrl}/ws?token=${tokenData.data?.token}`)
 	process.send('incrementAction');
 	webSocket.onopen = () => {
 		showLogs&&	console.log('socket connected')
@@ -63,6 +64,8 @@ export const createUser = async (instanceUser, baseUrl) => {
 			webSocket	=new WebSocket(`${wsUrl}/ws?token=${tokenData.data.token}`)
 		},1000)
 	}
+}
+
 	instanceUser.interceptors.request.use((config) => {
 		if (tokenData.data?.token) {
 			config.headers.Authorization ="Token "+ tokenData.data?.token;
@@ -76,6 +79,7 @@ export const createUser = async (instanceUser, baseUrl) => {
 
 	try {
 		const response = await instanceUser.get('/user/info')
+		process.send('incrementAction');
 		userInfo = response.data
 	} catch (e) {
 		console.error(e.message)

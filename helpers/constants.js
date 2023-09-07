@@ -3,4 +3,4 @@
 export const baseUrl = "https://digital.duelmasters.io";
 
 // export const frontendUrl ="https://duel-master-git-duelmasters-old-api-config-duelmastersgg-s-team.vercel.app/"
-export const frontendUrl ="https://www.duelmasters.io/"
+// export const frontendUrl ="https://www.duelmasters.io/"

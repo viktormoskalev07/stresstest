@@ -50,13 +50,12 @@ const charting = async ()=>{
     const labels =[];
     const dataRequests = []
     const dataErrors= []
-    for(let i=1 ; i < duration ; i++){
+    for(let i=0 ; i < duration ; i++){
         labels.push(i);
         dataRequests.push(combined[i]?.length||0)
         dataErrors.push(combinedErrors[i]?.length||0)
     }
 
-    console.log({dataRequests, labels})
 
     new Chart(ctx, {
         type: 'bar',

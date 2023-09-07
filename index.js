@@ -12,13 +12,14 @@ import {baseUrl   } from "./helpers/constants.js";
 import {getGamesWithFilters} from "./testsFunc/getGamesWithFilters.js";
 import chalk from "chalk";
 
-console.warn = function(message) {
-  console.log(chalk.yellow(message));
-};
 
-export const showLogs = false
+
+export const showLogs = true
 export const getGames = false
-export const pingMaxTimeError = 2000
+const sendMessages = false
+export const connectSocket = false
+export const pingMaxTimeError = 3000
+const playGames = false
 const createAxiosInstance = (baseURL) => {
   return axios.create({
     baseURL: baseURL + "/api/v0",
@@ -32,6 +33,11 @@ const createAxiosInstance = (baseURL) => {
 export const app = async (id) => {
   console.error = function(message) {
     process.send('errors')
+    console.log(chalk.red(message));
+  };
+  console.warn = function(message) {
+    console.log(chalk.yellow(message));
+    process.send('warnings')
     console.log(chalk.red(message));
   };
   showLogs&&   console.log("app started" + id)
@@ -48,7 +54,9 @@ export const app = async (id) => {
 
 
     if(!user1?.token||!user2?.token){
-    console.error("error no user ")
+    console.error("error no user ");
+      process.send('decrementUsers')
+      process.exit()
       return
   }
 
@@ -65,26 +73,31 @@ export const app = async (id) => {
   getGames&&  await getGamesWithFilters(instanceUser1)
   await delayedFunctionCall(() => unsubscribeEmail(instanceUser2))
   getGames&&   await getGamesWithFilters(instanceUser1)
-  await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
+  playGames&&await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
   // go to home page
   getGames&&   await getGamesWithFilters(instanceUser1)
   getGames&&   await getGamesWithFilters(instanceUser2)
-  await sendMessage(instanceUser1)
+  sendMessages&&await sendMessage(instanceUser1)
   getGames&&  await getGamesWithFilters(instanceUser2)
 
 
 
-  await delayedFunctionCall(() => sendMessage(instanceUser1))
+  sendMessages&& await delayedFunctionCall(() => sendMessage(instanceUser1))
 
 
 
   // delete account
   await delayedFunctionCall(() => deleteAccount(instanceUser1, user1.token),100)
-  user1.webSocket.close(1000);
-    console.log("webSocket closed" , id )
+  if(connectSocket) {
+    user1.webSocket.close(1000);
+  }
+  showLogs&& console.log("webSocket closed" , id )
 
   await delayedFunctionCall(() => deleteAccount(instanceUser2, user2.token),100)
-  user2.webSocket.close(1000);
+  if(connectSocket){
+    user2.webSocket.close(1000);
+  }
+
 
 
   process.send('decrementUsers')

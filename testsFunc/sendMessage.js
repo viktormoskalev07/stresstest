@@ -18,7 +18,7 @@ export const sendMessage = async (instanceUser) => {
 			const endTime = Date.now();
 			const elapsedTime = endTime - startTime;
 			if(elapsedTime>pingMaxTimeError){
-				console.error(`Request Time: ${elapsedTime/1000}s createUser`);
+				console.warn(`Request Time: ${elapsedTime/1000}s createUser`);
 			} else {
 				showLogs&&console.log(`Request Time: ${elapsedTime/1000}s`);
 			}
@@ -34,7 +34,7 @@ export const sendMessage = async (instanceUser) => {
 			}
 
 		} catch (e) {
-			console.log(e.message);
+			console.error(e.message);
 			await delayedFunctionCall(() => deleteAccount(instanceUser))
 		}
 	}
