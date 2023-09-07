@@ -9,6 +9,7 @@
       <canvas id="myChart"></canvas>
       <canvas id="dur"></canvas>
       <div id="legend"></div>
+      <div  id="output">  </div>
     </div>
     <style>
       .legend-item {
@@ -27,21 +28,22 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
     <script>
+      let shiftedDuration
       window.colors = {
         "deleteacc": "#ef1b05",
         "getBalance": "#cabd7f",
         "acceptGame": "#dee529",
-        "sendMessage": "#82fa97",
+        "sendMessage": "#5fff00",
         "getBalance ": "#7e2fad",
         "setVerdict": "#cae353",
-        "register": "#c54cd2",
-        "inviteToGame": "#058684",
+        "register": "#00194b",
+        "inviteToGame": "#007372",
         "setRoomBid": "#2b20a5",
         "delayedFunctionCall": "#d697a2",
         "createGame": "#985085",
         "unsubscribeEmail": "#0e6f34",
         "setReady": "#671902",
-        "gameFilter": "#05e532"
+        "gameFilter": "#be0707"
       }
       const charting = async () => {
         const combineFun = async (filename) => {
@@ -82,7 +84,7 @@
           dataWarn.push(warnings.combined[i]?.length || 0);
         }
 
-        const shiftedDuration = durationEveryRequest.data.slice(1, 1000);
+          shiftedDuration = durationEveryRequest.data.slice(1, 1000);
         const ping = {
           label: shiftedDuration.map((_, i) => i),
           data: shiftedDuration.map((item, i) => item.duration),

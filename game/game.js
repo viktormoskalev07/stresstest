@@ -25,6 +25,7 @@ const createGame = async (instanceUser) => {
 		console.error(e.message, 'create game')
 		await delayedFunctionCall(() => deleteAccount(instanceUser))
 	}
+	return 1
 };
 const inviteToGame = async (instanceUser, userId) => {
 
@@ -42,7 +43,7 @@ const inviteToGame = async (instanceUser, userId) => {
 		console.error(e.message, 'invite to game')
 		await delayedFunctionCall(() => deleteAccount(instanceUser))
 	}
-
+return 1
 }
 
 const acceptGame = async (instanceUser) => {
@@ -59,6 +60,7 @@ const acceptGame = async (instanceUser) => {
 		console.error(e.message, 'accept game')
 		await delayedFunctionCall(() => deleteAccount(instanceUser))
 	}
+	return 1
 }
 
 const setRoomBid = async (instanceUser, bid) => {
@@ -74,6 +76,7 @@ const setRoomBid = async (instanceUser, bid) => {
 		console.error(e.message, 'set room bid')
 		await delayedFunctionCall(() => deleteAccount(instanceUser))
 	}
+	return 1
 }
 
 const setReady = async (instanceUser) => {
@@ -86,6 +89,7 @@ const setReady = async (instanceUser) => {
 		console.error(e.message, 'set ready')
 		await delayedFunctionCall(() => deleteAccount(instanceUser))
 	}
+	return 1
 }
 
 const setVerdict = async (instanceUser, userId) => {
@@ -102,6 +106,7 @@ const setVerdict = async (instanceUser, userId) => {
 		console.error(e.message, 'set verdict')
 		await delayedFunctionCall(() => deleteAccount(instanceUser))
 	}
+	return 1
 }
 
 export const cancelGame = async (instanceUser) => {
