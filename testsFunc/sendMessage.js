@@ -17,6 +17,7 @@ export const sendMessage = async (instanceUser) => {
 			});
 			const endTime = Date.now();
 			const elapsedTime = endTime - startTime;
+			process.send({ type: 'requestsTime', duration: elapsedTime ,requestType:"sendMessage"});
 			if(elapsedTime>pingMaxTimeError){
 				console.warn(`Request Time: ${elapsedTime/1000}s createUser`);
 			} else {

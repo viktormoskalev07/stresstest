@@ -132,39 +132,39 @@ export const playGame = async (instanceUser1, instanceUser2, user1, user2, saveT
 
 	// second user balance before verdict
 	showLogs&&console.log('=== get user balance before game')
-	await delayedFunctionCall(() => getBalance(instanceUser2, setInitialBalance))
+	await delayedFunctionCall(() => getBalance(instanceUser2, setInitialBalance)  ,1,"getBalance" )
 
 	// firs user created game
-	await delayedFunctionCall(() => createGame(instanceUser1))
+	await delayedFunctionCall(() => createGame(instanceUser1) , 1,"createGame")
 
 	//second user send invite to game
-	await delayedFunctionCall(() => inviteToGame(instanceUser2, user1.userId))
+	await delayedFunctionCall(() => inviteToGame(instanceUser2, user1.userId) , 1,"inviteToGame")
 
 	// first user accept the game
-	await delayedFunctionCall(() => acceptGame(instanceUser1))
+	await delayedFunctionCall(() => acceptGame(instanceUser1) , 1,"acceptGame")
 
 	// first user set new bid
-	await delayedFunctionCall(() => setRoomBid(instanceUser1, 50))
+	await delayedFunctionCall(() => setRoomBid(instanceUser1, 50) , 1,"setRoomBid")
 
 	// second user set the same bid
-	await delayedFunctionCall(() => setRoomBid(instanceUser2, 50))
+	await delayedFunctionCall(() => setRoomBid(instanceUser2, 50) ,  1,"setRoomBid")
 
 	// first user ready
-	await delayedFunctionCall(() => setReady(instanceUser1))
+	await delayedFunctionCall(() => setReady(instanceUser1) , 1,"setReady")
 
 	// second user ready
-	await delayedFunctionCall(() => setReady(instanceUser2))
+	await delayedFunctionCall(() => setReady(instanceUser2) , 1,"setReady")
 
 	// first user lose
-	await delayedFunctionCall(() => setVerdict(instanceUser1, user2.userId))
+	await delayedFunctionCall(() => setVerdict(instanceUser1, user2.userId) , 1,"setVerdict")
 
 	// second user win
-	await delayedFunctionCall(() => setVerdict(instanceUser2, user2.userId))
+	await delayedFunctionCall(() => setVerdict(instanceUser2, user2.userId) ,1,"setVerdict")
 
 	// second user balance after verdict
 	showLogs&&console.log('=== get user balance after game')
-	await delayedFunctionCall(() => getBalance(instanceUser2, setFinalBalance))
-
+	await delayedFunctionCall(() => getBalance(instanceUser2, setFinalBalance) ,1,"getBalance ")
+	process.send('incrementAction');
 	showLogs&&console.log('game finished')
 
 	const balanceDifference = secondUserFinalBalance - secondUserInitialBalance

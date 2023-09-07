@@ -12,9 +12,9 @@ export const getGamesWithFilters = async (userInstance, page = 1, type = 'xp', p
 		await userInstance.get(url)
 		const endTime = Date.now();
 		const elapsedTime = endTime - startTime;
-
+		process.send({ type: 'requestsTime', duration: elapsedTime ,requestType:"gameFilter" });
 		if(elapsedTime>pingMaxTimeError){
-			console.error(`Request Time: ${elapsedTime}s getGamesWithFilters`);
+			console.warn(`Request Time: ${elapsedTime}s getGamesWithFilters`);
 		} else {
 			showLogs&&console.log(`Request Time: ${elapsedTime}s`);
 		}

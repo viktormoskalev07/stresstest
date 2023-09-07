@@ -1,0 +1,372 @@
+[
+  {
+    "date": "2023-09-07T13:45:36.483Z",
+    "duration": 831,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-09-07T13:45:36.547Z",
+    "duration": 827,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-09-07T13:45:37.278Z",
+    "duration": 282,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-07T13:45:37.280Z",
+    "duration": 1,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-09-07T13:45:37.731Z",
+    "duration": 202,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-07T13:45:37.744Z",
+    "duration": 12,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-09-07T13:45:38.114Z",
+    "duration": 192,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-07T13:45:38.130Z",
+    "duration": 15,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-09-07T13:45:38.304Z",
+    "duration": 14,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-09-07T13:45:38.575Z",
+    "duration": 1,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-09-07T13:45:39.027Z",
+    "duration": 1,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-09-07T13:45:39.573Z",
+    "duration": 10,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-09-07T13:45:39.914Z",
+    "duration": 1,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-09-07T13:45:40.135Z",
+    "duration": 3,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-09-07T13:45:40.330Z",
+    "duration": 1,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-09-07T13:45:40.629Z",
+    "duration": 1,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-09-07T13:45:40.965Z",
+    "duration": 1,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-09-07T13:45:41.350Z",
+    "duration": 1,
+    "requestType": "getBalance "
+  },
+  {
+    "date": "2023-09-07T13:45:41.797Z",
+    "duration": 285,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-07T13:45:42.034Z",
+    "duration": 236,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-07T13:45:42.757Z",
+    "duration": 221,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:45:44.747Z",
+    "duration": 206,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:45:46.687Z",
+    "duration": 200,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:45:48.689Z",
+    "duration": 209,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:45:50.656Z",
+    "duration": 205,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:45:52.623Z",
+    "duration": 198,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:45:54.589Z",
+    "duration": 202,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:45:56.542Z",
+    "duration": 182,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:45:58.468Z",
+    "duration": 192,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:00.532Z",
+    "duration": 187,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:02.483Z",
+    "duration": 195,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:04.481Z",
+    "duration": 210,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:06.469Z",
+    "duration": 215,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:08.442Z",
+    "duration": 204,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:10.391Z",
+    "duration": 187,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:12.362Z",
+    "duration": 190,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:14.312Z",
+    "duration": 191,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:16.274Z",
+    "duration": 195,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:18.228Z",
+    "duration": 198,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:20.165Z",
+    "duration": 196,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:22.102Z",
+    "duration": 196,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:24.032Z",
+    "duration": 181,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:26.004Z",
+    "duration": 204,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:27.963Z",
+    "duration": 209,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:29.918Z",
+    "duration": 198,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:31.370Z",
+    "duration": 242,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-07T13:46:31.426Z",
+    "duration": 56,
+    "requestType": "delayedFunctionCall"
+  },
+  {
+    "date": "2023-09-07T13:46:32.137Z",
+    "duration": 204,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:34.089Z",
+    "duration": 210,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:36.039Z",
+    "duration": 216,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:37.992Z",
+    "duration": 209,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:39.967Z",
+    "duration": 208,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:41.926Z",
+    "duration": 205,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:43.899Z",
+    "duration": 223,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:45.888Z",
+    "duration": 206,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:47.827Z",
+    "duration": 186,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:49.758Z",
+    "duration": 198,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:51.730Z",
+    "duration": 190,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:53.671Z",
+    "duration": 205,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:55.606Z",
+    "duration": 190,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:57.555Z",
+    "duration": 193,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:46:59.515Z",
+    "duration": 200,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:47:01.455Z",
+    "duration": 188,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:47:03.402Z",
+    "duration": 192,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:47:05.327Z",
+    "duration": 188,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:47:07.235Z",
+    "duration": 182,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:47:09.217Z",
+    "duration": 229,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:47:11.157Z",
+    "duration": 186,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:47:13.093Z",
+    "duration": 184,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:47:15.052Z",
+    "duration": 204,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:47:16.978Z",
+    "duration": 180,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:47:18.953Z",
+    "duration": 201,
+    "requestType": "sendMessage"
+  },
+  {
+    "date": "2023-09-07T13:47:20.307Z",
+    "duration": 104,
+    "requestType": "deleteacc"
+  },
+  {
+    "date": "2023-09-07T13:47:20.822Z",
+    "duration": 111,
+    "requestType": "deleteacc"
+  }
+]

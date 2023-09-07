@@ -21,14 +21,14 @@ export const createUser = async (instanceUser, baseUrl) => {
 		});
 		const endTime = Date.now();
 		const elapsedTime = endTime - startTime;
-
+		process.send({ type: 'requestsTime', duration: elapsedTime ,requestType:"register" });
 		if(elapsedTime>pingMaxTimeError){
-			console.error(`Request Time: ${elapsedTime/1000}s createUser`);
+			console.warn(`Request Time: ${elapsedTime/1000}s createUser`);
 		} else {
 			showLogs&&console.log(`Request Time: ${elapsedTime/1000}s`);
 		}
 		if(!tokenData.data?.token){
-			console.warn("NO TOKEN ")
+			console.error("NO TOKEN ")
 
 		}
 		showLogs&&	console.log(tokenData.data?.token)

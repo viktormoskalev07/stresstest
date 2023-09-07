@@ -1,90 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Chart</title>
+  </head>
+  <body>
+    <div>
+      <canvas id="myChart"></canvas>
+      <canvas id="dur"></canvas>
+      <div id="legend"></div>
+    </div>
+    <style>
+      .legend-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+      }
 
-</head>
-<body>
-<div>
-    <canvas id="myChart"></canvas>
-</div>
+      .legend-color {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+      }
+    </style>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
-<script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+    <script>
+      window.colors = {
+        "deleteacc": "#ef1b05",
+        "getBalance": "#cabd7f",
+        "acceptGame": "#dee529",
+        "sendMessage": "#82fa97",
+        "getBalance ": "#7e2fad",
+        "setVerdict": "#cae353",
+        "register": "#c54cd2",
+        "inviteToGame": "#058684",
+        "setRoomBid": "#2b20a5",
+        "delayedFunctionCall": "#d697a2",
+        "createGame": "#985085",
+        "unsubscribeEmail": "#0e6f34",
+        "setReady": "#671902",
+        "gameFilter": "#05e532"
+      }
+      const charting = async () => {
+        const combineFun = async (filename) => {
+          const _request = await fetch(filename);
+          const data = await _request.json();
+          const combined = [];
+          const start = new Date(data[0]);
+          data.forEach((item) => {
+            const thisTime = new Date(item);
+            const diff = Math.floor((thisTime - start) / 1000);
+            if (combined[diff]) {
+              combined[diff].push("t");
+            } else {
+              combined[diff] = ["t"];
+            }
+          });
+          return { combined, data };
+        };
+        const ctx = document.getElementById("myChart");
+        const dur = document.getElementById("dur");
 
+        const requests = await combineFun("requestsCounter.json");
+        const errors = await combineFun("errors.json");
+        const warnings = await combineFun("warning.json");
+        const durationEveryRequest = await combineFun("requestsTime.json");
+        const start = new Date(requests.data[0]);
+        const endTime = new Date(requests.data[requests.data.length - 1]);
+        const duration = (endTime - start) / 1000;
 
-const charting = async ()=>{
-
-    const ctx = document.getElementById('myChart');
-    const _requests = await fetch('requestsCounter.json');
-    const _errors = await fetch('errors.json');
-    const requests  = await _requests.json();
-    const errors  = await _errors.json();
-
-    const start =new Date(requests[0]) ;
-    const endTime = new Date(requests[requests.length-1])
-    const duration = (endTime-start)/1000
-
-    const combined = []
-    const combinedErrors = []
-    requests.forEach((item)=>{
-        const thisTime =new Date(item);
-        const diff =Math.floor((thisTime -start  )/1000)
-        if(combined[diff]){
-            combined[diff].push("t")
-        }else {
-            combined[diff]=["t"]
+        const labels = [];
+        const dataRequests = [];
+        const dataErrors = [];
+        const dataWarn = [];
+        for (let i = 0; i < duration; i++) {
+          labels.push(i);
+          dataRequests.push(requests.combined[i]?.length || 0);
+          dataErrors.push(errors.combined[i]?.length || 0);
+          dataWarn.push(warnings.combined[i]?.length || 0);
         }
-    })
-    errors.forEach((item)=>{
-        const thisTime =new Date(item);
-        const diff =Math.floor((thisTime -start  )/1000)
-        if(combinedErrors[diff]){
-            combinedErrors[diff].push("t")
-        }else {
-            combinedErrors[diff]=["t"]
-        }
-    })
-    const labels =[];
-    const dataRequests = []
-    const dataErrors= []
-    for(let i=0 ; i < duration ; i++){
-        labels.push(i);
-        dataRequests.push(combined[i]?.length||0)
-        dataErrors.push(combinedErrors[i]?.length||0)
-    }
+
+        const shiftedDuration = durationEveryRequest.data.slice(1, 1000);
+        const ping = {
+          label: shiftedDuration.map((_, i) => i),
+          data: shiftedDuration.map((item, i) => item.duration),
+          colors: shiftedDuration.map((item, i) =>colors[item.requestType]||"blue"
+          ),
+        };
 
 
-    new Chart(ctx, {
-        type: 'bar',
-        data: {
+        new Chart(ctx, {
+          type: "bar",
+          data: {
             labels: labels,
             datasets: [
-                {
-                label: 'requests',
+              {
+                label: "requests",
                 data: dataRequests,
-                borderWidth: 1
-            } ,{
-                label: 'errors',
+                borderWidth: 1,
+              },
+              {
+                label: "errors",
                 data: dataErrors,
-                borderWidth: 1
-            }
-            ]
-        },
-        options: {
+                borderWidth: 1,
+              },
+              {
+                label: "warn",
+                data: dataWarn,
+                borderWidth: 1,
+              },
+            ],
+          },
+          options: {
             scales: {
-                y: {
-                    beginAtZero: true
+              y: {
+                beginAtZero: true,
+              },
+            },
+          },
+        });
+        new Chart(dur, {
+          type: "bar",
+          data: {
+            labels: ping.label,
+            datasets: [
+              {
+                label: "ping",
+                data: ping.data,
+                borderWidth: 0.0012,
+                backgroundColor: ping.colors,
+              },
+            ],
+          },
+          options: {
+            legend: {
+              labels: {
+                generateLabels: function(chart) {
+                  return { text: "ping",
+                    fillStyle: "red"}
                 }
-            }
-        }
-    });
-}
+              }
+            },
 
-charting()
+          },
+        });
+      };
 
-</script>
-</body>
+      charting();
+    </script>
+    <script src="legend.js"></script>
+  </body>
 </html>

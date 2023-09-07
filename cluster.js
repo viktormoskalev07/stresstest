@@ -7,6 +7,7 @@ let usersCounter = 0;
 let requestsCounter = [];
 let errorsCounter = [];
 let warningsCounter = [];
+const requestsTime = [];
 
 
 const testStartTime = new Date();
@@ -23,6 +24,14 @@ if (cluster.isMaster) {
             worker.on('message', (message) => {
                 if (message === 'incrementCluster') {
                     usersCounter++;
+                }
+                if (message.type === 'requestsTime') {
+                    requestsTime.push({
+                        date:new Date(),
+                        duration:message.duration,
+                        requestType:message.requestType
+                    });
+                    console.log(message.duration)
                 }
                 if (message === 'errors') {
                     errorsCounter.push(new Date());
@@ -45,14 +54,14 @@ if (cluster.isMaster) {
                     console.log(`user closed : ${requestsCounter.length}`);
                 }
             });
-        }, i * 20);
+        }, i * 10);
     }
 
     cluster.on('exit', (worker, code, signal) => {
         showLogs&&    console.log(`Worker ${worker.process.pid} died`);
 
         console.warn(` finish user , Online users =${usersCounter}  actions=${requestsCounter.length}`)
-        createReport({requestsCounter, errorsCounter ,warningsCounter})
+        createReport({requestsCounter, errorsCounter ,warningsCounter,requestsTime})
     });
 } else {
     console.log(`Worker ${process.pid} started`);

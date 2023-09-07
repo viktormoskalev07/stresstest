@@ -14,12 +14,12 @@ import chalk from "chalk";
 
 
 
-export const showLogs = true
-export const getGames = false
-const sendMessages = false
-export const connectSocket = false
-export const pingMaxTimeError = 3000
-const playGames = false
+export const showLogs = false
+export const getGames = true
+const sendMessages = true
+export const connectSocket = true
+export const pingMaxTimeError = 1500
+const playGames = true
 const createAxiosInstance = (baseURL) => {
   return axios.create({
     baseURL: baseURL + "/api/v0",
@@ -38,15 +38,11 @@ export const app = async (id) => {
   console.warn = function(message) {
     console.log(chalk.yellow(message));
     process.send('warnings')
-    console.log(chalk.red(message));
   };
   showLogs&&   console.log("app started" + id)
 
   const instanceUser1 = createAxiosInstance(baseUrl)
   const instanceUser2 = createAxiosInstance(baseUrl)
-
-
-
   const [user1, user2] = await Promise.all([
     createUser(instanceUser1, baseUrl),
     createUser(instanceUser2, baseUrl),
@@ -69,9 +65,9 @@ export const app = async (id) => {
   getGames&& await getGamesWithFilters(instanceUser1)
 
   //unsubscribe
-  await delayedFunctionCall(() => unsubscribeEmail(instanceUser1))
+  await delayedFunctionCall(() => unsubscribeEmail(instanceUser1) ,1 , "unsubscribeEmail")
   getGames&&  await getGamesWithFilters(instanceUser1)
-  await delayedFunctionCall(() => unsubscribeEmail(instanceUser2))
+  await delayedFunctionCall(() => unsubscribeEmail(instanceUser2), 1 , "unsubscribeEmail")
   getGames&&   await getGamesWithFilters(instanceUser1)
   playGames&&await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
   // go to home page
@@ -87,13 +83,13 @@ export const app = async (id) => {
 
 
   // delete account
-  await delayedFunctionCall(() => deleteAccount(instanceUser1, user1.token),100)
+  await delayedFunctionCall(() => deleteAccount(instanceUser1, user1.token),100, "deleteacc")
   if(connectSocket) {
     user1.webSocket.close(1000);
   }
   showLogs&& console.log("webSocket closed" , id )
 
-  await delayedFunctionCall(() => deleteAccount(instanceUser2, user2.token),100)
+  await delayedFunctionCall(() => deleteAccount(instanceUser2, user2.token),100 , "deleteacc")
   if(connectSocket){
     user2.webSocket.close(1000);
   }
