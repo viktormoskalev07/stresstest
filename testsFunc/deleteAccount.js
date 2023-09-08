@@ -10,4 +10,5 @@ export const deleteAccount = async (instanceUser, token) => {
 	} catch (e) {
 		console.error(e.message)
 	}
+	return 1
 }
