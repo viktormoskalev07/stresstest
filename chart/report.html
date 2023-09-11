@@ -9,7 +9,7 @@
       <canvas id="myChart"></canvas>
       <canvas id="dur"></canvas>
       <div id="legend"></div>
-      <div  id="output">  </div>
+      <div id="output"></div>
     </div>
     <style>
       .legend-item {
@@ -28,23 +28,23 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
     <script>
-      let shiftedDuration
+      let shiftedDuration;
       window.colors = {
-        "deleteacc": "#8d5f42",
-        "getBalance": "#cabd7f",
-        "acceptGame": "#dee529",
-        "sendMessage": "#5fff00",
+        deleteacc: "#8d5f42",
+        getBalance: "#cabd7f",
+        acceptGame: "#dee529",
+        sendMessage: "#00ff00",
         "getBalance ": "#7e2fad",
-        "setVerdict": "#cae353",
-        "register": "#00194b",
-        "inviteToGame": "#007372",
-        "setRoomBid": "#2b20a5",
-        "delayedFunctionCall": "#d697a2",
-        "createGame": "#985085",
-        "unsubscribeEmail": "#0e6f34",
-        "setReady": "#671902",
-        "gameFilter": "#be0707"
-      }
+        setVerdict: "#cae353",
+        register: "#00194b",
+        inviteToGame: "#007372",
+        setRoomBid: "#2b20a5",
+        delayedFunctionCall: "#d697a2",
+        createGame: "#985085",
+        unsubscribeEmail: "#0e6f34",
+        setReady: "#671902",
+        gameFilter: "#be0707",
+      };
       const charting = async () => {
         const combineFun = async (filename) => {
           const _request = await fetch(filename);
@@ -84,14 +84,14 @@
           dataWarn.push(warnings.combined[i]?.length || 0);
         }
 
-          shiftedDuration = durationEveryRequest.data.slice(1, 10000);
+        shiftedDuration = durationEveryRequest.data.slice(1, 10000);
         const ping = {
           label: shiftedDuration.map((_, i) => i),
           data: shiftedDuration.map((item, i) => item.duration),
-          colors: shiftedDuration.map((item, i) =>colors[item.requestType]||"blue"
+          colors: shiftedDuration.map(
+            (item, i) => colors[item.requestType] || "blue"
           ),
         };
-
 
         new Chart(ctx, {
           type: "bar",
@@ -139,13 +139,11 @@
           options: {
             legend: {
               labels: {
-                generateLabels: function(chart) {
-                  return { text: "ping",
-                    fillStyle: "red"}
-                }
-              }
+                generateLabels: function (chart) {
+                  return { text: "ping", fillStyle: "red" };
+                },
+              },
             },
-
           },
         });
       };

@@ -22,6 +22,6 @@ export const getGamesWithFilters = async (userInstance, page = 1, type = 'xp', p
 		showLogs&& console.log(`== get matchfinder games with filters`)
 	} catch (e) {
 		console.error(e.message , e?.code  , e?.response?.data, e?.response?.status, "get matchfinder games with filters")
-		await delayedFunctionCall(() => deleteAccount(userInstance))
+		await delayedFunctionCall(() => deleteAccount(userInstance) , 1 ,"delete")
 	}
 }

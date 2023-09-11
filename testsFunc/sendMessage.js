@@ -10,33 +10,28 @@ export const sendMessage = async (instanceUser) => {
 		try {
 			await delay2(100*del);
 			const startTime = Date.now()
+				const message =async ()=>{
+					const sendMessageResponse2 = await instanceUser.post(`/chats/${1}/send-message/`, {
+						text: 'I am spam bot i am testing a website',
+						type: 'default',
+					});
+					return sendMessageResponse2
+				}
+				const userInfo =async ()=>{
+					const userInfo =  await instanceUser.get( "/user/info/");
+					showLogs&&console.log(" message from " , userInfo.data.id ,"num ",  i  )
+					return 1
+				}
+				const getListMessages =async ()=>{
+				return await instanceUser.get("/chats/?page_size=100")
 
-			const sendMessageResponse2 = await instanceUser.post(`/chats/${1}/send-message/`, {
-				text: 'I am spam bot i am testing a website',
-				type: 'default',
-			});
-			const endTime = Date.now();
-			const elapsedTime = endTime - startTime;
-			process.send({ type: 'requestsTime', duration: elapsedTime ,requestType:"sendMessage"});
-			if(elapsedTime>pingMaxTimeError){
-				console.warn(`Request Time: ${elapsedTime/1000}s createUser`);
-			} else {
-				showLogs&&console.log(`Request Time: ${elapsedTime/1000}s`);
-			}
-			process.send('incrementAction');
-			await delay2(100*del); // Задержка
-			try {
-				const userInfo =  await instanceUser.get( "/user/info/");
-				showLogs&&console.log(" message from " , userInfo.data.id ,"num ",  i  )
-				process.send('incrementAction');
-			} catch (e) {
-				console.error(e.message)
-				await delayedFunctionCall(() => deleteAccount(instanceUser))
-			}
-
+				}
+ 			await delayedFunctionCall(message , 1 , "message");
+			 await  delayedFunctionCall(userInfo , 1 , "userInfo");
+			 await  delayedFunctionCall(getListMessages , 1 , "getListMessages");
 		} catch (e) {
 			console.error(e.message);
-			await delayedFunctionCall(() => deleteAccount(instanceUser))
+			await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 		}
 	}
 };

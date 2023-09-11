@@ -14,10 +14,10 @@ import chalk from "chalk";
 
 
 
-export const showLogs = false
+export const showLogs = true
 export const getGames = true
 const sendMessages = true
-export const connectSocket = true
+export const connectSocket = false
 export const pingMaxTimeError = 1500
 const playGames = true
 const createAxiosInstance = (baseURL) => {
@@ -57,33 +57,42 @@ export const app = async (id) => {
   }
 
 
-  saveToFile('data/tokens.txt', user1?.token);
-  saveToFile('data/tokens.txt', user2?.token);
-
+  getGames&&  await getGamesWithFilters(instanceUser2)
+  getGames&&   await getGamesWithFilters(instanceUser1)
   showLogs&&console.log('first user id -- ', user1?.userId)
   showLogs&&console.log('second user id -- ', user2?.userId)
   getGames&& await getGamesWithFilters(instanceUser1)
-
+  getGames&&   await getGamesWithFilters(instanceUser2)
   //unsubscribe
   await delayedFunctionCall(() => unsubscribeEmail(instanceUser1) ,1 , "unsubscribeEmail")
+  getGames&&  await getGamesWithFilters(instanceUser2)
+  getGames&&   await getGamesWithFilters(instanceUser1)
   getGames&&  await getGamesWithFilters(instanceUser1)
   await delayedFunctionCall(() => unsubscribeEmail(instanceUser2), 1 , "unsubscribeEmail")
+  getGames&&  await getGamesWithFilters(instanceUser2)
   getGames&&   await getGamesWithFilters(instanceUser1)
   playGames&&await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
   // go to home page
-  getGames&&   await getGamesWithFilters(instanceUser1)
-  getGames&&   await getGamesWithFilters(instanceUser2)
   sendMessages&&await sendMessage(instanceUser1)
+
   getGames&&  await getGamesWithFilters(instanceUser2)
+  getGames&&   await getGamesWithFilters(instanceUser1)
+  playGames&&await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
+  getGames&&  await getGamesWithFilters(instanceUser2)
+  getGames&&   await getGamesWithFilters(instanceUser1)
+  sendMessages&& await  sendMessage(instanceUser2)
 
-
-
-  sendMessages&& await delayedFunctionCall(() => sendMessage(instanceUser1))
-
-
-
+  getGames&&  await getGamesWithFilters(instanceUser2)
+  getGames&&   await getGamesWithFilters(instanceUser1)
+  getGames&&  await getGamesWithFilters(instanceUser2)
+  playGames&&await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
+  getGames&&   await getGamesWithFilters(instanceUser1)
+  playGames&&await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
+  getGames&&  await getGamesWithFilters(instanceUser2)
+  getGames&&   await getGamesWithFilters(instanceUser1)
   // delete account
   await delayedFunctionCall(() => deleteAccount(instanceUser1, user1.token),100, "deleteacc")
+
   if(connectSocket) {
     user1.webSocket.close(1000);
   }

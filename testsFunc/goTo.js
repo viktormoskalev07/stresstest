@@ -8,7 +8,7 @@ export const goToHomePage = async (userInstance, frontendUrl) => {
 		showLogs&&console.log(`== visited home page`)
 	} catch (e) {
 		console.error(e.message , "home")
-		await delayedFunctionCall(() => deleteAccount(userInstance))
+		await delayedFunctionCall(() => deleteAccount(userInstance) , 1 ,"delete")
 	}
 }
 
@@ -18,6 +18,6 @@ export const goToMatchfinder = async (userInstance, frontendUrl) => {
 		showLogs&&console.log(`== visited matchfinder`)
 	} catch (e) {
 		console.error(e.message , "match")
-		await delayedFunctionCall(() => deleteAccount(userInstance))
+		await delayedFunctionCall(() => deleteAccount(userInstance) , 1 ,"delete")
 	}
 }

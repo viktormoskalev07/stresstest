@@ -10,6 +10,6 @@ export const getBalance = async (instanceUser, setBalance) => {
 		setBalance(getBalanceResponse.data.xp)
 	} catch (e) {
 		console.error(e.message)
-		await delayedFunctionCall(() => deleteAccount(instanceUser))
+		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 }

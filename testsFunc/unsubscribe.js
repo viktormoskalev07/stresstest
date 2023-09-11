@@ -10,6 +10,6 @@ export const unsubscribeEmail = async (instanceUser) => {
 		process.send('incrementAction');
 	} catch (e) {
 		console.error(e.message)
-		await delayedFunctionCall(() => deleteAccount(instanceUser))
+		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 }

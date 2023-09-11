@@ -4,6 +4,7 @@ export const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms))
 export const delayedFunctionCall = async (func, delayTime = 50 , name) => {
 	const startTime = Date.now()
 	await delay(delayTime)
+	await func()
 	const endTime = Date.now();
 	const elapsedTime = endTime - startTime;
 	process.send({ type: 'requestsTime', duration: elapsedTime ,requestType:name||"delayedFunctionCall" });
@@ -14,5 +15,7 @@ export const delayedFunctionCall = async (func, delayTime = 50 , name) => {
 	}
 	process.send('incrementAction');
 
-	return await func()
+	return true
 }
+
+

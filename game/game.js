@@ -9,11 +9,11 @@ const createGame = async (instanceUser) => {
 	const xpOrCash = 'xp'
 	const body = {
 		games: [
-			{game: "fifa23_new", bid: 0},
-			{game: "fifa23_old", bid: 0},
-			{game: "mw2_console", bid: 0},
-			{game: "mw2_pc", bid: 0},
-			{game: "dota", bid: 0},
+			{game: "fifa23_new", bid: 12},
+			{game: "fifa23_old", bid: 12},
+			{game: "mw2_console", bid: 12},
+			{game: "mw2_pc", bid: 12},
+			{game: "dota", bid: 12},
 			{game: "csgo", bid: 123},
 		],
 		ready_to_play: true
@@ -23,7 +23,7 @@ const createGame = async (instanceUser) => {
 		showLogs&&console.log(createGameResponse.data , "create game")
 	} catch (e) {
 		console.error(e.message, 'create game')
-		await delayedFunctionCall(() => deleteAccount(instanceUser))
+		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 	return 1
 };
@@ -41,7 +41,7 @@ const inviteToGame = async (instanceUser, userId) => {
 		showLogs&&console.log(inviteToGameResponse.data , "invite to game")
 	} catch (e) {
 		console.error(e.message, 'invite to game')
-		await delayedFunctionCall(() => deleteAccount(instanceUser))
+		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 return 1
 }
@@ -58,7 +58,7 @@ const acceptGame = async (instanceUser) => {
 
 	} catch (e) {
 		console.error(e.message, 'accept game')
-		await delayedFunctionCall(() => deleteAccount(instanceUser))
+		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 	return 1
 }
@@ -74,7 +74,7 @@ const setRoomBid = async (instanceUser, bid) => {
 		showLogs&&	console.log(setBidResponse.data, 'setting bid')
 	} catch (e) {
 		console.error(e.message, 'set room bid')
-		await delayedFunctionCall(() => deleteAccount(instanceUser))
+		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 	return 1
 }
@@ -87,7 +87,7 @@ const setReady = async (instanceUser) => {
 
 	} catch (e) {
 		console.error(e.message, 'set ready')
-		await delayedFunctionCall(() => deleteAccount(instanceUser))
+		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 	return 1
 }
@@ -104,7 +104,7 @@ const setVerdict = async (instanceUser, userId) => {
 
 	} catch (e) {
 		console.error(e.message, 'set verdict')
-		await delayedFunctionCall(() => deleteAccount(instanceUser))
+		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 	return 1
 }
@@ -116,7 +116,7 @@ export const cancelGame = async (instanceUser) => {
 		showLogs&&	console.log(cancelGameResponse.data, 'cancel game')
 	} catch (e) {
 		console.error(e.message)
-		await delayedFunctionCall(() => deleteAccount(instanceUser))
+		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 }
 
@@ -175,6 +175,4 @@ export const playGame = async (instanceUser1, instanceUser2, user1, user2, saveT
 	const balanceDifference = secondUserFinalBalance - secondUserInitialBalance
 	const balanceChange = balanceDifference > 0 ? `+${balanceDifference}$` : balanceDifference.toString()
 	const balancePositive = balanceDifference > 0
-
-	saveToFile('data/gameLogs.txt', `UserId ${user2.userId} --- ${balanceChange} (${balancePositive})`)
 }
