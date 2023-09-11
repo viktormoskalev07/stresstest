@@ -14,10 +14,10 @@ import chalk from "chalk";
 
 
 
-export const showLogs = true
+export const showLogs = false
 export const getGames = true
 const sendMessages = true
-export const connectSocket = false
+export const connectSocket = true
 export const pingMaxTimeError = 1500
 const playGames = true
 const createAxiosInstance = (baseURL) => {
