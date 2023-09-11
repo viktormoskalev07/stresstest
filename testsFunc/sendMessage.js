@@ -6,9 +6,9 @@ import {pingMaxTimeError, showLogs} from "../index.js";
 const delay2 = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 const del =1;
 export const sendMessage = async (instanceUser) => {
-	for(let i = 0; i < 25; i++) {
+	for(let i = 0; i < 10; i++) {
 		try {
-			await delay2(500*del);
+			await delay2(100*del);
 			const startTime = Date.now()
 
 			const sendMessageResponse2 = await instanceUser.post(`/chats/${1}/send-message/`, {
@@ -24,7 +24,7 @@ export const sendMessage = async (instanceUser) => {
 				showLogs&&console.log(`Request Time: ${elapsedTime/1000}s`);
 			}
 			process.send('incrementAction');
-			await delay2(1000*del); // Задержка
+			await delay2(100*del); // Задержка
 			try {
 				const userInfo =  await instanceUser.get( "/user/info/");
 				showLogs&&console.log(" message from " , userInfo.data.id ,"num ",  i  )

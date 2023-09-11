@@ -15,11 +15,11 @@ import chalk from "chalk";
 
 
 export const showLogs = false
-export const getGames = false
-const sendMessages = false
+export const getGames = true
+const sendMessages = true
 export const connectSocket = true
 export const pingMaxTimeError = 1500
-const playGames = false
+const playGames = true
 const createAxiosInstance = (baseURL) => {
   return axios.create({
     baseURL: baseURL + "/api/v0",
