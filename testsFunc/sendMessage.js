@@ -6,7 +6,7 @@ import {pingMaxTimeError, showLogs} from "../index.js";
 const delay2 = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 const del =1;
 export const sendMessage = async (instanceUser) => {
-	for(let i = 0; i < 10; i++) {
+	for(let i = 0; i < 3; i++) {
 		try {
 			await delay2(100*del);
 			const startTime = Date.now()
@@ -30,7 +30,7 @@ export const sendMessage = async (instanceUser) => {
 			 await  delayedFunctionCall(userInfo , 1 , "userInfo");
 			 await  delayedFunctionCall(getListMessages , 1 , "getListMessages");
 		} catch (e) {
-			console.error(e.message);
+			console.error(e.message, "send message");
 			await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 		}
 	}

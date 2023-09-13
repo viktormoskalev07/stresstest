@@ -31,16 +31,15 @@ const createAxiosInstance = (baseURL) => {
 }
 
 export const app = async (id) => {
-  console.error = function(message) {
-    process.send('errors')
-    console.log(chalk.red(message));
+  console.error = function(...message) {
+    process.send({type:'errors', err:message})
+    console.log(chalk.red(JSON.stringify(message)));
   };
   console.warn = function(message) {
     console.log(chalk.yellow(message));
     process.send('warnings')
   };
   showLogs&&   console.log("app started" + id)
-
   const instanceUser1 = createAxiosInstance(baseUrl)
   const instanceUser2 = createAxiosInstance(baseUrl)
   const [user1, user2] = await Promise.all([

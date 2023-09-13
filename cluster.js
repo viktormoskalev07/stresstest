@@ -20,7 +20,6 @@ if (cluster.isMaster) {
         setTimeout(() => {
             const worker = cluster.fork();
             showLogs&&   console.log(i , "from" ,workerCount )
-
             worker.on('message', (message) => {
                 if (message === 'incrementCluster') {
                     usersCounter++;
@@ -33,20 +32,20 @@ if (cluster.isMaster) {
                     });
                     console.log(message.duration)
                 }
-                if (message === 'errors') {
-                    errorsCounter.push(new Date());
+                if (message.type === 'errors') {
+                    errorsCounter.push({message:message.err , date:new Date()});
                 }
                 if (message === 'warnings') {
-                    warningsCounter.push(new Date());
+                    warningsCounter.push({date:new Date()});
                 }
                 if (message === 'incrementAction') {
-                    requestsCounter.push(new Date());
+                    requestsCounter.push({date:new Date()});
                     const now = new Date();
-                    const threeSecondsAgo = new Date(now - 3000);
-                    const recentRequests = requestsCounter.filter(requestDate => requestDate >= threeSecondsAgo);
+                    const twoSecondsAgo = new Date(now - 2000);
+                    const recentRequests = requestsCounter.filter(requestDate => requestDate >= twoSecondsAgo);
                     const numberOfRecentRequests = recentRequests.length;
                     const testTime = (new Date()- testStartTime  )/1000
-                    console.log(`Online users =${usersCounter}  actions=${requestsCounter.length}  , duration = ${testTime}s  rps = ${numberOfRecentRequests/3}`);
+                    console.log(`Online users =${usersCounter}  actions=${requestsCounter.length}  , duration = ${testTime}s  rps = ${numberOfRecentRequests/2}`);
 
                 }
                 if (message === 'decrementUsers') {
@@ -54,7 +53,7 @@ if (cluster.isMaster) {
                     console.log(`user closed : ${requestsCounter.length}`);
                 }
             });
-        }, i * 50);
+        }, i * 100);
     }
 
     cluster.on('exit', (worker, code, signal) => {

@@ -15,7 +15,10 @@ data
 ./data/*
 # testing
 /coverage
-
+/chart/requestsCounter.json
+/chart/requestsTime.json
+/chart/warning.json
+/chart/errors.json
 
 # production
 /build

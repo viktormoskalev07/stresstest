@@ -35,7 +35,7 @@ export const createUser = async (instanceUser, baseUrl) => {
 		process.send('incrementAction');
 		process.send('incrementCluster')
 	} catch (e){
-		console.error(e.message ,  "sign")
+		console.error(e ,  "sign")
 		return
 	}
 
@@ -82,7 +82,10 @@ if(connectSocket){
 		process.send('incrementAction');
 		userInfo = response.data
 	} catch (e) {
-		console.error(e.message)
+		console.error(e.message , "userinfo")
+		return {
+			error:true
+		}
 	}
 
 

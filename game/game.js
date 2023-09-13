@@ -22,7 +22,7 @@ const createGame = async (instanceUser) => {
 		const createGameResponse = await instanceUser.patch(`/user/set-ready-to-play/${xpOrCash}/`, body);
 		showLogs&&console.log(createGameResponse.data , "create game")
 	} catch (e) {
-		console.error(e.message, 'create game')
+		console.error(e, 'create game')
 		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 	return 1
@@ -115,7 +115,7 @@ export const cancelGame = async (instanceUser) => {
 		const cancelGameResponse = await instanceUser.post(`/rooms/${roomId}/remove-room/`)
 		showLogs&&	console.log(cancelGameResponse.data, 'cancel game')
 	} catch (e) {
-		console.error(e.message)
+		console.error(e.message, "cansel game")
 		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 }
@@ -168,7 +168,7 @@ export const playGame = async (instanceUser1, instanceUser2, user1, user2, saveT
 
 	// second user balance after verdict
 	showLogs&&console.log('=== get user balance after game')
-	await delayedFunctionCall(() => getBalance(instanceUser2, setFinalBalance) ,1,"getBalance ")
+	await delayedFunctionCall(() => getBalance(instanceUser2, setFinalBalance) ,1,"getBalance")
 	process.send('incrementAction');
 	showLogs&&console.log('game finished')
 
