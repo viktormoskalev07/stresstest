@@ -10,11 +10,11 @@ const createGame = async (instanceUser) => {
 	const body = {
 		games: [
 			{game: "fifa23_new", bid: 12},
-			{game: "fifa23_old", bid: 12},
-			{game: "mw2_console", bid: 12},
-			{game: "mw2_pc", bid: 12},
-			{game: "dota", bid: 12},
-			{game: "csgo", bid: 123},
+			// {game: "fifa23_old", bid: 12},
+			// {game: "mw2_console", bid: 12},
+			// {game: "mw2_pc", bid: 12},
+			// {game: "dota", bid: 12},
+			// {game: "csgo", bid: 123},
 		],
 		ready_to_play: true
 	}
@@ -32,7 +32,7 @@ const inviteToGame = async (instanceUser, userId) => {
 	const body = {
 		price: 122,
 		player_id: userId,
-		game: "csgo",
+		game: "fifa23_new",
 		account_type: "xp"
 	}
 
