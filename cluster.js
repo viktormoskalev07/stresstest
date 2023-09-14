@@ -14,7 +14,7 @@ const testStartTime = new Date();
 if (cluster.isMaster) {
     showLogs&&  console.log(`Master ${process.pid} is running`);
     !showLogs&& console.error("mode only errors")
-    let workerCount =200;
+    let workerCount =50;
 
     for (let i = 0; i < workerCount; i++) {
         setTimeout(() => {
@@ -42,7 +42,7 @@ if (cluster.isMaster) {
                     requestsCounter.push({date:new Date()});
                     const now = new Date();
                     const twoSecondsAgo = new Date(now - 2000);
-                    const recentRequests = requestsCounter.filter(requestDate => requestDate >= twoSecondsAgo);
+                    const recentRequests = requestsCounter.filter(requestDate => requestDate?.date >= twoSecondsAgo);
                     const numberOfRecentRequests = recentRequests.length;
                     const testTime = (new Date()- testStartTime  )/1000
                     console.log(`Online users =${usersCounter}  actions=${requestsCounter.length}  , duration = ${testTime}s  rps = ${numberOfRecentRequests/2}`);
@@ -53,7 +53,7 @@ if (cluster.isMaster) {
                     console.log(`user closed : ${requestsCounter.length}`);
                 }
             });
-        }, i * 100);
+        }, i * 50);
     }
 
     cluster.on('exit', (worker, code, signal) => {
