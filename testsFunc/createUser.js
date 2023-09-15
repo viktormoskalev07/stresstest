@@ -1,6 +1,8 @@
 import axios from "axios"
 import WebSocket from 'ws'
 import {connectSocket, pingMaxTimeError, showLogs} from "../index.js";
+import {delayedFunctionCall} from "../helpers/delayFunc.js";
+import {unsubscribeEmail} from "./unsubscribe.js";
 
 
 export const createUser = async (instanceUser, baseUrl) => {
@@ -74,7 +76,7 @@ if(connectSocket){
 		}
 		return config;
 	});
-
+	await delayedFunctionCall(async () => await instanceUser.get('/user/info') ,1 , "user/info")
 	let userInfo
 
 	try {

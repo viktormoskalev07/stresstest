@@ -15,11 +15,12 @@ import chalk from "chalk";
 
 
 export const showLogs = false
-export const getGames = true
-const sendMessages = true
-export const connectSocket = true
+const playGames = false
+export const getGames = false
+const sendMessages = false
+export const connectSocket = false
 export const pingMaxTimeError = 1500
-const playGames = true
+
 const createAxiosInstance = (baseURL) => {
   return axios.create({
     baseURL: baseURL + "/api/v0",
@@ -63,11 +64,11 @@ export const app = async (id) => {
   getGames&& await getGamesWithFilters(instanceUser1)
   getGames&&   await getGamesWithFilters(instanceUser2)
   //unsubscribe
-  await delayedFunctionCall(() => unsubscribeEmail(instanceUser1) ,1 , "unsubscribeEmail")
+  await delayedFunctionCall(async () =>await unsubscribeEmail(instanceUser1) ,1 , "unsubscribeEmail")
   getGames&&  await getGamesWithFilters(instanceUser2)
   getGames&&   await getGamesWithFilters(instanceUser1)
   getGames&&  await getGamesWithFilters(instanceUser1)
-  await delayedFunctionCall(() => unsubscribeEmail(instanceUser2), 1 , "unsubscribeEmail")
+  await delayedFunctionCall(async() => await unsubscribeEmail(instanceUser2), 1 , "unsubscribeEmail")
   getGames&&  await getGamesWithFilters(instanceUser2)
   getGames&&   await getGamesWithFilters(instanceUser1)
   playGames&&await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
