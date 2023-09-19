@@ -1,1927 +1,752 @@
 [
   {
-    "date": "2023-09-19T09:39:50.888Z",
-    "duration": 275,
+    "date": "2023-09-19T10:42:51.696Z",
+    "duration": 242,
     "requestType": "user/info"
   },
   {
-    "date": "2023-09-19T09:39:50.901Z",
-    "duration": 214,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:50.925Z",
-    "duration": 253,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:50.939Z",
-    "duration": 195,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:50.942Z",
-    "duration": 143,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:50.976Z",
-    "duration": 243,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:50.990Z",
-    "duration": 202,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:51.002Z",
-    "duration": 157,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:51.030Z",
-    "duration": 144,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:51.044Z",
-    "duration": 214,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:51.261Z",
-    "duration": 648,
-    "requestType": "register"
-  },
-  {
-    "date": "2023-09-19T09:39:51.435Z",
-    "duration": 704,
-    "requestType": "register"
-  },
-  {
-    "date": "2023-09-19T09:39:51.436Z",
-    "duration": 765,
-    "requestType": "register"
-  },
-  {
-    "date": "2023-09-19T09:39:51.443Z",
-    "duration": 711,
-    "requestType": "register"
-  },
-  {
-    "date": "2023-09-19T09:39:51.449Z",
-    "duration": 670,
-    "requestType": "register"
-  },
-  {
-    "date": "2023-09-19T09:39:51.450Z",
-    "duration": 781,
-    "requestType": "register"
-  },
-  {
-    "date": "2023-09-19T09:39:51.458Z",
-    "duration": 678,
-    "requestType": "register"
-  },
-  {
-    "date": "2023-09-19T09:39:51.459Z",
-    "duration": 628,
-    "requestType": "register"
-  },
-  {
-    "date": "2023-09-19T09:39:51.459Z",
-    "duration": 846,
-    "requestType": "register"
-  },
-  {
-    "date": "2023-09-19T09:39:51.463Z",
-    "duration": 633,
-    "requestType": "register"
-  },
-  {
-    "date": "2023-09-19T09:39:51.596Z",
-    "duration": 324,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:51.769Z",
-    "duration": 330,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:51.769Z",
-    "duration": 330,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:51.775Z",
-    "duration": 323,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:51.793Z",
-    "duration": 333,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:51.793Z",
-    "duration": 347,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:51.796Z",
-    "duration": 342,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:51.832Z",
-    "duration": 371,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:51.840Z",
-    "duration": 373,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:51.843Z",
-    "duration": 379,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-19T09:39:52.214Z",
+    "date": "2023-09-19T10:42:51.706Z",
     "duration": 198,
-    "requestType": "gameFilter"
+    "requestType": "user/info"
   },
   {
-    "date": "2023-09-19T09:39:52.239Z",
-    "duration": 207,
-    "requestType": "gameFilter"
+    "date": "2023-09-19T10:42:51.709Z",
+    "duration": 200,
+    "requestType": "user/info"
   },
   {
-    "date": "2023-09-19T09:39:52.240Z",
-    "duration": 104,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.267Z",
-    "duration": 64,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.284Z",
-    "duration": 80,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.290Z",
-    "duration": 76,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.318Z",
-    "duration": 78,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.331Z",
-    "duration": 92,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.339Z",
-    "duration": 72,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.379Z",
-    "duration": 95,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.380Z",
-    "duration": 89,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.381Z",
-    "duration": 63,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.407Z",
-    "duration": 75,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.413Z",
-    "duration": 73,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.474Z",
-    "duration": 95,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.537Z",
-    "duration": 157,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.541Z",
-    "duration": 160,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.565Z",
-    "duration": 159,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.577Z",
-    "duration": 164,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.582Z",
-    "duration": 108,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.589Z",
-    "duration": 51,
-    "requestType": "unsubscribeEmail"
-  },
-  {
-    "date": "2023-09-19T09:39:52.595Z",
-    "duration": 40,
-    "requestType": "unsubscribeEmail"
-  },
-  {
-    "date": "2023-09-19T09:39:52.604Z",
-    "duration": 34,
-    "requestType": "unsubscribeEmail"
-  },
-  {
-    "date": "2023-09-19T09:39:52.613Z",
-    "duration": 35,
-    "requestType": "unsubscribeEmail"
-  },
-  {
-    "date": "2023-09-19T09:39:52.622Z",
-    "duration": 37,
-    "requestType": "unsubscribeEmail"
-  },
-  {
-    "date": "2023-09-19T09:39:52.674Z",
-    "duration": 85,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.675Z",
-    "duration": 80,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.675Z",
-    "duration": 72,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.712Z",
-    "duration": 99,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.712Z",
-    "duration": 90,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.758Z",
-    "duration": 85,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.770Z",
-    "duration": 96,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.772Z",
-    "duration": 96,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.796Z",
-    "duration": 84,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.799Z",
-    "duration": 87,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.824Z",
-    "duration": 65,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.849Z",
-    "duration": 77,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.857Z",
-    "duration": 86,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.894Z",
-    "duration": 98,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.895Z",
-    "duration": 62,
-    "requestType": "unsubscribeEmail"
-  },
-  {
-    "date": "2023-09-19T09:39:52.895Z",
-    "duration": 97,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.901Z",
-    "duration": 52,
-    "requestType": "unsubscribeEmail"
-  },
-  {
-    "date": "2023-09-19T09:39:52.908Z",
-    "duration": 50,
-    "requestType": "unsubscribeEmail"
-  },
-  {
-    "date": "2023-09-19T09:39:52.952Z",
-    "duration": 56,
-    "requestType": "unsubscribeEmail"
-  },
-  {
-    "date": "2023-09-19T09:39:52.964Z",
-    "duration": 69,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.965Z",
-    "duration": 68,
-    "requestType": "unsubscribeEmail"
-  },
-  {
-    "date": "2023-09-19T09:39:52.990Z",
-    "duration": 89,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:52.993Z",
-    "duration": 86,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:53.037Z",
-    "duration": 86,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:53.046Z",
-    "duration": 82,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:53.046Z",
-    "duration": 82,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:53.083Z",
-    "duration": 92,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:53.083Z",
-    "duration": 89,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:53.104Z",
-    "duration": 67,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:53.122Z",
-    "duration": 76,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:53.123Z",
-    "duration": 63,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:53.132Z",
-    "duration": 49,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:53.145Z",
-    "duration": 61,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:53.153Z",
-    "duration": 49,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:53.193Z",
-    "duration": 58,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:53.194Z",
-    "duration": 58,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:53.197Z",
-    "duration": 62,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:53.206Z",
-    "duration": 60,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:53.221Z",
-    "duration": 54,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:53.240Z",
-    "duration": 46,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:53.292Z",
-    "duration": 94,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:53.342Z",
-    "duration": 128,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:53.345Z",
-    "duration": 132,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:53.352Z",
-    "duration": 124,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:53.371Z",
-    "duration": 127,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:53.407Z",
-    "duration": 104,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:53.445Z",
-    "duration": 102,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:53.445Z",
-    "duration": 95,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:53.484Z",
-    "duration": 73,
-    "requestType": "createGame"
-  },
-  {
-    "date": "2023-09-19T09:39:53.485Z",
-    "duration": 120,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:53.493Z",
-    "duration": 122,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:53.497Z",
-    "duration": 52,
-    "requestType": "createGame"
-  },
-  {
-    "date": "2023-09-19T09:39:53.507Z",
-    "duration": 49,
-    "requestType": "createGame"
-  },
-  {
-    "date": "2023-09-19T09:39:53.546Z",
-    "duration": 58,
-    "requestType": "createGame"
-  },
-  {
-    "date": "2023-09-19T09:39:53.590Z",
-    "duration": 86,
-    "requestType": "createGame"
-  },
-  {
-    "date": "2023-09-19T09:39:53.826Z",
-    "duration": 338,
-    "requestType": "inviteToGame"
-  },
-  {
-    "date": "2023-09-19T09:39:53.918Z",
-    "duration": 414,
-    "requestType": "inviteToGame"
-  },
-  {
-    "date": "2023-09-19T09:39:53.923Z",
-    "duration": 405,
-    "requestType": "inviteToGame"
-  },
-  {
-    "date": "2023-09-19T09:39:53.986Z",
-    "duration": 436,
-    "requestType": "inviteToGame"
-  },
-  {
-    "date": "2023-09-19T09:39:53.999Z",
-    "duration": 408,
-    "requestType": "inviteToGame"
-  },
-  {
-    "date": "2023-09-19T09:39:54.242Z",
-    "duration": 400,
-    "requestType": "acceptGame"
-  },
-  {
-    "date": "2023-09-19T09:39:54.335Z",
-    "duration": 417,
-    "requestType": "acceptGame"
-  },
-  {
-    "date": "2023-09-19T09:39:54.337Z",
-    "duration": 413,
-    "requestType": "acceptGame"
-  },
-  {
-    "date": "2023-09-19T09:39:54.394Z",
-    "duration": 394,
-    "requestType": "acceptGame"
-  },
-  {
-    "date": "2023-09-19T09:39:54.403Z",
-    "duration": 406,
-    "requestType": "acceptGame"
-  },
-  {
-    "date": "2023-09-19T09:39:54.407Z",
-    "duration": 163,
-    "requestType": "setRoomBid"
-  },
-  {
-    "date": "2023-09-19T09:39:54.499Z",
-    "duration": 161,
-    "requestType": "setRoomBid"
-  },
-  {
-    "date": "2023-09-19T09:39:54.515Z",
-    "duration": 173,
-    "requestType": "setRoomBid"
-  },
-  {
-    "date": "2023-09-19T09:39:54.565Z",
-    "duration": 163,
-    "requestType": "setRoomBid"
-  },
-  {
-    "date": "2023-09-19T09:39:54.566Z",
-    "duration": 171,
-    "requestType": "setRoomBid"
-  },
-  {
-    "date": "2023-09-19T09:39:54.576Z",
-    "duration": 169,
-    "requestType": "setRoomBid"
-  },
-  {
-    "date": "2023-09-19T09:39:54.671Z",
-    "duration": 169,
-    "requestType": "setRoomBid"
-  },
-  {
-    "date": "2023-09-19T09:39:54.679Z",
-    "duration": 161,
-    "requestType": "setRoomBid"
-  },
-  {
-    "date": "2023-09-19T09:39:54.725Z",
-    "duration": 144,
-    "requestType": "setReady"
-  },
-  {
-    "date": "2023-09-19T09:39:54.730Z",
-    "duration": 163,
-    "requestType": "setRoomBid"
-  },
-  {
-    "date": "2023-09-19T09:39:54.740Z",
-    "duration": 159,
-    "requestType": "setRoomBid"
-  },
-  {
-    "date": "2023-09-19T09:39:54.822Z",
-    "duration": 142,
-    "requestType": "setReady"
-  },
-  {
-    "date": "2023-09-19T09:39:54.823Z",
-    "duration": 137,
-    "requestType": "setReady"
-  },
-  {
-    "date": "2023-09-19T09:39:54.930Z",
-    "duration": 188,
-    "requestType": "setReady"
-  },
-  {
-    "date": "2023-09-19T09:39:54.931Z",
-    "duration": 190,
-    "requestType": "setReady"
-  },
-  {
-    "date": "2023-09-19T09:39:54.982Z",
-    "duration": 256,
-    "requestType": "setReady"
-  },
-  {
-    "date": "2023-09-19T09:39:55.172Z",
-    "duration": 349,
-    "requestType": "setReady"
-  },
-  {
-    "date": "2023-09-19T09:39:55.205Z",
-    "duration": 380,
-    "requestType": "setReady"
-  },
-  {
-    "date": "2023-09-19T09:39:55.310Z",
-    "duration": 376,
-    "requestType": "setReady"
-  },
-  {
-    "date": "2023-09-19T09:39:55.310Z",
-    "duration": 326,
-    "requestType": "setVerdict"
-  },
-  {
-    "date": "2023-09-19T09:39:55.323Z",
-    "duration": 378,
-    "requestType": "setReady"
-  },
-  {
-    "date": "2023-09-19T09:39:55.427Z",
-    "duration": 254,
-    "requestType": "setVerdict"
-  },
-  {
-    "date": "2023-09-19T09:39:55.450Z",
-    "duration": 244,
-    "requestType": "setVerdict"
-  },
-  {
-    "date": "2023-09-19T09:39:55.646Z",
-    "duration": 336,
-    "requestType": "setVerdict"
-  },
-  {
-    "date": "2023-09-19T09:39:55.725Z",
-    "duration": 399,
-    "requestType": "setVerdict"
-  },
-  {
-    "date": "2023-09-19T09:39:56.624Z",
-    "duration": 1313,
-    "requestType": "setVerdict"
-  },
-  {
-    "date": "2023-09-19T09:39:56.729Z",
-    "duration": 1294,
-    "requestType": "setVerdict"
-  },
-  {
-    "date": "2023-09-19T09:39:56.730Z",
-    "duration": 1279,
-    "requestType": "setVerdict"
-  },
-  {
-    "date": "2023-09-19T09:39:56.754Z",
-    "duration": 130,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:56.843Z",
-    "duration": 108,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:56.844Z",
-    "duration": 107,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:56.874Z",
-    "duration": 1225,
-    "requestType": "setVerdict"
-  },
-  {
-    "date": "2023-09-19T09:39:56.874Z",
-    "duration": 1146,
-    "requestType": "setVerdict"
-  },
-  {
-    "date": "2023-09-19T09:39:56.881Z",
-    "duration": 114,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:56.961Z",
-    "duration": 103,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:56.962Z",
-    "duration": 103,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:56.976Z",
-    "duration": 101,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:56.976Z",
-    "duration": 102,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:57.054Z",
-    "duration": 74,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:57.092Z",
-    "duration": 111,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:57.137Z",
-    "duration": 140,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:57.255Z",
+    "date": "2023-09-19T10:42:51.743Z",
     "duration": 181,
-    "requestType": "message"
+    "requestType": "user/info"
   },
   {
-    "date": "2023-09-19T09:39:57.280Z",
-    "duration": 191,
-    "requestType": "message"
+    "date": "2023-09-19T10:42:52.039Z",
+    "duration": 586,
+    "requestType": "register"
   },
   {
-    "date": "2023-09-19T09:39:57.310Z",
-    "duration": 159,
-    "requestType": "userInfo"
+    "date": "2023-09-19T10:42:52.053Z",
+    "duration": 600,
+    "requestType": "register"
   },
   {
-    "date": "2023-09-19T09:39:57.428Z",
-    "duration": 262,
-    "requestType": "message"
+    "date": "2023-09-19T10:42:52.055Z",
+    "duration": 550,
+    "requestType": "register"
   },
   {
-    "date": "2023-09-19T09:39:57.464Z",
-    "duration": 193,
-    "requestType": "userInfo"
+    "date": "2023-09-19T10:42:52.068Z",
+    "duration": 563,
+    "requestType": "register"
   },
   {
-    "date": "2023-09-19T09:39:57.465Z",
-    "duration": 254,
-    "requestType": "message"
+    "date": "2023-09-19T10:42:52.361Z",
+    "duration": 318,
+    "requestType": "user/info"
   },
   {
-    "date": "2023-09-19T09:39:57.466Z",
-    "duration": 179,
-    "requestType": "userInfo"
+    "date": "2023-09-19T10:42:52.365Z",
+    "duration": 304,
+    "requestType": "user/info"
   },
   {
-    "date": "2023-09-19T09:39:57.483Z",
-    "duration": 165,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:57.539Z",
-    "duration": 100,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:57.565Z",
-    "duration": 101,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:57.566Z",
-    "duration": 100,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:57.591Z",
-    "duration": 120,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:57.604Z",
-    "duration": 57,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:57.632Z",
-    "duration": 41,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:57.663Z",
-    "duration": 53,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:57.722Z",
-    "duration": 58,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:57.789Z",
-    "duration": 104,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:57.790Z",
-    "duration": 105,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:57.811Z",
-    "duration": 88,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:57.837Z",
-    "duration": 105,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:57.851Z",
-    "duration": 89,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:57.903Z",
-    "duration": 110,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:57.903Z",
-    "duration": 110,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:57.946Z",
-    "duration": 109,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:57.949Z",
-    "duration": 99,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:57.980Z",
-    "duration": 67,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:57.984Z",
-    "duration": 80,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:58.022Z",
-    "duration": 94,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:58.031Z",
-    "duration": 73,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:58.032Z",
-    "duration": 74,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:58.084Z",
-    "duration": 61,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:58.128Z",
-    "duration": 44,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:58.181Z",
-    "duration": 70,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:58.197Z",
-    "duration": 86,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:58.199Z",
-    "duration": 70,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.266Z",
-    "duration": 110,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:58.267Z",
-    "duration": 111,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:58.286Z",
-    "duration": 88,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:58.306Z",
-    "duration": 118,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:58.307Z",
-    "duration": 108,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.354Z",
-    "duration": 86,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:58.368Z",
-    "duration": 90,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:58.370Z",
-    "duration": 76,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:58.387Z",
-    "duration": 79,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:58.392Z",
-    "duration": 86,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.440Z",
-    "duration": 70,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:58.441Z",
-    "duration": 71,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.454Z",
-    "duration": 84,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:58.488Z",
-    "duration": 100,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.503Z",
-    "duration": 110,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.513Z",
-    "duration": 72,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.524Z",
-    "duration": 83,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.533Z",
-    "duration": 80,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.549Z",
-    "duration": 62,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.566Z",
-    "duration": 54,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.602Z",
-    "duration": 78,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.610Z",
-    "duration": 76,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.636Z",
-    "duration": 87,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.645Z",
-    "duration": 79,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.659Z",
-    "duration": 56,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.696Z",
-    "duration": 87,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.742Z",
-    "duration": 106,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.743Z",
-    "duration": 97,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.747Z",
-    "duration": 115,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:58.767Z",
-    "duration": 71,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:58.810Z",
-    "duration": 56,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:58.850Z",
-    "duration": 65,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:58.862Z",
-    "duration": 51,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:58.962Z",
-    "duration": 114,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:58.962Z",
-    "duration": 111,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:58.967Z",
-    "duration": 120,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:59.003Z",
-    "duration": 110,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:59.042Z",
-    "duration": 80,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:59.066Z",
-    "duration": 98,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:59.079Z",
-    "duration": 108,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:59.101Z",
-    "duration": 115,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:59.103Z",
-    "duration": 87,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:59.115Z",
-    "duration": 49,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:59.130Z",
-    "duration": 39,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:59.164Z",
-    "duration": 59,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:59.167Z",
-    "duration": 61,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:59.229Z",
-    "duration": 61,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:59.230Z",
-    "duration": 63,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:59.282Z",
-    "duration": 53,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:59.314Z",
-    "duration": 69,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:59.323Z",
-    "duration": 78,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:59.343Z",
-    "duration": 53,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:59.357Z",
-    "duration": 67,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:59.392Z",
-    "duration": 70,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:59.428Z",
-    "duration": 91,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:59.454Z",
-    "duration": 101,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:59.461Z",
-    "duration": 104,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:59.463Z",
-    "duration": 70,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:59.477Z",
-    "duration": 48,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:59.506Z",
-    "duration": 51,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:59.518Z",
-    "duration": 46,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:59.539Z",
-    "duration": 66,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:59.550Z",
-    "duration": 43,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:59.596Z",
-    "duration": 56,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:59.608Z",
-    "duration": 58,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:59.633Z",
-    "duration": 49,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:59.673Z",
-    "duration": 74,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:59.681Z",
-    "duration": 83,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:59.698Z",
-    "duration": 90,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:59.757Z",
-    "duration": 124,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:59.770Z",
-    "duration": 126,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-19T09:39:59.771Z",
-    "duration": 99,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:59.798Z",
-    "duration": 116,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:59.800Z",
-    "duration": 102,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:59.828Z",
-    "duration": 61,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:59.852Z",
-    "duration": 80,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:59.874Z",
-    "duration": 73,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:59.879Z",
-    "duration": 99,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-19T09:39:59.885Z",
-    "duration": 73,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:59.899Z",
-    "duration": 72,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:59.928Z",
-    "duration": 75,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:59.929Z",
-    "duration": 55,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:39:59.964Z",
-    "duration": 77,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-19T09:39:59.970Z",
-    "duration": 85,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:59.979Z",
-    "duration": 80,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:39:59.984Z",
-    "duration": 50,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:40:00.013Z",
-    "duration": 50,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:40:00.074Z",
-    "duration": 94,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:40:00.074Z",
-    "duration": 140,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:40:00.078Z",
-    "duration": 103,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:40:00.082Z",
-    "duration": 85,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:40:00.092Z",
-    "duration": 78,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:40:00.157Z",
-    "duration": 83,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:40:00.188Z",
-    "duration": 114,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:40:00.224Z",
-    "duration": 132,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:40:00.234Z",
-    "duration": 160,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:40:00.250Z",
-    "duration": 85,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:40:00.271Z",
-    "duration": 77,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:40:00.288Z",
-    "duration": 205,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:40:00.298Z",
-    "duration": 72,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:40:00.306Z",
-    "duration": 64,
-    "requestType": "createGame"
-  },
-  {
-    "date": "2023-09-19T09:40:00.316Z",
-    "duration": 44,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:40:00.335Z",
-    "duration": 38,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:40:00.354Z",
-    "duration": 103,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:40:00.403Z",
-    "duration": 114,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:40:00.463Z",
-    "duration": 146,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:40:00.463Z",
-    "duration": 59,
-    "requestType": "createGame"
-  },
-  {
-    "date": "2023-09-19T09:40:00.499Z",
-    "duration": 181,
-    "requestType": "inviteToGame"
-  },
-  {
-    "date": "2023-09-19T09:40:00.518Z",
-    "duration": 170,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:40:00.529Z",
-    "duration": 174,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:40:00.618Z",
-    "duration": 86,
-    "requestType": "createGame"
-  },
-  {
-    "date": "2023-09-19T09:40:00.624Z",
-    "duration": 153,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:40:00.678Z",
-    "duration": 208,
-    "requestType": "inviteToGame"
-  },
-  {
-    "date": "2023-09-19T09:40:00.693Z",
-    "duration": 162,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-19T09:40:00.726Z",
-    "duration": 102,
-    "requestType": "createGame"
-  },
-  {
-    "date": "2023-09-19T09:40:00.774Z",
-    "duration": 80,
-    "requestType": "createGame"
-  },
-  {
-    "date": "2023-09-19T09:40:00.851Z",
-    "duration": 350,
-    "requestType": "acceptGame"
-  },
-  {
-    "date": "2023-09-19T09:40:00.927Z",
+    "date": "2023-09-19T10:42:52.366Z",
     "duration": 308,
-    "requestType": "inviteToGame"
+    "requestType": "user/info"
   },
   {
-    "date": "2023-09-19T09:40:01.142Z",
-    "duration": 290,
-    "requestType": "setRoomBid"
+    "date": "2023-09-19T10:42:52.426Z",
+    "duration": 351,
+    "requestType": "user/info"
   },
   {
-    "date": "2023-09-19T09:40:01.156Z",
-    "duration": 427,
-    "requestType": "inviteToGame"
+    "date": "2023-09-19T10:42:52.879Z",
+    "duration": 196,
+    "requestType": "gameFilter"
   },
   {
-    "date": "2023-09-19T09:40:01.207Z",
-    "duration": 523,
-    "requestType": "acceptGame"
+    "date": "2023-09-19T10:42:52.922Z",
+    "duration": 190,
+    "requestType": "gameFilter"
   },
   {
-    "date": "2023-09-19T09:40:01.219Z",
-    "duration": 445,
-    "requestType": "inviteToGame"
+    "date": "2023-09-19T10:42:53.064Z",
+    "duration": 185,
+    "requestType": "gameFilter"
   },
   {
-    "date": "2023-09-19T09:40:01.295Z",
-    "duration": 148,
-    "requestType": "setRoomBid"
+    "date": "2023-09-19T10:42:53.106Z",
+    "duration": 185,
+    "requestType": "gameFilter"
   },
   {
-    "date": "2023-09-19T09:40:01.346Z",
-    "duration": 137,
-    "requestType": "setRoomBid"
+    "date": "2023-09-19T10:42:53.269Z",
+    "duration": 205,
+    "requestType": "gameFilter"
   },
   {
-    "date": "2023-09-19T09:40:01.451Z",
+    "date": "2023-09-19T10:42:53.289Z",
+    "duration": 183,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:42:53.457Z",
+    "duration": 188,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:42:53.483Z",
+    "duration": 194,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:42:53.595Z",
+    "duration": 136,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-09-19T10:42:53.625Z",
+    "duration": 135,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-09-19T10:42:53.784Z",
+    "duration": 189,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:42:53.807Z",
+    "duration": 182,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:42:53.974Z",
+    "duration": 190,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:42:53.994Z",
+    "duration": 188,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:42:54.158Z",
+    "duration": 185,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:42:54.176Z",
+    "duration": 182,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:42:54.307Z",
+    "duration": 135,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-09-19T10:42:54.321Z",
+    "duration": 135,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-09-19T10:42:54.493Z",
+    "duration": 186,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:42:54.502Z",
+    "duration": 181,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:42:54.682Z",
+    "duration": 189,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:42:54.685Z",
+    "duration": 183,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:42:54.831Z",
+    "duration": 146,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-09-19T10:42:54.849Z",
+    "duration": 149,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-09-19T10:42:54.988Z",
+    "duration": 147,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-09-19T10:42:55.001Z",
+    "duration": 144,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-09-19T10:42:55.290Z",
+    "duration": 278,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-09-19T10:42:55.294Z",
+    "duration": 298,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-09-19T10:42:55.566Z",
+    "duration": 276,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-09-19T10:42:55.586Z",
+    "duration": 279,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-09-19T10:42:55.722Z",
     "duration": 150,
-    "requestType": "setReady"
+    "requestType": "createGame"
   },
   {
-    "date": "2023-09-19T09:40:01.458Z",
-    "duration": 530,
+    "date": "2023-09-19T10:42:55.737Z",
+    "duration": 151,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-09-19T10:42:56.048Z",
+    "duration": 319,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-09-19T10:42:56.056Z",
+    "duration": 319,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-09-19T10:42:56.488Z",
+    "duration": 439,
     "requestType": "acceptGame"
   },
   {
-    "date": "2023-09-19T09:40:01.531Z",
-    "duration": 184,
+    "date": "2023-09-19T10:42:56.511Z",
+    "duration": 443,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-09-19T10:42:56.688Z",
+    "duration": 199,
     "requestType": "setRoomBid"
   },
   {
-    "date": "2023-09-19T09:40:01.532Z",
-    "duration": 368,
-    "requestType": "acceptGame"
-  },
-  {
-    "date": "2023-09-19T09:40:01.607Z",
-    "duration": 387,
-    "requestType": "acceptGame"
-  },
-  {
-    "date": "2023-09-19T09:40:01.652Z",
+    "date": "2023-09-19T10:42:56.711Z",
     "duration": 194,
     "requestType": "setRoomBid"
   },
   {
-    "date": "2023-09-19T09:40:01.699Z",
-    "duration": 167,
+    "date": "2023-09-19T10:42:56.896Z",
+    "duration": 192,
     "requestType": "setRoomBid"
   },
   {
-    "date": "2023-09-19T09:40:01.699Z",
-    "duration": 167,
-    "requestType": "setReady"
-  },
-  {
-    "date": "2023-09-19T09:40:01.746Z",
-    "duration": 291,
-    "requestType": "setReady"
-  },
-  {
-    "date": "2023-09-19T09:40:01.787Z",
-    "duration": 178,
+    "date": "2023-09-19T10:42:56.904Z",
+    "duration": 193,
     "requestType": "setRoomBid"
   },
   {
-    "date": "2023-09-19T09:40:01.787Z",
-    "duration": 134,
-    "requestType": "setRoomBid"
-  },
-  {
-    "date": "2023-09-19T09:40:01.878Z",
-    "duration": 178,
-    "requestType": "setRoomBid"
-  },
-  {
-    "date": "2023-09-19T09:40:01.946Z",
-    "duration": 200,
-    "requestType": "setVerdict"
-  },
-  {
-    "date": "2023-09-19T09:40:01.954Z",
-    "duration": 255,
+    "date": "2023-09-19T10:42:57.086Z",
+    "duration": 180,
     "requestType": "setReady"
   },
   {
-    "date": "2023-09-19T09:40:01.966Z",
-    "duration": 177,
+    "date": "2023-09-19T10:42:57.088Z",
+    "duration": 182,
     "requestType": "setReady"
   },
   {
-    "date": "2023-09-19T09:40:01.981Z",
-    "duration": 186,
-    "requestType": "setRoomBid"
-  },
-  {
-    "date": "2023-09-19T09:40:02.028Z",
-    "duration": 148,
+    "date": "2023-09-19T10:42:57.348Z",
+    "duration": 262,
     "requestType": "setReady"
   },
   {
-    "date": "2023-09-19T09:40:02.149Z",
-    "duration": 155,
+    "date": "2023-09-19T10:42:57.354Z",
+    "duration": 261,
     "requestType": "setReady"
   },
   {
-    "date": "2023-09-19T09:40:02.176Z",
-    "duration": 212,
-    "requestType": "setVerdict"
-  },
-  {
-    "date": "2023-09-19T09:40:02.297Z",
-    "duration": 329,
-    "requestType": "setReady"
-  },
-  {
-    "date": "2023-09-19T09:40:02.364Z",
-    "duration": 324,
-    "requestType": "setReady"
-  },
-  {
-    "date": "2023-09-19T09:40:02.446Z",
-    "duration": 498,
-    "requestType": "setVerdict"
-  },
-  {
-    "date": "2023-09-19T09:40:02.533Z",
-    "duration": 377,
-    "requestType": "setReady"
-  },
-  {
-    "date": "2023-09-19T09:40:02.574Z",
-    "duration": 118,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:40:02.582Z",
-    "duration": 285,
-    "requestType": "setVerdict"
-  },
-  {
-    "date": "2023-09-19T09:40:02.642Z",
+    "date": "2023-09-19T10:42:57.635Z",
     "duration": 277,
     "requestType": "setVerdict"
   },
   {
-    "date": "2023-09-19T09:40:02.671Z",
-    "duration": 97,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:40:02.795Z",
-    "duration": 615,
+    "date": "2023-09-19T10:42:57.648Z",
+    "duration": 290,
     "requestType": "setVerdict"
   },
   {
-    "date": "2023-09-19T09:40:02.795Z",
-    "duration": 261,
+    "date": "2023-09-19T10:42:58.092Z",
+    "duration": 436,
     "requestType": "setVerdict"
   },
   {
-    "date": "2023-09-19T09:40:02.832Z",
-    "duration": 161,
-    "requestType": "gameFilter"
+    "date": "2023-09-19T10:42:58.097Z",
+    "duration": 458,
+    "requestType": "setVerdict"
   },
   {
-    "date": "2023-09-19T09:40:02.884Z",
-    "duration": 89,
+    "date": "2023-09-19T10:42:58.244Z",
+    "duration": 138,
     "requestType": "getBalance"
   },
   {
-    "date": "2023-09-19T09:40:02.983Z",
+    "date": "2023-09-19T10:42:58.252Z",
+    "duration": 146,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-09-19T10:42:58.405Z",
+    "duration": 144,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-09-19T10:42:58.414Z",
+    "duration": 154,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-09-19T10:42:58.707Z",
+    "duration": 181,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-09-19T10:42:58.713Z",
+    "duration": 172,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-09-19T10:42:58.895Z",
+    "duration": 180,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-09-19T10:42:58.895Z",
+    "duration": 188,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-09-19T10:42:59.051Z",
     "duration": 151,
-    "requestType": "gameFilter"
+    "requestType": "getListMessages"
   },
   {
-    "date": "2023-09-19T09:40:03.003Z",
-    "duration": 107,
-    "requestType": "getBalance"
+    "date": "2023-09-19T10:42:59.054Z",
+    "duration": 154,
+    "requestType": "getListMessages"
   },
   {
-    "date": "2023-09-19T09:40:03.108Z",
-    "duration": 124,
-    "requestType": "gameFilter"
+    "date": "2023-09-19T10:42:59.341Z",
+    "duration": 162,
+    "requestType": "message"
   },
   {
-    "date": "2023-09-19T09:40:03.146Z",
-    "duration": 143,
-    "requestType": "gameFilter"
+    "date": "2023-09-19T10:42:59.349Z",
+    "duration": 171,
+    "requestType": "message"
   },
   {
-    "date": "2023-09-19T09:40:03.147Z",
-    "duration": 553,
-    "requestType": "setVerdict"
+    "date": "2023-09-19T10:42:59.520Z",
+    "duration": 179,
+    "requestType": "userInfo"
   },
   {
-    "date": "2023-09-19T09:40:03.203Z",
-    "duration": 548,
-    "requestType": "setVerdict"
+    "date": "2023-09-19T10:42:59.561Z",
+    "duration": 197,
+    "requestType": "userInfo"
   },
   {
-    "date": "2023-09-19T09:40:03.257Z",
-    "duration": 101,
-    "requestType": "getBalance"
+    "date": "2023-09-19T10:42:59.687Z",
+    "duration": 153,
+    "requestType": "getListMessages"
   },
   {
-    "date": "2023-09-19T09:40:03.258Z",
-    "duration": 111,
-    "requestType": "gameFilter"
+    "date": "2023-09-19T10:42:59.708Z",
+    "duration": 144,
+    "requestType": "getListMessages"
   },
   {
-    "date": "2023-09-19T09:40:03.308Z",
-    "duration": 105,
-    "requestType": "getBalance"
+    "date": "2023-09-19T10:43:00.000Z",
+    "duration": 186,
+    "requestType": "message"
   },
   {
-    "date": "2023-09-19T09:40:03.312Z",
-    "duration": 507,
-    "requestType": "setVerdict"
-  },
-  {
-    "date": "2023-09-19T09:40:03.373Z",
-    "duration": 116,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:40:03.374Z",
-    "duration": 111,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:40:03.411Z",
-    "duration": 99,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:40:03.412Z",
-    "duration": 90,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:40:03.504Z",
-    "duration": 129,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:40:03.515Z",
-    "duration": 104,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-19T09:40:03.526Z",
-    "duration": 115,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:40:03.595Z",
-    "duration": 378,
-    "requestType": "deleteacc"
-  },
-  {
-    "date": "2023-09-19T09:40:03.608Z",
-    "duration": 104,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:40:03.619Z",
-    "duration": 103,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:40:03.633Z",
-    "duration": 106,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:40:03.682Z",
-    "duration": 74,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:40:03.700Z",
-    "duration": 82,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:40:03.722Z",
-    "duration": 90,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:40:03.742Z",
-    "duration": 254,
-    "requestType": "deleteacc"
-  },
-  {
-    "date": "2023-09-19T09:40:03.765Z",
-    "duration": 64,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-19T09:40:03.796Z",
-    "duration": 93,
-    "requestType": "deleteacc"
-  },
-  {
-    "date": "2023-09-19T09:40:03.985Z",
+    "date": "2023-09-19T10:43:00.019Z",
     "duration": 191,
-    "requestType": "deleteacc"
+    "requestType": "message"
   },
   {
-    "date": "2023-09-19T09:40:04.033Z",
+    "date": "2023-09-19T10:43:00.192Z",
+    "duration": 192,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-09-19T10:43:00.231Z",
+    "duration": 200,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-09-19T10:43:00.361Z",
+    "duration": 158,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-09-19T10:43:00.383Z",
+    "duration": 150,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-09-19T10:43:00.549Z",
+    "duration": 188,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:00.571Z",
+    "duration": 187,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:00.733Z",
+    "duration": 183,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:00.757Z",
+    "duration": 186,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:00.910Z",
+    "duration": 177,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:00.943Z",
+    "duration": 187,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:01.093Z",
+    "duration": 183,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:01.127Z",
+    "duration": 183,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:01.405Z",
+    "duration": 186,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-09-19T10:43:01.426Z",
+    "duration": 175,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-09-19T10:43:01.603Z",
+    "duration": 184,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-09-19T10:43:01.618Z",
+    "duration": 183,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-09-19T10:43:01.759Z",
+    "duration": 151,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-09-19T10:43:01.772Z",
+    "duration": 148,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-09-19T10:43:02.052Z",
+    "duration": 165,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-09-19T10:43:02.064Z",
     "duration": 176,
-    "requestType": "deleteacc"
+    "requestType": "message"
   },
   {
-    "date": "2023-09-19T09:40:04.095Z",
-    "duration": 270,
-    "requestType": "deleteacc"
+    "date": "2023-09-19T10:43:02.243Z",
+    "duration": 184,
+    "requestType": "userInfo"
   },
   {
-    "date": "2023-09-19T09:40:04.126Z",
-    "duration": 253,
-    "requestType": "deleteacc"
+    "date": "2023-09-19T10:43:02.259Z",
+    "duration": 184,
+    "requestType": "userInfo"
   },
   {
-    "date": "2023-09-19T09:40:04.176Z",
-    "duration": 89,
-    "requestType": "deleteacc"
+    "date": "2023-09-19T10:43:02.407Z",
+    "duration": 147,
+    "requestType": "getListMessages"
   },
   {
-    "date": "2023-09-19T09:40:04.291Z",
-    "duration": 95,
-    "requestType": "deleteacc"
+    "date": "2023-09-19T10:43:02.412Z",
+    "duration": 153,
+    "requestType": "getListMessages"
   },
   {
-    "date": "2023-09-19T09:40:04.318Z",
-    "duration": 89,
-    "requestType": "deleteacc"
+    "date": "2023-09-19T10:43:02.690Z",
+    "duration": 167,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-09-19T10:43:02.710Z",
+    "duration": 170,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-09-19T10:43:02.881Z",
+    "duration": 185,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-09-19T10:43:02.892Z",
+    "duration": 182,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-09-19T10:43:03.042Z",
+    "duration": 148,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-09-19T10:43:03.048Z",
+    "duration": 154,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-09-19T10:43:03.228Z",
+    "duration": 186,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:03.234Z",
+    "duration": 186,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:03.417Z",
+    "duration": 188,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:03.422Z",
+    "duration": 188,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:03.596Z",
+    "duration": 180,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:03.606Z",
+    "duration": 185,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:03.753Z",
+    "duration": 142,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-09-19T10:43:03.760Z",
+    "duration": 148,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-09-19T10:43:03.896Z",
+    "duration": 143,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-09-19T10:43:03.911Z",
+    "duration": 144,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-09-19T10:43:04.205Z",
+    "duration": 285,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-09-19T10:43:04.206Z",
+    "duration": 300,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-09-19T10:43:04.498Z",
+    "duration": 281,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-09-19T10:43:04.500Z",
+    "duration": 285,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-09-19T10:43:04.650Z",
+    "duration": 150,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-09-19T10:43:04.663Z",
+    "duration": 147,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-09-19T10:43:04.967Z",
+    "duration": 311,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-09-19T10:43:04.974Z",
+    "duration": 302,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-09-19T10:43:05.412Z",
+    "duration": 444,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-09-19T10:43:05.416Z",
+    "duration": 442,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-09-19T10:43:05.608Z",
+    "duration": 190,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-09-19T10:43:05.612Z",
+    "duration": 196,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-09-19T10:43:05.805Z",
+    "duration": 192,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-09-19T10:43:05.807Z",
+    "duration": 187,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-09-19T10:43:06.022Z",
+    "duration": 215,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-09-19T10:43:06.033Z",
+    "duration": 213,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-09-19T10:43:06.306Z",
+    "duration": 273,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-09-19T10:43:06.309Z",
+    "duration": 272,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-09-19T10:43:06.604Z",
+    "duration": 288,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-09-19T10:43:06.616Z",
+    "duration": 301,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-09-19T10:43:07.065Z",
+    "duration": 454,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-09-19T10:43:07.091Z",
+    "duration": 466,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-09-19T10:43:07.232Z",
+    "duration": 157,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-09-19T10:43:07.259Z",
+    "duration": 154,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-09-19T10:43:07.394Z",
+    "duration": 148,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-09-19T10:43:07.407Z",
+    "duration": 146,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-09-19T10:43:07.585Z",
+    "duration": 190,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:07.615Z",
+    "duration": 208,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:07.770Z",
+    "duration": 185,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:07.793Z",
+    "duration": 177,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:07.956Z",
+    "duration": 186,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-09-19T10:43:07.981Z",
+    "duration": 189,
+    "requestType": "gameFilter"
   }
 ]

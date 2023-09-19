@@ -14,7 +14,7 @@ const testStartTime = new Date();
 if (cluster.isMaster) {
     showLogs&&  console.log(`Master ${process.pid} is running`);
     !showLogs&& console.error("mode only errors")
-    let workerCount =5;
+    let workerCount =2;
 
     for (let i = 0; i < workerCount; i++) {
         setTimeout(() => {
