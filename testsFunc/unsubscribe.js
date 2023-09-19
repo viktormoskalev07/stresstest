@@ -9,7 +9,7 @@ export const unsubscribeEmail = async (instanceUser) => {
 	 showLogs&&	console.log(unsubscribeResponse.data ,`/emails/unsubscribe/` )
 		process.send('incrementAction');
 	} catch (e) {
-		console.error(e.message , "remove email")
+		console.error(e.message , e?.response?.data,"remove email")
 		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 }

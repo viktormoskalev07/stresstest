@@ -6,24 +6,25 @@ import {showLogs} from "../index.js";
 let roomId
 
 const createGame = async (instanceUser) => {
-	const xpOrCash = 'xp'
+	const xpOrCash = 'cash'
 	const body = {
 		games: [
-			{game: "fifa23_new", bid: 12},
+			// {game: "fifa23_new", bid: 12},
 			// {game: "fifa23_old", bid: 12},
 			// {game: "mw2_console", bid: 12},
 			// {game: "mw2_pc", bid: 12},
 			// {game: "dota", bid: 12},
-			// {game: "csgo", bid: 123},
+			{game: "csgo", bid: 1},
 		],
 		ready_to_play: true
 	}
+
 	try {
 		const createGameResponse = await instanceUser.patch(`/user/set-ready-to-play/${xpOrCash}/`, body);
 		showLogs&&console.log(createGameResponse.data , "create game")
 	} catch (e) {
-		console.error(e, 'create game')
-		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
+		console.error(e, e?.response?.data,'create game')
+		// await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 	return 1
 };
@@ -33,15 +34,15 @@ const inviteToGame = async (instanceUser, userId) => {
 		price: 122,
 		player_id: userId,
 		game: "fifa23_new",
-		account_type: "xp"
+		account_type: "cash"
 	}
 
 	try {
 		const inviteToGameResponse = await instanceUser.post(`/rooms/create-room/`, body);
 		showLogs&&console.log(inviteToGameResponse.data , "invite to game")
 	} catch (e) {
-		console.error(e.message, 'invite to game')
-		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
+		console.error(e.message,e?.response?.data, 'invite to game')
+		// await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 return 1
 }
@@ -57,8 +58,8 @@ const acceptGame = async (instanceUser) => {
 		showLogs&&console.log(acceptGameResponse.data , "accepted game")
 
 	} catch (e) {
-		console.error(e.message, 'accept game')
-		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
+		console.error(e.message,e?.response?.data, 'accept game')
+		// await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 	return 1
 }
@@ -73,8 +74,8 @@ const setRoomBid = async (instanceUser, bid) => {
 		const setBidResponse = await instanceUser.post(`/rooms/${roomId}/set-bid/`, body)
 		showLogs&&	console.log(setBidResponse.data, 'setting bid')
 	} catch (e) {
-		console.error(e.message, 'set room bid')
-		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
+		console.error(e.message, e?.response?.data,'set room bid')
+		// await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 	return 1
 }
@@ -86,8 +87,8 @@ const setReady = async (instanceUser) => {
 		showLogs&&console.log(setReadyResponse.data, 'set ready')
 
 	} catch (e) {
-		console.error(e.message, 'set ready')
-		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
+		console.error(e.message,e?.response?.data, 'set ready')
+		// await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 	return 1
 }
@@ -103,8 +104,8 @@ const setVerdict = async (instanceUser, userId) => {
 		showLogs&&console.log(setVerdictResponse.data, 'set verdict')
 
 	} catch (e) {
-		console.error(e.message, 'set verdict')
-		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
+		console.error(e.message,e?.response?.data, 'set verdict')
+		// await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 	return 1
 }
@@ -115,8 +116,8 @@ export const cancelGame = async (instanceUser) => {
 		const cancelGameResponse = await instanceUser.post(`/rooms/${roomId}/remove-room/`)
 		showLogs&&	console.log(cancelGameResponse.data, 'cancel game')
 	} catch (e) {
-		console.error(e.message, "cansel game")
-		await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
+		console.error(e.message,e?.response?.data, "cansel game")
+		// await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
 }
 
@@ -137,42 +138,59 @@ export const playGame = async (instanceUser1, instanceUser2, user1, user2, saveT
 
 	// second user balance before verdict
 	showLogs&&console.log('=== get user balance before game')
-	await delayedFunctionCall(() => getBalance(instanceUser2, setInitialBalance)  ,1,"getBalance" )
+	const _user1BalanceStart =  await delayedFunctionCall(async() =>await getBalance(instanceUser1, setInitialBalance)  ,1,"getBalance" )
+	const user1BalanceStart=_user1BalanceStart?.cash
+	const _user2BalanceStart =  await delayedFunctionCall(async () => await getBalance(instanceUser2, setInitialBalance)  ,1,"getBalance" )
+	const user2BalanceStart=_user2BalanceStart?.cash
+	const opponentInfo =  await delayedFunctionCall(async () => await instanceUser1("/user/users/"+user2.userId) ,1,"opponentInfo" )
+	const opponentInfo2 =  await delayedFunctionCall(async () => await instanceUser2("/user/users/"+user1.userId) ,1,"opponentInfo" )
 
+	const BID = 2
 	// firs user created game
-	await delayedFunctionCall(() => createGame(instanceUser1) , 1,"createGame")
+	const timeout = 	Math.random()*2
+	await delayedFunctionCall(() => createGame(instanceUser1) , timeout,"createGame")
 
 	//second user send invite to game
 	await delayedFunctionCall(() => inviteToGame(instanceUser2, user1.userId) , 1,"inviteToGame")
 
 	// first user accept the game
-	await delayedFunctionCall(() => acceptGame(instanceUser1) , 1,"acceptGame")
+	await delayedFunctionCall(() => acceptGame(instanceUser1) , timeout,"acceptGame")
 
 	// first user set new bid
-	await delayedFunctionCall(() => setRoomBid(instanceUser1, 50) , 1,"setRoomBid")
+	await delayedFunctionCall(() => setRoomBid(instanceUser1, BID) , timeout,"setRoomBid")
 
 	// second user set the same bid
-	await delayedFunctionCall(() => setRoomBid(instanceUser2, 50) ,  1,"setRoomBid")
+	await delayedFunctionCall(() => setRoomBid(instanceUser2, BID) ,  timeout,"setRoomBid")
 
 	// first user ready
-	await delayedFunctionCall(() => setReady(instanceUser1) , 1,"setReady")
+	await delayedFunctionCall(() => setReady(instanceUser1) , timeout,"setReady")
 
 	// second user ready
-	await delayedFunctionCall(() => setReady(instanceUser2) , 1,"setReady")
+	await delayedFunctionCall(() => setReady(instanceUser2) , timeout,"setReady")
 
 	// first user lose
-	await delayedFunctionCall(() => setVerdict(instanceUser1, user2.userId) , 1,"setVerdict")
+	await delayedFunctionCall(() => setVerdict(instanceUser1, user2.userId) , timeout,"setVerdict")
 
 	// second user win
-	await delayedFunctionCall(() => setVerdict(instanceUser2, user2.userId) ,1,"setVerdict")
-
+	await delayedFunctionCall(() => setVerdict(instanceUser2, user2.userId) ,timeout,"setVerdict")
+	const _user1BalanceFinish =  await delayedFunctionCall(async() =>await getBalance(instanceUser1, setInitialBalance)  ,1,"getBalance" )
+	const user1BalanceFinish=_user1BalanceFinish?.cash
+	const _user2BalanceFinish =  await delayedFunctionCall(async () => await getBalance(instanceUser2, setInitialBalance)  ,1,"getBalance" )
+	const user2BalanceFinish=_user2BalanceFinish?.cash
 	// second user balance after verdict
 	showLogs&&console.log('=== get user balance after game')
-	await delayedFunctionCall(() => getBalance(instanceUser2, setFinalBalance) ,1,"getBalance")
-	process.send('incrementAction');
+ const round10 =(num)=>Math.round(num * 1000) / 1000;
+ 		const result1 =round10( user1BalanceFinish-user1BalanceStart);
+ 		const result2 = round10(user2BalanceFinish-user2BalanceStart);
+
+		 const user1Error = result1!==(-BID)
+		 const user2Error = result2!==(round10(BID*0.9))
+	console.log({result1, result2, user1Error, user2Error} )
+		 if(user1Error||user2Error){
+			 console.error({user1BalanceFinish, user1BalanceStart, user2BalanceFinish, user2BalanceStart , BID})
+		 }
+
 	showLogs&&console.log('game finished')
 
-	const balanceDifference = secondUserFinalBalance - secondUserInitialBalance
-	const balanceChange = balanceDifference > 0 ? `+${balanceDifference}$` : balanceDifference.toString()
-	const balancePositive = balanceDifference > 0
+
 }

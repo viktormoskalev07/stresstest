@@ -30,7 +30,7 @@ export const sendMessage = async (instanceUser) => {
 			 await  delayedFunctionCall(userInfo , 1 , "userInfo");
 			 await  delayedFunctionCall(getListMessages , 1 , "getListMessages");
 		} catch (e) {
-			console.error(e.message, "send message");
+			console.error(e.message,e?.response?.data, "send message");
 			await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 		}
 	}

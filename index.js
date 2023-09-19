@@ -15,10 +15,10 @@ import chalk from "chalk";
 
 
 export const showLogs = false
-const playGames = false
-export const getGames = false
-const sendMessages = false
-export const connectSocket = false
+const playGames = true
+export const getGames = true
+const sendMessages = true
+export const connectSocket = true
 export const pingMaxTimeError = 1500
 
 const createAxiosInstance = (baseURL) => {
@@ -48,7 +48,10 @@ export const app = async (id) => {
     createUser(instanceUser2, baseUrl),
   ]);
 
-
+  console.error = function(...message) {
+    process.send({type:'errors', err:{message ,user11: user1.userId , user22:user2.userId}})
+    console.log(chalk.red(JSON.stringify({message ,user11: user1.userId , user22:user2.userId})));
+  };
     if(!user1?.token||!user2?.token){
     console.error("error no user ");
       process.send('decrementUsers')
@@ -77,7 +80,7 @@ export const app = async (id) => {
 
   getGames&&  await getGamesWithFilters(instanceUser2)
   getGames&&   await getGamesWithFilters(instanceUser1)
-  playGames&&await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
+
   getGames&&  await getGamesWithFilters(instanceUser2)
   getGames&&   await getGamesWithFilters(instanceUser1)
   sendMessages&& await  sendMessage(instanceUser2)
@@ -87,7 +90,7 @@ export const app = async (id) => {
   getGames&&  await getGamesWithFilters(instanceUser2)
   playGames&&await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
   getGames&&   await getGamesWithFilters(instanceUser1)
-  playGames&&await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
+
   getGames&&  await getGamesWithFilters(instanceUser2)
   getGames&&   await getGamesWithFilters(instanceUser1)
   // delete account

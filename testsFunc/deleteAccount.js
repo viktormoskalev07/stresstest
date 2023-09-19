@@ -8,7 +8,7 @@ export const deleteAccount = async (instanceUser, token) => {
 		showLogs&&console.log(deleteResponse.data, " /user/delete-account/")
 		removeTokenFromFile(token)
 	} catch (e) {
-		console.error(e.message , "userinfo")
+		console.error(e.message ,e?.response?.data, "userinfo")
 	}
 	return 1
 }

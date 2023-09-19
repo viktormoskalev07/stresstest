@@ -7,7 +7,7 @@ export const goToHomePage = async (userInstance, frontendUrl) => {
 		await userInstance.get(frontendUrl);
 		showLogs&&console.log(`== visited home page`)
 	} catch (e) {
-		console.error(e.message , "home")
+		console.error(e.message ,e?.response?.data, "home")
 		await delayedFunctionCall(() => deleteAccount(userInstance) , 1 ,"delete")
 	}
 }
@@ -17,7 +17,7 @@ export const goToMatchfinder = async (userInstance, frontendUrl) => {
 		await userInstance.get(frontendUrl + "/matchfinder");
 		showLogs&&console.log(`== visited matchfinder`)
 	} catch (e) {
-		console.error(e.message , "match")
+		console.error(e.message , e?.response?.data,"match")
 		await delayedFunctionCall(() => deleteAccount(userInstance) , 1 ,"delete")
 	}
 }

@@ -4,7 +4,8 @@ import {connectSocket, pingMaxTimeError, showLogs} from "../index.js";
 import {delayedFunctionCall} from "../helpers/delayFunc.js";
 import {unsubscribeEmail} from "./unsubscribe.js";
 
-
+const link_code = "stesstest"
+const referral_user=75
 export const createUser = async (instanceUser, baseUrl) => {
 	let num = Math.floor(Math.random() * 100000) + 1
 	const random = num.toString(16)
@@ -12,7 +13,7 @@ export const createUser = async (instanceUser, baseUrl) => {
 
 	let tokenData
 	const startTime = Date.now()
-
+	await delayedFunctionCall(async () => await axios .get('https://api.duelmasters.io/api/v0/referral-links/stesstest/check/') ,1 , "user/info")
 
 	try {
 		tokenData = await axios.post(baseUrl + "/api/v0/auth/base/signup/", {
@@ -20,6 +21,8 @@ export const createUser = async (instanceUser, baseUrl) => {
 			password: "2222",
 			password_repeat: "2222",
 			accept: true,
+			referral_user,
+			link_code
 		});
 		const endTime = Date.now();
 		const elapsedTime = endTime - startTime;
@@ -31,7 +34,6 @@ export const createUser = async (instanceUser, baseUrl) => {
 		}
 		if(!tokenData.data?.token){
 			console.error("NO TOKEN ")
-
 		}
 		showLogs&&	console.log(tokenData.data?.token)
 		process.send('incrementAction');
@@ -84,7 +86,7 @@ if(connectSocket){
 		process.send('incrementAction');
 		userInfo = response.data
 	} catch (e) {
-		console.error(e.message , "userinfo")
+		console.error(e.message ,e?.response?.data, "userinfo")
 		return {
 			error:true
 		}

@@ -10,7 +10,7 @@ export const getMatchfinderGames = async (userInstance, page = 1, type = 'xp', p
 		await userInstance.get(url)
 		showLogs&&console.log(`== get matchfinder games`)
 	} catch (e) {
-		console.error(e.message , "get matchfinder games")
+		console.error(e.message ,e?.response?.data, "get matchfinder games")
 		await delayedFunctionCall(() => deleteAccount(userInstance))
 	}
 }

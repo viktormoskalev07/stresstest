@@ -14,7 +14,7 @@ const testStartTime = new Date();
 if (cluster.isMaster) {
     showLogs&&  console.log(`Master ${process.pid} is running`);
     !showLogs&& console.error("mode only errors")
-    let workerCount =200;
+    let workerCount =5;
 
     for (let i = 0; i < workerCount; i++) {
         setTimeout(() => {
@@ -30,7 +30,6 @@ if (cluster.isMaster) {
                         duration:message.duration,
                         requestType:message.requestType
                     });
-                    console.log(message.duration)
                 }
                 if (message.type === 'errors') {
                     errorsCounter.push({message:message.err , date:new Date()});
@@ -45,7 +44,7 @@ if (cluster.isMaster) {
                     const recentRequests = requestsCounter.filter(requestDate => requestDate?.date >= twoSecondsAgo);
                     const numberOfRecentRequests = recentRequests.length;
                     const testTime = (new Date()- testStartTime  )/1000
-                    console.log(`Online users =${usersCounter}  actions=${requestsCounter.length}  , duration = ${testTime}s  rps = ${numberOfRecentRequests/2}`);
+                    console.log(`Online =${usersCounter}  actions=${requestsCounter.length}  , duration = ${testTime}s  rps = ${numberOfRecentRequests/2}`);
 
                 }
                 if (message === 'decrementUsers') {
