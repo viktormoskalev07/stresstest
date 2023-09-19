@@ -5,7 +5,7 @@ import {delayedFunctionCall} from "../helpers/delayFunc.js";
 import {unsubscribeEmail} from "./unsubscribe.js";
 
 const link_code = "stesstest"
-const referral_user=75
+const referral_user=2
 export const createUser = async (instanceUser, baseUrl) => {
 	let num = Math.floor(Math.random() * 100000) + 1
 	const random = num.toString(16)
