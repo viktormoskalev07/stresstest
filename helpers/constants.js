@@ -1,5 +1,5 @@
-// export const baseUrl = "https://duel-api.smart-ui.pro";
-export const baseUrl = "https://api.duelmasters.io";
+export const baseUrl = "https://duel-api.smart-ui.pro";
+// export const baseUrl = "https://api.duelmasters.io";
 // export const baseUrl = "https://database.duelmasters.io";
 // export const baseUrl = "https://digital.duelmasters.io";
 
