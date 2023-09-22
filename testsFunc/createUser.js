@@ -13,7 +13,7 @@ export const createUser = async (instanceUser, baseUrl) => {
 
 	let tokenData
 	const startTime = Date.now()
-	await delayedFunctionCall(async () => await axios .get('https://api.duelmasters.io/api/v0/referral-links/stesstest/check/') ,1 , "user/info")
+	await delayedFunctionCall(async () => await axios .get('https://api.duelmasters.io/api/v0/referral-links/stesstest/check/') ,1 , "checkReferral")
 
 	try {
 		tokenData = await axios.post(baseUrl + "/api/v0/auth/base/signup/", {

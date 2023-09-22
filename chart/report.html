@@ -31,6 +31,7 @@
       let shiftedDuration;
       window.colors = {
         delete: "#a6ffac",
+        checkReferral: "#28572b",
         deleteacc: "#8d5f42",
         "user/info":"#3eceb1",
         "userInfo":"#ff00fd",
@@ -92,11 +93,11 @@
           label: shiftedDuration.map((_, i) => i),
           data: shiftedDuration.map((item, i) => item.duration),
           colors: shiftedDuration.map((item, i) => {
-            allColors[item.requestType] = colors[item.requestType] || "d";
+            allColors[item.requestType] = colors[item.requestType] || "red";
             return colors[item.requestType] || "#d148e0";
           }),
         };
-        console.log(allColors);
+        console.log(ping);
         new Chart(ctx, {
           type: "bar",
           data: {
@@ -135,7 +136,7 @@
               {
                 label: "ping",
                 data: ping.data,
-                borderWidth: 0.0012,
+                borderWidth: 0.1,
                 backgroundColor: ping.colors,
               },
             ],

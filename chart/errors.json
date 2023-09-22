@@ -1,1 +1,1288 @@
-[]
+[
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        "invite to game"
+      ],
+      "user11": 49396,
+      "user22": 49361
+    },
+    "date": "2023-09-21T08:05:41.589Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Cannot read properties of undefined (reading 'id')",
+        null,
+        "accept game"
+      ],
+      "user11": 49396,
+      "user22": 49361
+    },
+    "date": "2023-09-21T08:05:41.591Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        "remove email"
+      ],
+      "user11": 49535,
+      "user22": 49512
+    },
+    "date": "2023-09-21T08:05:44.065Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        "set ready"
+      ],
+      "user11": 49252,
+      "user22": 49247
+    },
+    "date": "2023-09-21T08:05:45.982Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 400",
+        {
+          "detail": "This room has not been played"
+        },
+        "set verdict"
+      ],
+      "user11": 49252,
+      "user22": 49247
+    },
+    "date": "2023-09-21T08:05:45.984Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 400",
+        {
+          "detail": "This room has not been played"
+        },
+        "set verdict"
+      ],
+      "user11": 49252,
+      "user22": 49247
+    },
+    "date": "2023-09-21T08:05:45.986Z"
+  },
+  {
+    "message": {
+      "message": [
+        {
+          "user1BalanceFinish": "5.000",
+          "user1BalanceStart": "5.000",
+          "user2BalanceFinish": "5.000",
+          "user2BalanceStart": "5.000",
+          "BID": 2
+        }
+      ],
+      "user11": 49252,
+      "user22": 49247
+    },
+    "date": "2023-09-21T08:05:45.993Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        "get balance"
+      ],
+      "user11": 49311,
+      "user22": 49273
+    },
+    "date": "2023-09-21T08:05:46.321Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        "invite to game"
+      ],
+      "user11": 49018,
+      "user22": 49019
+    },
+    "date": "2023-09-21T08:05:47.503Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        "remove email"
+      ],
+      "user11": 49551,
+      "user22": 49552
+    },
+    "date": "2023-09-21T08:05:48.783Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "ERR_BAD_RESPONSE",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        500,
+        "get matchfinder games with filters"
+      ],
+      "user11": 49553,
+      "user22": 49564
+    },
+    "date": "2023-09-21T08:05:48.924Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "ERR_BAD_RESPONSE",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        500,
+        "get matchfinder games with filters"
+      ],
+      "user11": 49041,
+      "user22": 49045
+    },
+    "date": "2023-09-21T08:05:49.209Z"
+  },
+  {
+    "message": [
+      "Request failed with status code 500",
+      "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+      "userinfo"
+    ],
+    "date": "2023-09-21T08:05:49.966Z"
+  },
+  {
+    "message": {
+      "message": [
+        "error no user "
+      ],
+      "user11": 49631
+    },
+    "date": "2023-09-21T08:05:49.966Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "ERR_BAD_RESPONSE",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        500,
+        "get matchfinder games with filters"
+      ],
+      "user11": 49791,
+      "user22": 49713
+    },
+    "date": "2023-09-21T08:05:50.271Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "ERR_BAD_RESPONSE",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        500,
+        "get matchfinder games with filters"
+      ],
+      "user11": 49588,
+      "user22": 49583
+    },
+    "date": "2023-09-21T08:05:50.432Z"
+  },
+  {
+    "message": [
+      "Request failed with status code 500",
+      "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+      "userinfo"
+    ],
+    "date": "2023-09-21T08:05:50.768Z"
+  },
+  {
+    "message": {
+      "message": [
+        "error no user "
+      ],
+      "user22": 49749
+    },
+    "date": "2023-09-21T08:05:50.772Z"
+  },
+  {
+    "message": [
+      "Request failed with status code 500",
+      "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+      "userinfo"
+    ],
+    "date": "2023-09-21T08:05:50.827Z"
+  },
+  {
+    "message": {
+      "message": [
+        "error no user "
+      ],
+      "user11": 49658
+    },
+    "date": "2023-09-21T08:05:50.827Z"
+  },
+  {
+    "message": [
+      {
+        "message": "Request failed with status code 500",
+        "name": "AxiosError",
+        "stack": "AxiosError: Request failed with status code 500\n    at settle (file:///F:/stresstest/node_modules/axios/lib/core/settle.js:19:12)\n    at IncomingMessage.handleStreamEnd (file:///F:/stresstest/node_modules/axios/lib/adapters/http.js:570:11)\n    at IncomingMessage.emit (node:events:526:35)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+        "config": {
+          "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+          },
+          "adapter": [
+            "xhr",
+            "http"
+          ],
+          "transformRequest": [
+            null
+          ],
+          "transformResponse": [
+            null
+          ],
+          "timeout": 0,
+          "xsrfCookieName": "XSRF-TOKEN",
+          "xsrfHeaderName": "X-XSRF-TOKEN",
+          "maxContentLength": -1,
+          "maxBodyLength": -1,
+          "env": {},
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/json",
+            "User-Agent": "axios/1.4.0",
+            "Content-Length": "148",
+            "Accept-Encoding": "gzip, compress, deflate, br"
+          },
+          "method": "post",
+          "url": "https://api.duelmasters.io/api/v0/auth/base/signup/",
+          "data": "{\"email\":\"ttestUser8bc21695283528051lul@kek.mek\",\"password\":\"2222\",\"password_repeat\":\"2222\",\"accept\":true,\"referral_user\":2,\"link_code\":\"stesstest\"}"
+        },
+        "code": "ERR_BAD_RESPONSE",
+        "status": 500
+      },
+      "sign"
+    ],
+    "date": "2023-09-21T08:05:51.369Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "ERR_BAD_RESPONSE",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        500,
+        "get matchfinder games with filters"
+      ],
+      "user11": 49632,
+      "user22": 49628
+    },
+    "date": "2023-09-21T08:05:51.904Z"
+  },
+  {
+    "message": [
+      "Request failed with status code 500",
+      "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+      "userinfo"
+    ],
+    "date": "2023-09-21T08:05:52.073Z"
+  },
+  {
+    "message": {
+      "message": [
+        "error no user "
+      ],
+      "user22": 49762
+    },
+    "date": "2023-09-21T08:05:52.079Z"
+  },
+  {
+    "message": [
+      "Request failed with status code 500",
+      "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+      "userinfo"
+    ],
+    "date": "2023-09-21T08:05:52.100Z"
+  },
+  {
+    "message": {
+      "message": [
+        "error no user "
+      ],
+      "user11": 49646
+    },
+    "date": "2023-09-21T08:05:52.100Z"
+  },
+  {
+    "message": [
+      "Request failed with status code 500",
+      "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+      "userinfo"
+    ],
+    "date": "2023-09-21T08:05:52.475Z"
+  },
+  {
+    "message": {
+      "message": [
+        "error no user "
+      ],
+      "user11": 49727
+    },
+    "date": "2023-09-21T08:05:52.479Z"
+  },
+  {
+    "message": [
+      "web socket error: ",
+      null
+    ],
+    "date": "2023-09-21T08:05:52.610Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "ERR_BAD_RESPONSE",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        500,
+        "get matchfinder games with filters"
+      ],
+      "user11": 49721,
+      "user22": 49897
+    },
+    "date": "2023-09-21T08:05:52.764Z"
+  },
+  {
+    "message": [
+      "Request failed with status code 500",
+      "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+      "userinfo"
+    ],
+    "date": "2023-09-21T08:05:52.942Z"
+  },
+  {
+    "message": {
+      "message": [
+        "error no user "
+      ],
+      "user22": 49719
+    },
+    "date": "2023-09-21T08:05:52.942Z"
+  },
+  {
+    "message": [
+      "Request failed with status code 500",
+      "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+      "userinfo"
+    ],
+    "date": "2023-09-21T08:05:52.962Z"
+  },
+  {
+    "message": {
+      "message": [
+        "error no user "
+      ],
+      "user22": 49672
+    },
+    "date": "2023-09-21T08:05:52.962Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "ERR_BAD_RESPONSE",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        500,
+        "get matchfinder games with filters"
+      ],
+      "user11": 49649,
+      "user22": 49643
+    },
+    "date": "2023-09-21T08:05:53.356Z"
+  },
+  {
+    "message": [
+      "web socket error: ",
+      null
+    ],
+    "date": "2023-09-21T08:05:53.439Z"
+  },
+  {
+    "message": [
+      "Request failed with status code 500",
+      "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+      "userinfo"
+    ],
+    "date": "2023-09-21T08:05:53.822Z"
+  },
+  {
+    "message": {
+      "message": [
+        "error no user "
+      ],
+      "user11": 49659
+    },
+    "date": "2023-09-21T08:05:53.822Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        "remove email"
+      ],
+      "user11": 49700,
+      "user22": 49702
+    },
+    "date": "2023-09-21T08:05:53.856Z"
+  },
+  {
+    "message": [
+      "Request failed with status code 500",
+      "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+      "userinfo"
+    ],
+    "date": "2023-09-21T08:05:54.811Z"
+  },
+  {
+    "message": {
+      "message": [
+        "error no user "
+      ],
+      "user11": 49925
+    },
+    "date": "2023-09-21T08:05:54.820Z"
+  },
+  {
+    "message": [
+      {
+        "message": "Request failed with status code 500",
+        "name": "AxiosError",
+        "stack": "AxiosError: Request failed with status code 500\n    at settle (file:///F:/stresstest/node_modules/axios/lib/core/settle.js:19:12)\n    at IncomingMessage.handleStreamEnd (file:///F:/stresstest/node_modules/axios/lib/adapters/http.js:570:11)\n    at IncomingMessage.emit (node:events:526:35)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+        "config": {
+          "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+          },
+          "adapter": [
+            "xhr",
+            "http"
+          ],
+          "transformRequest": [
+            null
+          ],
+          "transformResponse": [
+            null
+          ],
+          "timeout": 0,
+          "xsrfCookieName": "XSRF-TOKEN",
+          "xsrfHeaderName": "X-XSRF-TOKEN",
+          "maxContentLength": -1,
+          "maxBodyLength": -1,
+          "env": {},
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/json",
+            "User-Agent": "axios/1.4.0",
+            "Content-Length": "148",
+            "Accept-Encoding": "gzip, compress, deflate, br"
+          },
+          "method": "post",
+          "url": "https://api.duelmasters.io/api/v0/auth/base/signup/",
+          "data": "{\"email\":\"ttestUser895c1695283531371lul@kek.mek\",\"password\":\"2222\",\"password_repeat\":\"2222\",\"accept\":true,\"referral_user\":2,\"link_code\":\"stesstest\"}"
+        },
+        "code": "ERR_BAD_RESPONSE",
+        "status": 500
+      },
+      "sign"
+    ],
+    "date": "2023-09-21T08:05:54.955Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "ERR_BAD_RESPONSE",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        500,
+        "get matchfinder games with filters"
+      ],
+      "user11": 49709,
+      "user22": 49914
+    },
+    "date": "2023-09-21T08:05:55.025Z"
+  },
+  {
+    "message": [
+      {
+        "message": "Request failed with status code 500",
+        "name": "AxiosError",
+        "stack": "AxiosError: Request failed with status code 500\n    at settle (file:///F:/stresstest/node_modules/axios/lib/core/settle.js:19:12)\n    at IncomingMessage.handleStreamEnd (file:///F:/stresstest/node_modules/axios/lib/adapters/http.js:570:11)\n    at IncomingMessage.emit (node:events:526:35)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+        "config": {
+          "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+          },
+          "adapter": [
+            "xhr",
+            "http"
+          ],
+          "transformRequest": [
+            null
+          ],
+          "transformResponse": [
+            null
+          ],
+          "timeout": 0,
+          "xsrfCookieName": "XSRF-TOKEN",
+          "xsrfHeaderName": "X-XSRF-TOKEN",
+          "maxContentLength": -1,
+          "maxBodyLength": -1,
+          "env": {},
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/json",
+            "User-Agent": "axios/1.4.0",
+            "Content-Length": "148",
+            "Accept-Encoding": "gzip, compress, deflate, br"
+          },
+          "method": "post",
+          "url": "https://api.duelmasters.io/api/v0/auth/base/signup/",
+          "data": "{\"email\":\"ttestUserc4e11695283532012lul@kek.mek\",\"password\":\"2222\",\"password_repeat\":\"2222\",\"accept\":true,\"referral_user\":2,\"link_code\":\"stesstest\"}"
+        },
+        "code": "ERR_BAD_RESPONSE",
+        "status": 500
+      },
+      "sign"
+    ],
+    "date": "2023-09-21T08:05:55.237Z"
+  },
+  {
+    "message": [
+      "web socket error: ",
+      null
+    ],
+    "date": "2023-09-21T08:05:55.963Z"
+  },
+  {
+    "message": [
+      "web socket error: ",
+      null
+    ],
+    "date": "2023-09-21T08:05:55.963Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "ERR_BAD_RESPONSE",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        500,
+        "get matchfinder games with filters"
+      ],
+      "user11": 49827,
+      "user22": 49783
+    },
+    "date": "2023-09-21T08:05:56.190Z"
+  },
+  {
+    "message": [
+      "Request failed with status code 500",
+      "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+      "userinfo"
+    ],
+    "date": "2023-09-21T08:05:56.308Z"
+  },
+  {
+    "message": {
+      "message": [
+        "error no user "
+      ],
+      "user22": 49932
+    },
+    "date": "2023-09-21T08:05:56.331Z"
+  },
+  {
+    "message": [
+      {
+        "message": "Request failed with status code 500",
+        "name": "AxiosError",
+        "stack": "AxiosError: Request failed with status code 500\n    at settle (file:///F:/stresstest/node_modules/axios/lib/core/settle.js:19:12)\n    at IncomingMessage.handleStreamEnd (file:///F:/stresstest/node_modules/axios/lib/adapters/http.js:570:11)\n    at IncomingMessage.emit (node:events:526:35)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+        "config": {
+          "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+          },
+          "adapter": [
+            "xhr",
+            "http"
+          ],
+          "transformRequest": [
+            null
+          ],
+          "transformResponse": [
+            null
+          ],
+          "timeout": 0,
+          "xsrfCookieName": "XSRF-TOKEN",
+          "xsrfHeaderName": "X-XSRF-TOKEN",
+          "maxContentLength": -1,
+          "maxBodyLength": -1,
+          "env": {},
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/json",
+            "User-Agent": "axios/1.4.0",
+            "Content-Length": "148",
+            "Accept-Encoding": "gzip, compress, deflate, br"
+          },
+          "method": "post",
+          "url": "https://api.duelmasters.io/api/v0/auth/base/signup/",
+          "data": "{\"email\":\"ttestUsera9441695283533601lul@kek.mek\",\"password\":\"2222\",\"password_repeat\":\"2222\",\"accept\":true,\"referral_user\":2,\"link_code\":\"stesstest\"}"
+        },
+        "code": "ERR_BAD_RESPONSE",
+        "status": 500
+      },
+      "sign"
+    ],
+    "date": "2023-09-21T08:05:56.343Z"
+  },
+  {
+    "message": [
+      "Request failed with status code 500",
+      "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+      "userinfo"
+    ],
+    "date": "2023-09-21T08:05:56.401Z"
+  },
+  {
+    "message": {
+      "message": [
+        "error no user "
+      ],
+      "user11": 49746
+    },
+    "date": "2023-09-21T08:05:56.401Z"
+  },
+  {
+    "message": [
+      {
+        "message": "Request failed with status code 500",
+        "name": "AxiosError",
+        "stack": "AxiosError: Request failed with status code 500\n    at settle (file:///F:/stresstest/node_modules/axios/lib/core/settle.js:19:12)\n    at IncomingMessage.handleStreamEnd (file:///F:/stresstest/node_modules/axios/lib/adapters/http.js:570:11)\n    at IncomingMessage.emit (node:events:526:35)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+        "config": {
+          "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+          },
+          "adapter": [
+            "xhr",
+            "http"
+          ],
+          "transformRequest": [
+            null
+          ],
+          "transformResponse": [
+            null
+          ],
+          "timeout": 0,
+          "xsrfCookieName": "XSRF-TOKEN",
+          "xsrfHeaderName": "X-XSRF-TOKEN",
+          "maxContentLength": -1,
+          "maxBodyLength": -1,
+          "env": {},
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/json",
+            "User-Agent": "axios/1.4.0",
+            "Content-Length": "148",
+            "Accept-Encoding": "gzip, compress, deflate, br"
+          },
+          "method": "post",
+          "url": "https://api.duelmasters.io/api/v0/auth/base/signup/",
+          "data": "{\"email\":\"ttestUser520b1695283532665lul@kek.mek\",\"password\":\"2222\",\"password_repeat\":\"2222\",\"accept\":true,\"referral_user\":2,\"link_code\":\"stesstest\"}"
+        },
+        "code": "ERR_BAD_RESPONSE",
+        "status": 500
+      },
+      "sign"
+    ],
+    "date": "2023-09-21T08:05:59.168Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "ERR_BAD_RESPONSE",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        500,
+        "get matchfinder games with filters"
+      ],
+      "user11": 49919,
+      "user22": 49743
+    },
+    "date": "2023-09-21T08:05:59.561Z"
+  },
+  {
+    "message": [
+      "Request failed with status code 500",
+      "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+      "userinfo"
+    ],
+    "date": "2023-09-21T08:06:00.174Z"
+  },
+  {
+    "message": {
+      "message": [
+        "error no user "
+      ],
+      "user11": 49735
+    },
+    "date": "2023-09-21T08:06:00.211Z"
+  },
+  {
+    "message": [
+      "Request failed with status code 500",
+      "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+      "userinfo"
+    ],
+    "date": "2023-09-21T08:06:00.840Z"
+  },
+  {
+    "message": {
+      "message": [
+        "error no user "
+      ],
+      "user22": 49969
+    },
+    "date": "2023-09-21T08:06:00.850Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "ERR_BAD_RESPONSE",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        500,
+        "get matchfinder games with filters"
+      ],
+      "user11": 49891,
+      "user22": 49736
+    },
+    "date": "2023-09-21T08:06:00.909Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "ERR_BAD_RESPONSE",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        500,
+        "get matchfinder games with filters"
+      ],
+      "user11": 49129,
+      "user22": 49130
+    },
+    "date": "2023-09-21T08:06:03.990Z"
+  },
+  {
+    "message": {
+      "message": [
+        {
+          "message": "Request failed with status code 500",
+          "name": "AxiosError",
+          "stack": "AxiosError: Request failed with status code 500\n    at settle (file:///F:/stresstest/node_modules/axios/lib/core/settle.js:19:12)\n    at IncomingMessage.handleStreamEnd (file:///F:/stresstest/node_modules/axios/lib/adapters/http.js:570:11)\n    at IncomingMessage.emit (node:events:526:35)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+          "config": {
+            "transitional": {
+              "silentJSONParsing": true,
+              "forcedJSONParsing": true,
+              "clarifyTimeoutError": false
+            },
+            "adapter": [
+              "xhr",
+              "http"
+            ],
+            "transformRequest": [
+              null
+            ],
+            "transformResponse": [
+              null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {},
+            "headers": {
+              "Accept": "application/json",
+              "Content-Type": "application/json",
+              "Authorization": "Token 88773ee983ef5f09c69b23c96b6b1e79cecdedbe",
+              "User-Agent": "axios/1.4.0",
+              "Content-Length": "56",
+              "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "baseURL": "https://api.duelmasters.io/api/v0",
+            "method": "patch",
+            "url": "/user/set-ready-to-play/cash/",
+            "data": "{\"games\":[{\"game\":\"csgo\",\"bid\":1}],\"ready_to_play\":true}"
+          },
+          "code": "ERR_BAD_RESPONSE",
+          "status": 500
+        },
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        "create game"
+      ],
+      "user11": 49363,
+      "user22": 49365
+    },
+    "date": "2023-09-21T08:06:05.542Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 404",
+        "\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <title>Not Found</title>\n</head>\n<body>\n  <h1>Not Found</h1><p>The requested resource was not found on this server.</p>\n</body>\n</html>\n",
+        "set room bid"
+      ],
+      "user11": 49396,
+      "user22": 49361
+    },
+    "date": "2023-09-21T08:06:14.012Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 404",
+        "\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <title>Not Found</title>\n</head>\n<body>\n  <h1>Not Found</h1><p>The requested resource was not found on this server.</p>\n</body>\n</html>\n",
+        "set room bid"
+      ],
+      "user11": 49396,
+      "user22": 49361
+    },
+    "date": "2023-09-21T08:06:14.016Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 404",
+        "\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <title>Not Found</title>\n</head>\n<body>\n  <h1>Not Found</h1><p>The requested resource was not found on this server.</p>\n</body>\n</html>\n",
+        "set ready"
+      ],
+      "user11": 49396,
+      "user22": 49361
+    },
+    "date": "2023-09-21T08:06:14.020Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 404",
+        "\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <title>Not Found</title>\n</head>\n<body>\n  <h1>Not Found</h1><p>The requested resource was not found on this server.</p>\n</body>\n</html>\n",
+        "set ready"
+      ],
+      "user11": 49396,
+      "user22": 49361
+    },
+    "date": "2023-09-21T08:06:14.025Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 404",
+        "\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <title>Not Found</title>\n</head>\n<body>\n  <h1>Not Found</h1><p>The requested resource was not found on this server.</p>\n</body>\n</html>\n",
+        "set verdict"
+      ],
+      "user11": 49396,
+      "user22": 49361
+    },
+    "date": "2023-09-21T08:06:14.029Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 404",
+        "\n<!doctype html>\n<html lang=\"en\">\n<head>\n  <title>Not Found</title>\n</head>\n<body>\n  <h1>Not Found</h1><p>The requested resource was not found on this server.</p>\n</body>\n</html>\n",
+        "set verdict"
+      ],
+      "user11": 49396,
+      "user22": 49361
+    },
+    "date": "2023-09-21T08:06:14.035Z"
+  },
+  {
+    "message": {
+      "message": [
+        {
+          "user1BalanceFinish": "5.000",
+          "user1BalanceStart": "5.000",
+          "user2BalanceFinish": "5.000",
+          "user2BalanceStart": "5.000",
+          "BID": 2
+        }
+      ],
+      "user11": 49396,
+      "user22": 49361
+    },
+    "date": "2023-09-21T08:06:14.054Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        "invite to game"
+      ],
+      "user11": 49001,
+      "user22": 49002
+    },
+    "date": "2023-09-21T08:06:20.262Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Cannot read properties of undefined (reading 'id')",
+        null,
+        "accept game"
+      ],
+      "user11": 49001,
+      "user22": 49002
+    },
+    "date": "2023-09-21T08:06:20.271Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 400",
+        {
+          "detail": "This room does not place a bet"
+        },
+        "set room bid"
+      ],
+      "user11": 49001,
+      "user22": 49002
+    },
+    "date": "2023-09-21T08:06:20.278Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 400",
+        {
+          "detail": "This room does not place a bet"
+        },
+        "set room bid"
+      ],
+      "user11": 49001,
+      "user22": 49002
+    },
+    "date": "2023-09-21T08:06:20.282Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 400",
+        {
+          "detail": "This room does not place a bet"
+        },
+        "set ready"
+      ],
+      "user11": 49001,
+      "user22": 49002
+    },
+    "date": "2023-09-21T08:06:20.290Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 400",
+        {
+          "detail": "This room does not place a bet"
+        },
+        "set ready"
+      ],
+      "user11": 49001,
+      "user22": 49002
+    },
+    "date": "2023-09-21T08:06:20.298Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 400",
+        {
+          "detail": "This room has not been played"
+        },
+        "set verdict"
+      ],
+      "user11": 49001,
+      "user22": 49002
+    },
+    "date": "2023-09-21T08:06:20.306Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 400",
+        {
+          "detail": "This room has not been played"
+        },
+        "set verdict"
+      ],
+      "user11": 49001,
+      "user22": 49002
+    },
+    "date": "2023-09-21T08:06:20.312Z"
+  },
+  {
+    "message": {
+      "message": [
+        {
+          "user1BalanceFinish": "3.000",
+          "user1BalanceStart": "3.000",
+          "user2BalanceFinish": "6.800",
+          "user2BalanceStart": "6.800",
+          "BID": 2
+        }
+      ],
+      "user11": 49001,
+      "user22": 49002
+    },
+    "date": "2023-09-21T08:06:20.333Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 400",
+        {
+          "detail": "User is currently busy"
+        },
+        "invite to game"
+      ],
+      "user11": 49252,
+      "user22": 49247
+    },
+    "date": "2023-09-21T08:06:26.627Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Cannot read properties of undefined (reading 'id')",
+        null,
+        "accept game"
+      ],
+      "user11": 49252,
+      "user22": 49247
+    },
+    "date": "2023-09-21T08:06:26.634Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Cannot read properties of undefined (reading 'id')",
+        null,
+        "accept game"
+      ],
+      "user11": 49018,
+      "user22": 49019
+    },
+    "date": "2023-09-21T08:06:32.272Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 400",
+        {
+          "detail": "This room does not place a bet"
+        },
+        "set room bid"
+      ],
+      "user11": 49018,
+      "user22": 49019
+    },
+    "date": "2023-09-21T08:06:32.279Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 400",
+        {
+          "detail": "This room does not place a bet"
+        },
+        "set room bid"
+      ],
+      "user11": 49018,
+      "user22": 49019
+    },
+    "date": "2023-09-21T08:06:32.285Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 400",
+        {
+          "detail": "This room does not place a bet"
+        },
+        "set ready"
+      ],
+      "user11": 49018,
+      "user22": 49019
+    },
+    "date": "2023-09-21T08:06:32.289Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 400",
+        {
+          "detail": "This room does not place a bet"
+        },
+        "set ready"
+      ],
+      "user11": 49018,
+      "user22": 49019
+    },
+    "date": "2023-09-21T08:06:32.294Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 400",
+        {
+          "detail": "This room has not been played"
+        },
+        "set verdict"
+      ],
+      "user11": 49018,
+      "user22": 49019
+    },
+    "date": "2023-09-21T08:06:32.300Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 400",
+        {
+          "detail": "This room has not been played"
+        },
+        "set verdict"
+      ],
+      "user11": 49018,
+      "user22": 49019
+    },
+    "date": "2023-09-21T08:06:32.307Z"
+  },
+  {
+    "message": {
+      "message": [
+        {
+          "user1BalanceFinish": "3.000",
+          "user1BalanceStart": "3.000",
+          "user2BalanceFinish": "6.800",
+          "user2BalanceStart": "6.800",
+          "BID": 2
+        }
+      ],
+      "user11": 49018,
+      "user22": 49019
+    },
+    "date": "2023-09-21T08:06:32.323Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "ERR_BAD_RESPONSE",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        500,
+        "get matchfinder games with filters"
+      ],
+      "user11": 49132,
+      "user22": 49137
+    },
+    "date": "2023-09-21T08:06:35.322Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 500",
+        "<html>\r\n<head><title>500 Internal Server Error</title></head>\r\n<body>\r\n<center><h1>500 Internal Server Error</h1></center>\r\n<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n</body>\r\n</html>\r\n",
+        "remove email"
+      ],
+      "user11": 49575,
+      "user22": 49580
+    },
+    "date": "2023-09-21T08:06:49.546Z"
+  },
+  {
+    "message": {
+      "message": [
+        {
+          "message": "read ECONNRESET",
+          "name": "Error",
+          "stack": "Error: read ECONNRESET\n    at AxiosError.from (file:///F:/stresstest/node_modules/axios/lib/core/AxiosError.js:89:14)\n    at RedirectableRequest.handleRequestError (file:///F:/stresstest/node_modules/axios/lib/adapters/http.js:591:25)\n    at RedirectableRequest.emit (node:events:514:28)\n    at eventHandlers.<computed> (F:\\stresstest\\node_modules\\follow-redirects\\index.js:14:24)\n    at ClientRequest.emit (node:events:514:28)\n    at TLSSocket.socketErrorListener (node:_http_client:501:9)\n    at TLSSocket.emit (node:events:514:28)\n    at emitErrorNT (node:internal/streams/destroy:151:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:116:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)",
+          "config": {
+            "transitional": {
+              "silentJSONParsing": true,
+              "forcedJSONParsing": true,
+              "clarifyTimeoutError": false
+            },
+            "adapter": [
+              "xhr",
+              "http"
+            ],
+            "transformRequest": [
+              null
+            ],
+            "transformResponse": [
+              null
+            ],
+            "timeout": 0,
+            "xsrfCookieName": "XSRF-TOKEN",
+            "xsrfHeaderName": "X-XSRF-TOKEN",
+            "maxContentLength": -1,
+            "maxBodyLength": -1,
+            "env": {},
+            "headers": {
+              "Accept": "application/json",
+              "Content-Type": "application/json",
+              "Authorization": "Token 1a38c9a69669bd3292b75d88877ccfba19af5816",
+              "User-Agent": "axios/1.4.0",
+              "Content-Length": "56",
+              "Accept-Encoding": "gzip, compress, deflate, br"
+            },
+            "baseURL": "https://api.duelmasters.io/api/v0",
+            "method": "patch",
+            "url": "/user/set-ready-to-play/cash/",
+            "data": "{\"games\":[{\"game\":\"csgo\",\"bid\":1}],\"ready_to_play\":true}"
+          },
+          "code": "ECONNRESET",
+          "status": null
+        },
+        null,
+        "create game"
+      ],
+      "user11": 49264,
+      "user22": 49263
+    },
+    "date": "2023-09-21T08:08:37.594Z"
+  }
+]
