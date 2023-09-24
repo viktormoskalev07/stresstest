@@ -17,18 +17,13 @@ import { performDataRequests } from "./performDataRequests/performDataRequests.j
 
 
 export const showLogs = true
+const changeUserName = true
 const performData = true
 const playGames = true
 export const getGames = true
 const sendMessages = true
 export const connectSocket = true
 export const pingMaxTimeError = 1500
-
-const randomUserName = () => {
-  let num = Math.floor(Math.random() * 100000) + 1
-  const random = num.toString(16)
-  return "ttestUser" + random + new Date().getTime() + "lul@kek.mek"
-}
 
 
 const createAxiosInstance = (baseURL) => {
@@ -69,9 +64,9 @@ export const app = async (id) => {
     return
   }
 
-  // after register
-  await delayedFunctionCall(async () => await changeUsername(instanceUser1, randomUserName()), 1, "changeUserName")
-  await delayedFunctionCall(async () => await changeUsername(instanceUser2, randomUserName()), 1, "changeUserName")
+  //change userName (only after register)
+  changeUserName && await delayedFunctionCall(async () => await changeUsername(instanceUser1), 1, "changeUserName")
+  await delayedFunctionCall(async () => await changeUsername(instanceUser2), 1, "changeUserName")
 
   //home page
   performData && performDataRequests(instanceUser1, instanceUser2)
@@ -104,9 +99,6 @@ export const app = async (id) => {
   await delayedFunctionCall(async () => await instanceUser2("/transactions/check-withdrawal-availability"), 1, "checkWithdrawAvailability")
   performData && performDataRequests(instanceUser1, instanceUser2)
 
-  await delayedFunctionCall(async () => await instanceUser1.post("/user/reset-stats/"), 1, "resetStats")
-  await delayedFunctionCall(async () => await instanceUser2.post("/user/reset-stats/"), 1, "resetStats")
-  performData && performDataRequests(instanceUser1, instanceUser2)
 
   //settings
   await delayedFunctionCall(async () => await instanceUser1("/user/settings/"), 1, "userSettings")
@@ -149,7 +141,12 @@ export const app = async (id) => {
 
   getGames && await getGamesWithFilters(instanceUser2)
   getGames && await getGamesWithFilters(instanceUser1)
-  
+
+  //reset stats
+  await delayedFunctionCall(async () => await instanceUser1.post("/user/reset-stats/"), 1, "resetStats")
+  await delayedFunctionCall(async () => await instanceUser2.post("/user/reset-stats/"), 1, "resetStats")
+  performData && performDataRequests(instanceUser1, instanceUser2)
+
   // delete account
   await delayedFunctionCall(() => deleteAccount(instanceUser1, user1.token), 100, "deleteacc")
 

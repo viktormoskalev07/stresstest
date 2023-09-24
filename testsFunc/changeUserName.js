@@ -1,9 +1,9 @@
 import {showLogs} from "../index.js";
 
-export const changeUsername = async (instanceUser, newUsername) => {
+export const changeUsername = async (instanceUser) => {
     try {
       const changeUserResponse = await instanceUser.post("/user/change-username/", {
-        username: newUsername,
+        username: randomEmail(),
       });
       
       showLogs&& console.log(changeUserResponse.data ,`/user/change-username/` )
@@ -12,5 +12,3 @@ export const changeUsername = async (instanceUser, newUsername) => {
         console.error(e.message , e?.response?.data,"change-username")
     }
   };
-
-  
