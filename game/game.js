@@ -222,14 +222,14 @@ export const playGame = async (instanceUser1, instanceUser2, user1, user2, saveT
 	const user1Replenishment = _user1BalanceAfterReplenishment?.cash - user1BalanceStart
 
 	//second user decided to deposit funds , he choose the crypto
-	
+
 	const replenishmentUser1Response = await delayedFunctionCall(() => instanceUser2(`/transactions/replenishment-requests/`) , timeout, "replenishmentInfo")
 	showLogs && console.log(replenishmentUser1Response.data, 'transactions card replenishment requests')
 
 	const minReplenishmentResponse = await delayedFunctionCall(() => instanceUser2(`/transactions/min-replenishment/`), timeout, "minReplenishment")
 	showLogs && console.log(minReplenishmentResponse.data, 'transactions card min replenishment requests')
 
-	await delayedFunctionCall(() => transactionsCrypto(instanceUser2), timeout, "transactionsCrypto")
+	// await delayedFunctionCall(() => transactionsCrypto(instanceUser2), timeout, "transactionsCrypto")
 	const _user2BalanceAfterReplenishment = await delayedFunctionCall(async () => await getBalance(instanceUser2, setInitialBalance), 1, "getBalance")
 	const user2Replenishment = _user2BalanceAfterReplenishment?.cash - user2BalanceStart
 
@@ -245,7 +245,7 @@ export const playGame = async (instanceUser1, instanceUser2, user1, user2, saveT
 	// second user ready
 	await delayedFunctionCall(() => setReady(instanceUser2), timeout, "setReady")
 
-	// add players user names 
+	// add players user names
 	await delayedFunctionCall(() => getRoom(instanceUser1), timeout, "getRoom")
 
 	await delayedFunctionCall(() => setPlayersUserName(instanceUser1), timeout, "setPlayersUserName")

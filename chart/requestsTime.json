@@ -1,817 +1,7847 @@
 [
   {
-    "date": "2023-09-24T20:32:56.060Z",
+    "date": "2023-10-02T14:22:13.335Z",
+    "duration": 164,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.360Z",
+    "duration": 267,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.418Z",
+    "duration": 182,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.436Z",
+    "duration": 282,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.453Z",
+    "duration": 237,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.501Z",
+    "duration": 197,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.512Z",
+    "duration": 231,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.552Z",
+    "duration": 185,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.574Z",
+    "duration": 152,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.594Z",
+    "duration": 502,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:13.618Z",
+    "duration": 524,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:13.660Z",
+    "duration": 315,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.664Z",
+    "duration": 511,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:13.670Z",
+    "duration": 270,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.675Z",
+    "duration": 215,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.684Z",
+    "duration": 202,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.690Z",
+    "duration": 161,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.702Z",
+    "duration": 489,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:13.711Z",
+    "duration": 557,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:13.725Z",
+    "duration": 163,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.739Z",
+    "duration": 244,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.766Z",
+    "duration": 213,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.771Z",
+    "duration": 556,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:13.781Z",
+    "duration": 161,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.798Z",
+    "duration": 454,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:13.799Z",
+    "duration": 519,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:13.809Z",
+    "duration": 154,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.815Z",
+    "duration": 534,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:13.823Z",
+    "duration": 228,
+    "requestType": "checkReferral"
+  },
+  {
+    "date": "2023-10-02T14:22:13.934Z",
+    "duration": 482,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:13.935Z",
+    "duration": 314,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:13.936Z",
+    "duration": 538,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:13.944Z",
+    "duration": 544,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:13.951Z",
+    "duration": 607,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:13.951Z",
+    "duration": 352,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.001Z",
+    "duration": 507,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:14.007Z",
+    "duration": 455,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:14.019Z",
+    "duration": 347,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.022Z",
+    "duration": 310,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.026Z",
+    "duration": 319,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.026Z",
+    "duration": 445,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:14.039Z",
+    "duration": 585,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:14.047Z",
+    "duration": 554,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:14.065Z",
+    "duration": 512,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:14.088Z",
+    "duration": 507,
+    "requestType": "register"
+  },
+  {
+    "date": "2023-10-02T14:22:14.091Z",
+    "duration": 318,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.142Z",
+    "duration": 339,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.178Z",
+    "duration": 368,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.223Z",
+    "duration": 406,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.274Z",
+    "duration": 327,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.292Z",
+    "duration": 350,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.309Z",
+    "duration": 0,
+    "requestType": "changeUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:14.314Z",
+    "duration": 372,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.318Z",
+    "duration": 365,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.324Z",
+    "duration": 0,
+    "requestType": "changeUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:14.333Z",
+    "duration": 303,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.340Z",
+    "duration": 0,
+    "requestType": "changeUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:14.345Z",
+    "duration": 325,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.353Z",
+    "duration": 311,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.354Z",
+    "duration": 0,
+    "requestType": "changeUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:14.358Z",
+    "duration": 353,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.368Z",
+    "duration": 317,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.413Z",
+    "duration": 341,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.416Z",
+    "duration": 1,
+    "requestType": "changeUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:14.430Z",
+    "duration": 334,
+    "requestType": "user/info"
+  },
+  {
+    "date": "2023-10-02T14:22:14.432Z",
+    "duration": 0,
+    "requestType": "changeUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:14.504Z",
+    "duration": 163,
+    "requestType": "gamesCash"
+  },
+  {
+    "date": "2023-10-02T14:22:14.539Z",
+    "duration": 200,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:14.554Z",
+    "duration": 1,
+    "requestType": "changeUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:14.566Z",
+    "duration": 195,
+    "requestType": "gamesCash"
+  },
+  {
+    "date": "2023-10-02T14:22:14.569Z",
+    "duration": 0,
+    "requestType": "changeUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:14.575Z",
     "duration": 206,
-    "requestType": "user/info"
+    "requestType": "userInfo"
   },
   {
-    "date": "2023-09-24T20:32:56.112Z",
-    "duration": 271,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-24T20:32:56.185Z",
-    "duration": 346,
-    "requestType": "register"
-  },
-  {
-    "date": "2023-09-24T20:32:56.235Z",
-    "duration": 395,
-    "requestType": "register"
-  },
-  {
-    "date": "2023-09-24T20:32:56.362Z",
-    "duration": 173,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-24T20:32:56.412Z",
-    "duration": 175,
-    "requestType": "user/info"
-  },
-  {
-    "date": "2023-09-24T20:32:56.606Z",
+    "date": "2023-10-02T14:22:14.614Z",
     "duration": 0,
     "requestType": "changeUserName"
   },
   {
-    "date": "2023-09-24T20:32:56.608Z",
+    "date": "2023-10-02T14:22:14.619Z",
+    "duration": 170,
+    "requestType": "gamesCash"
+  },
+  {
+    "date": "2023-10-02T14:22:14.629Z",
     "duration": 0,
     "requestType": "changeUserName"
   },
   {
-    "date": "2023-09-24T20:32:56.734Z",
-    "duration": 123,
+    "date": "2023-10-02T14:22:14.629Z",
+    "duration": 1,
+    "requestType": "changeUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:14.645Z",
+    "duration": 0,
+    "requestType": "changeUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:14.653Z",
+    "duration": 207,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:14.675Z",
+    "duration": 0,
+    "requestType": "changeUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:14.691Z",
+    "duration": 0,
+    "requestType": "changeUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:14.706Z",
+    "duration": 1,
+    "requestType": "changeUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:14.707Z",
+    "duration": 200,
     "requestType": "gamesCash"
   },
   {
-    "date": "2023-09-24T20:32:56.751Z",
-    "duration": 142,
-    "requestType": "userInfo"
+    "date": "2023-10-02T14:22:14.721Z",
+    "duration": 0,
+    "requestType": "changeUserName"
   },
   {
-    "date": "2023-09-24T20:32:56.839Z",
-    "duration": 105,
+    "date": "2023-10-02T14:22:14.721Z",
+    "duration": 1,
+    "requestType": "changeUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:14.736Z",
+    "duration": 0,
+    "requestType": "changeUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:14.742Z",
+    "duration": 174,
     "requestType": "gamesCash"
   },
   {
-    "date": "2023-09-24T20:32:56.878Z",
-    "duration": 125,
+    "date": "2023-10-02T14:22:14.742Z",
+    "duration": 189,
     "requestType": "userInfo"
   },
   {
-    "date": "2023-09-24T20:32:56.922Z",
-    "duration": 81,
+    "date": "2023-10-02T14:22:14.751Z",
+    "duration": 163,
+    "requestType": "gamesCash"
+  },
+  {
+    "date": "2023-10-02T14:22:14.767Z",
+    "duration": 184,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:14.782Z",
+    "duration": 0,
+    "requestType": "changeUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:14.785Z",
+    "duration": 201,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:14.797Z",
+    "duration": 0,
+    "requestType": "changeUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:14.816Z",
+    "duration": 187,
+    "requestType": "gamesCash"
+  },
+  {
+    "date": "2023-10-02T14:22:14.827Z",
+    "duration": 179,
+    "requestType": "gamesCash"
+  },
+  {
+    "date": "2023-10-02T14:22:14.836Z",
+    "duration": 192,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:14.839Z",
+    "duration": 176,
+    "requestType": "gamesCash"
+  },
+  {
+    "date": "2023-10-02T14:22:14.846Z",
+    "duration": 190,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:14.850Z",
+    "duration": 189,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:14.870Z",
+    "duration": 149,
     "requestType": "myBalance"
   },
   {
-    "date": "2023-09-24T20:32:56.947Z",
-    "duration": 67,
+    "date": "2023-10-02T14:22:14.887Z",
+    "duration": 138,
     "requestType": "unreadChats"
   },
   {
-    "date": "2023-09-24T20:32:57.021Z",
-    "duration": 74,
-    "requestType": "unreadChats"
-  },
-  {
-    "date": "2023-09-24T20:32:57.031Z",
-    "duration": 109,
+    "date": "2023-10-02T14:22:14.894Z",
+    "duration": 143,
     "requestType": "myBalance"
   },
   {
-    "date": "2023-09-24T20:32:57.106Z",
-    "duration": 84,
-    "requestType": "roomsInvitations"
+    "date": "2023-10-02T14:22:14.897Z",
+    "duration": 188,
+    "requestType": "gamesCash"
   },
   {
-    "date": "2023-09-24T20:32:57.155Z",
-    "duration": 121,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-24T20:32:57.200Z",
-    "duration": 90,
-    "requestType": "roomsInvitations"
-  },
-  {
-    "date": "2023-09-24T20:32:57.412Z",
-    "duration": 378,
-    "requestType": "feedbacks"
-  },
-  {
-    "date": "2023-09-24T20:32:57.575Z",
-    "duration": 418,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-24T20:32:57.678Z",
-    "duration": 102,
-    "requestType": "unreadChats"
-  },
-  {
-    "date": "2023-09-24T20:32:57.688Z",
-    "duration": 275,
-    "requestType": "feedbacks"
-  },
-  {
-    "date": "2023-09-24T20:32:57.744Z",
-    "duration": 64,
-    "requestType": "unreadChats"
-  },
-  {
-    "date": "2023-09-24T20:32:57.788Z",
-    "duration": 98,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-24T20:32:57.789Z",
-    "duration": 98,
-    "requestType": "roomsHistory"
-  },
-  {
-    "date": "2023-09-24T20:32:57.819Z",
-    "duration": 75,
-    "requestType": "roomsInvitations"
-  },
-  {
-    "date": "2023-09-24T20:32:57.890Z",
-    "duration": 101,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-24T20:32:57.891Z",
-    "duration": 99,
-    "requestType": "roomsHistory"
-  },
-  {
-    "date": "2023-09-24T20:32:57.897Z",
-    "duration": 76,
-    "requestType": "roomsInvitations"
-  },
-  {
-    "date": "2023-09-24T20:32:58.012Z",
-    "duration": 118,
-    "requestType": "transactions"
-  },
-  {
-    "date": "2023-09-24T20:32:58.013Z",
-    "duration": 122,
-    "requestType": "unreadChats"
-  },
-  {
-    "date": "2023-09-24T20:32:58.046Z",
-    "duration": 153,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-24T20:32:58.091Z",
-    "duration": 77,
-    "requestType": "transactions"
-  },
-  {
-    "date": "2023-09-24T20:32:58.096Z",
-    "duration": 81,
-    "requestType": "unreadChats"
-  },
-  {
-    "date": "2023-09-24T20:32:58.144Z",
-    "duration": 97,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-24T20:32:58.180Z",
-    "duration": 84,
-    "requestType": "roomsInvitations"
-  },
-  {
-    "date": "2023-09-24T20:32:58.184Z",
-    "duration": 91,
-    "requestType": "withdrawalTransactions"
-  },
-  {
-    "date": "2023-09-24T20:32:58.207Z",
-    "duration": 116,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-24T20:32:58.215Z",
-    "duration": 69,
-    "requestType": "unreadChats"
-  },
-  {
-    "date": "2023-09-24T20:32:58.245Z",
-    "duration": 63,
-    "requestType": "roomsInvitations"
-  },
-  {
-    "date": "2023-09-24T20:32:58.249Z",
-    "duration": 63,
-    "requestType": "withdrawalTransactions"
-  },
-  {
-    "date": "2023-09-24T20:32:58.292Z",
-    "duration": 76,
-    "requestType": "unreadChats"
-  },
-  {
-    "date": "2023-09-24T20:32:58.297Z",
-    "duration": 88,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-24T20:32:58.331Z",
-    "duration": 81,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-24T20:32:58.374Z",
-    "duration": 82,
-    "requestType": "roomsInvitations"
-  },
-  {
-    "date": "2023-09-24T20:32:58.375Z",
-    "duration": 78,
-    "requestType": "unreadChats"
-  },
-  {
-    "date": "2023-09-24T20:32:58.380Z",
+    "date": "2023-10-02T14:22:14.897Z",
     "duration": 130,
-    "requestType": "checkWithdrawAvailability"
+    "requestType": "unreadChats"
   },
   {
-    "date": "2023-09-24T20:32:58.423Z",
-    "duration": 91,
+    "date": "2023-10-02T14:22:14.901Z",
+    "duration": 163,
+    "requestType": "gamesCash"
+  },
+  {
+    "date": "2023-10-02T14:22:14.908Z",
+    "duration": 203,
     "requestType": "userInfo"
   },
   {
-    "date": "2023-09-24T20:32:58.448Z",
-    "duration": 71,
+    "date": "2023-10-02T14:22:14.926Z",
+    "duration": 172,
+    "requestType": "gamesCash"
+  },
+  {
+    "date": "2023-10-02T14:22:14.934Z",
+    "duration": 168,
+    "requestType": "gamesCash"
+  },
+  {
+    "date": "2023-10-02T14:22:14.939Z",
+    "duration": 189,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:14.973Z",
+    "duration": 144,
+    "requestType": "myBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:14.981Z",
+    "duration": 187,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:14.984Z",
+    "duration": 249,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:14.985Z",
+    "duration": 170,
+    "requestType": "gamesCash"
+  },
+  {
+    "date": "2023-10-02T14:22:14.992Z",
+    "duration": 159,
+    "requestType": "gamesCash"
+  },
+  {
+    "date": "2023-10-02T14:22:15.001Z",
+    "duration": 189,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.012Z",
+    "duration": 157,
     "requestType": "unreadChats"
   },
   {
-    "date": "2023-09-24T20:32:58.453Z",
-    "duration": 78,
-    "requestType": "roomsInvitations"
+    "date": "2023-10-02T14:22:15.013Z",
+    "duration": 173,
+    "requestType": "gamesCash"
   },
   {
-    "date": "2023-09-24T20:32:58.491Z",
-    "duration": 67,
+    "date": "2023-10-02T14:22:15.024Z",
+    "duration": 151,
+    "requestType": "myBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:15.044Z",
+    "duration": 185,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.050Z",
+    "duration": 151,
     "requestType": "unreadChats"
   },
   {
-    "date": "2023-09-24T20:32:58.504Z",
-    "duration": 54,
+    "date": "2023-10-02T14:22:15.056Z",
+    "duration": 213,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.066Z",
+    "duration": 178,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.073Z",
+    "duration": 169,
+    "requestType": "gamesCash"
+  },
+  {
+    "date": "2023-10-02T14:22:15.085Z",
+    "duration": 188,
+    "requestType": "myBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:15.089Z",
+    "duration": 184,
+    "requestType": "gamesCash"
+  },
+  {
+    "date": "2023-10-02T14:22:15.094Z",
+    "duration": 185,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.099Z",
+    "duration": 149,
+    "requestType": "myBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:15.105Z",
+    "duration": 170,
+    "requestType": "gamesCash"
+  },
+  {
+    "date": "2023-10-02T14:22:15.131Z",
+    "duration": 136,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.132Z",
+    "duration": 182,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.137Z",
+    "duration": 157,
+    "requestType": "myBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:15.145Z",
+    "duration": 131,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.161Z",
+    "duration": 166,
+    "requestType": "gamesCash"
+  },
+  {
+    "date": "2023-10-02T14:22:15.165Z",
+    "duration": 169,
+    "requestType": "myBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:15.177Z",
+    "duration": 152,
+    "requestType": "myBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:15.188Z",
+    "duration": 193,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.193Z",
+    "duration": 183,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.196Z",
+    "duration": 142,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.204Z",
+    "duration": 178,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.207Z",
+    "duration": 136,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.216Z",
+    "duration": 160,
     "requestType": "roomsInvitations"
   },
   {
-    "date": "2023-09-24T20:32:58.521Z",
+    "date": "2023-10-02T14:22:15.216Z",
+    "duration": 144,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.235Z",
+    "duration": 149,
+    "requestType": "myBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:15.241Z",
+    "duration": 139,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.247Z",
+    "duration": 146,
+    "requestType": "myBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:15.249Z",
+    "duration": 148,
+    "requestType": "myBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:15.269Z",
+    "duration": 152,
+    "requestType": "myBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:15.279Z",
+    "duration": 193,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.283Z",
+    "duration": 138,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.284Z",
+    "duration": 152,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.288Z",
+    "duration": 261,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.288Z",
+    "duration": 138,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.306Z",
+    "duration": 143,
+    "requestType": "myBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:15.330Z",
+    "duration": 184,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.338Z",
+    "duration": 144,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.344Z",
+    "duration": 256,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.349Z",
+    "duration": 171,
+    "requestType": "myBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:15.350Z",
+    "duration": 172,
+    "requestType": "myBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:15.350Z",
+    "duration": 135,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.360Z",
+    "duration": 153,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.366Z",
+    "duration": 157,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.372Z",
+    "duration": 148,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.386Z",
+    "duration": 145,
+    "requestType": "myBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:15.392Z",
+    "duration": 148,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.398Z",
+    "duration": 173,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.405Z",
+    "duration": 197,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.408Z",
+    "duration": 260,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.412Z",
+    "duration": 157,
+    "requestType": "myBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:15.424Z",
+    "duration": 139,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.425Z",
+    "duration": 155,
+    "requestType": "myBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:15.431Z",
+    "duration": 146,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.437Z",
+    "duration": 181,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.437Z",
+    "duration": 148,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.472Z",
+    "duration": 156,
+    "requestType": "myBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:15.487Z",
+    "duration": 202,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.500Z",
+    "duration": 146,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.500Z",
+    "duration": 154,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.506Z",
+    "duration": 136,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.509Z",
+    "duration": 144,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.521Z",
+    "duration": 264,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.539Z",
+    "duration": 198,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.545Z",
+    "duration": 148,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.551Z",
+    "duration": 143,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.555Z",
+    "duration": 195,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.555Z",
+    "duration": 255,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.566Z",
+    "duration": 214,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.573Z",
+    "duration": 148,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.593Z",
+    "duration": 161,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.597Z",
+    "duration": 204,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.613Z",
+    "duration": 190,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.626Z",
+    "duration": 280,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.627Z",
+    "duration": 265,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.627Z",
+    "duration": 200,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.628Z",
+    "duration": 187,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.630Z",
+    "duration": 278,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.637Z",
+    "duration": 139,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.653Z",
+    "duration": 152,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.657Z",
+    "duration": 154,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.661Z",
+    "duration": 148,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.673Z",
+    "duration": 166,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.681Z",
+    "duration": 256,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.682Z",
+    "duration": 138,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.682Z",
+    "duration": 288,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.688Z",
+    "duration": 135,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.689Z",
+    "duration": 267,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.689Z",
+    "duration": 206,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.695Z",
+    "duration": 266,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.715Z",
+    "duration": 169,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.718Z",
+    "duration": 143,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.750Z",
+    "duration": 265,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.761Z",
+    "duration": 187,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.773Z",
+    "duration": 139,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.780Z",
+    "duration": 222,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.782Z",
+    "duration": 132,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.790Z",
+    "duration": 229,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:15.790Z",
+    "duration": 191,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.794Z",
+    "duration": 236,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.796Z",
+    "duration": 268,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.819Z",
+    "duration": 199,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.820Z",
+    "duration": 166,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.828Z",
+    "duration": 147,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.828Z",
+    "duration": 139,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.831Z",
+    "duration": 204,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.835Z",
+    "duration": 207,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.840Z",
+    "duration": 157,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.863Z",
+    "duration": 235,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:15.883Z",
+    "duration": 187,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.897Z",
+    "duration": 263,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.901Z",
+    "duration": 206,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.909Z",
+    "duration": 136,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.913Z",
+    "duration": 278,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.918Z",
+    "duration": 219,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:15.925Z",
+    "duration": 138,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.931Z",
+    "duration": 144,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.952Z",
+    "duration": 131,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.959Z",
+    "duration": 264,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.960Z",
+    "duration": 264,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.960Z",
+    "duration": 273,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:15.964Z",
+    "duration": 162,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.965Z",
+    "duration": 163,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:15.969Z",
+    "duration": 182,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:15.972Z",
+    "duration": 143,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:15.995Z",
+    "duration": 203,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:15.999Z",
+    "duration": 150,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.001Z",
+    "duration": 199,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.010Z",
+    "duration": 176,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.011Z",
+    "duration": 206,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:16.015Z",
+    "duration": 176,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.024Z",
+    "duration": 266,
+    "requestType": "feedbacks"
+  },
+  {
+    "date": "2023-10-02T14:22:16.047Z",
+    "duration": 137,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.060Z",
+    "duration": 165,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.074Z",
+    "duration": 141,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.079Z",
+    "duration": 152,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.081Z",
+    "duration": 203,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:16.091Z",
+    "duration": 188,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.095Z",
+    "duration": 196,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.095Z",
+    "duration": 142,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.098Z",
+    "duration": 133,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.105Z",
+    "duration": 132,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.110Z",
     "duration": 140,
-    "requestType": "checkWithdrawAvailability"
-  },
-  {
-    "date": "2023-09-24T20:32:58.551Z",
-    "duration": 58,
     "requestType": "unreadChats"
   },
   {
-    "date": "2023-09-24T20:32:58.588Z",
-    "duration": 63,
+    "date": "2023-10-02T14:22:16.115Z",
+    "duration": 213,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:16.126Z",
+    "duration": 200,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.142Z",
+    "duration": 216,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:16.147Z",
+    "duration": 144,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.147Z",
+    "duration": 182,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.155Z",
+    "duration": 138,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.158Z",
+    "duration": 190,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:16.160Z",
+    "duration": 144,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.162Z",
+    "duration": 234,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:16.168Z",
+    "duration": 195,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.172Z",
+    "duration": 169,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.182Z",
+    "duration": 208,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:16.183Z",
+    "duration": 211,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.186Z",
+    "duration": 184,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.189Z",
+    "duration": 215,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:16.193Z",
+    "duration": 145,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.200Z",
+    "duration": 138,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.202Z",
+    "duration": 201,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.215Z",
+    "duration": 183,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.218Z",
+    "duration": 206,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:16.232Z",
+    "duration": 139,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.233Z",
+    "duration": 148,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.234Z",
+    "duration": 142,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.244Z",
+    "duration": 144,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.250Z",
+    "duration": 211,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:16.251Z",
+    "duration": 141,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.251Z",
+    "duration": 141,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.274Z",
+    "duration": 162,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.295Z",
+    "duration": 197,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.301Z",
+    "duration": 219,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.306Z",
+    "duration": 153,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.309Z",
+    "duration": 141,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.317Z",
+    "duration": 161,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.323Z",
+    "duration": 175,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.328Z",
+    "duration": 205,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:16.341Z",
+    "duration": 198,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.346Z",
+    "duration": 152,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.361Z",
+    "duration": 163,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.362Z",
+    "duration": 151,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.363Z",
+    "duration": 224,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.374Z",
+    "duration": 191,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.378Z",
+    "duration": 219,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:16.380Z",
+    "duration": 225,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.388Z",
+    "duration": 219,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:16.389Z",
+    "duration": 167,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.389Z",
+    "duration": 144,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.401Z",
+    "duration": 156,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.401Z",
+    "duration": 214,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.402Z",
+    "duration": 211,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:16.405Z",
+    "duration": 190,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.405Z",
+    "duration": 160,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.417Z",
+    "duration": 168,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.448Z",
+    "duration": 265,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:16.461Z",
+    "duration": 232,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.461Z",
+    "duration": 164,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.463Z",
+    "duration": 173,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.463Z",
+    "duration": 209,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.463Z",
+    "duration": 244,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.476Z",
+    "duration": 165,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.481Z",
+    "duration": 151,
     "requestType": "userSettings"
   },
   {
-    "date": "2023-09-24T20:32:58.588Z",
-    "duration": 83,
+    "date": "2023-10-02T14:22:16.483Z",
+    "duration": 235,
+    "requestType": "roomsHistory"
+  },
+  {
+    "date": "2023-10-02T14:22:16.483Z",
+    "duration": 148,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.484Z",
+    "duration": 152,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.486Z",
+    "duration": 166,
     "requestType": "roomsInvitations"
   },
   {
-    "date": "2023-09-24T20:32:58.609Z",
-    "duration": 86,
+    "date": "2023-10-02T14:22:16.499Z",
+    "duration": 197,
     "requestType": "userInfo"
   },
   {
-    "date": "2023-09-24T20:32:58.614Z",
-    "duration": 63,
+    "date": "2023-10-02T14:22:16.502Z",
+    "duration": 140,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.507Z",
+    "duration": 137,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.524Z",
+    "duration": 204,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.530Z",
+    "duration": 166,
     "requestType": "roomsInvitations"
   },
   {
-    "date": "2023-09-24T20:32:58.671Z",
-    "duration": 82,
+    "date": "2023-10-02T14:22:16.532Z",
+    "duration": 203,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.540Z",
+    "duration": 157,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.542Z",
+    "duration": 218,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.544Z",
+    "duration": 157,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.552Z",
+    "duration": 169,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.556Z",
+    "duration": 229,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.567Z",
+    "duration": 154,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.570Z",
+    "duration": 177,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.571Z",
+    "duration": 166,
     "requestType": "userSettings"
   },
   {
-    "date": "2023-09-24T20:32:58.680Z",
-    "duration": 64,
-    "requestType": "roomsInvitations"
-  },
-  {
-    "date": "2023-09-24T20:32:58.712Z",
-    "duration": 101,
+    "date": "2023-10-02T14:22:16.575Z",
+    "duration": 223,
     "requestType": "userInfo"
   },
   {
-    "date": "2023-09-24T20:32:58.753Z",
-    "duration": 81,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-24T20:32:58.767Z",
-    "duration": 94,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-24T20:32:58.790Z",
-    "duration": 76,
+    "date": "2023-10-02T14:22:16.578Z",
+    "duration": 166,
     "requestType": "unreadChats"
   },
   {
-    "date": "2023-09-24T20:32:58.830Z",
-    "duration": 77,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-24T20:32:58.859Z",
-    "duration": 92,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-24T20:32:58.866Z",
-    "duration": 75,
-    "requestType": "unreadChats"
-  },
-  {
-    "date": "2023-09-24T20:32:58.915Z",
-    "duration": 83,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-24T20:32:58.968Z",
-    "duration": 100,
+    "date": "2023-10-02T14:22:16.580Z",
+    "duration": 167,
     "requestType": "roomsInvitations"
   },
   {
-    "date": "2023-09-24T20:32:58.973Z",
-    "duration": 113,
+    "date": "2023-10-02T14:22:16.580Z",
+    "duration": 189,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.581Z",
+    "duration": 167,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.600Z",
+    "duration": 220,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.603Z",
+    "duration": 151,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.604Z",
+    "duration": 215,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.604Z",
+    "duration": 206,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.619Z",
+    "duration": 219,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.620Z",
+    "duration": 218,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.621Z",
+    "duration": 147,
     "requestType": "unreadChats"
   },
   {
-    "date": "2023-09-24T20:32:58.997Z",
-    "duration": 82,
-    "requestType": "gameFilter"
+    "date": "2023-10-02T14:22:16.630Z",
+    "duration": 157,
+    "requestType": "unreadChats"
   },
   {
-    "date": "2023-09-24T20:32:59.036Z",
-    "duration": 67,
+    "date": "2023-10-02T14:22:16.633Z",
+    "duration": 154,
     "requestType": "roomsInvitations"
   },
   {
-    "date": "2023-09-24T20:32:59.049Z",
-    "duration": 74,
+    "date": "2023-10-02T14:22:16.634Z",
+    "duration": 149,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.637Z",
+    "duration": 163,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.637Z",
+    "duration": 143,
+    "requestType": "userSettings"
+  },
+  {
+    "date": "2023-10-02T14:22:16.643Z",
+    "duration": 140,
     "requestType": "unreadChats"
   },
   {
-    "date": "2023-09-24T20:32:59.065Z",
-    "duration": 66,
+    "date": "2023-10-02T14:22:16.645Z",
+    "duration": 156,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.648Z",
+    "duration": 237,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.651Z",
+    "duration": 144,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.652Z",
+    "duration": 148,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.655Z",
+    "duration": 206,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.667Z",
+    "duration": 179,
+    "requestType": "userSettings"
+  },
+  {
+    "date": "2023-10-02T14:22:16.678Z",
+    "duration": 214,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.685Z",
+    "duration": 203,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.691Z",
+    "duration": 146,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.696Z",
+    "duration": 207,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.715Z",
+    "duration": 164,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.719Z",
+    "duration": 193,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.720Z",
+    "duration": 167,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.725Z",
+    "duration": 145,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.726Z",
+    "duration": 235,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.732Z",
+    "duration": 149,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.736Z",
+    "duration": 151,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.739Z",
+    "duration": 158,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.739Z",
+    "duration": 194,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.741Z",
+    "duration": 254,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.741Z",
+    "duration": 146,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.744Z",
+    "duration": 163,
+    "requestType": "userSettings"
+  },
+  {
+    "date": "2023-10-02T14:22:16.745Z",
+    "duration": 157,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.757Z",
+    "duration": 136,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.760Z",
+    "duration": 225,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.778Z",
+    "duration": 132,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.780Z",
+    "duration": 170,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.784Z",
+    "duration": 191,
+    "requestType": "userSettings"
+  },
+  {
+    "date": "2023-10-02T14:22:16.788Z",
+    "duration": 146,
+    "requestType": "userSettings"
+  },
+  {
+    "date": "2023-10-02T14:22:16.789Z",
+    "duration": 148,
+    "requestType": "transactions"
+  },
+  {
+    "date": "2023-10-02T14:22:16.797Z",
+    "duration": 212,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.803Z",
+    "duration": 237,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.806Z",
+    "duration": 154,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.810Z",
+    "duration": 169,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.815Z",
+    "duration": 227,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.819Z",
+    "duration": 151,
+    "requestType": "userSettings"
+  },
+  {
+    "date": "2023-10-02T14:22:16.821Z",
+    "duration": 230,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.822Z",
+    "duration": 139,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.845Z",
+    "duration": 235,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.850Z",
+    "duration": 240,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.850Z",
+    "duration": 228,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.852Z",
+    "duration": 196,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.853Z",
+    "duration": 197,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.858Z",
+    "duration": 187,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.858Z",
+    "duration": 248,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.864Z",
+    "duration": 211,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.866Z",
+    "duration": 202,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.867Z",
+    "duration": 248,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.872Z",
+    "duration": 156,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.880Z",
+    "duration": 145,
+    "requestType": "userSettings"
+  },
+  {
+    "date": "2023-10-02T14:22:16.881Z",
+    "duration": 189,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.882Z",
+    "duration": 183,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.884Z",
+    "duration": 158,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.886Z",
+    "duration": 159,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.895Z",
+    "duration": 161,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.898Z",
+    "duration": 157,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.902Z",
+    "duration": 147,
+    "requestType": "userSettings"
+  },
+  {
+    "date": "2023-10-02T14:22:16.915Z",
+    "duration": 186,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.915Z",
+    "duration": 259,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.919Z",
+    "duration": 156,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.920Z",
+    "duration": 161,
+    "requestType": "userSettings"
+  },
+  {
+    "date": "2023-10-02T14:22:16.929Z",
+    "duration": 267,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.934Z",
+    "duration": 155,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.935Z",
+    "duration": 190,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:16.938Z",
+    "duration": 209,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.940Z",
+    "duration": 200,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.940Z",
+    "duration": 177,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.947Z",
+    "duration": 261,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.948Z",
+    "duration": 195,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.951Z",
+    "duration": 225,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.951Z",
+    "duration": 161,
+    "requestType": "userSettings"
+  },
+  {
+    "date": "2023-10-02T14:22:16.951Z",
+    "duration": 220,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.954Z",
+    "duration": 207,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.955Z",
+    "duration": 206,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.956Z",
+    "duration": 211,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.957Z",
+    "duration": 144,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.962Z",
+    "duration": 142,
+    "requestType": "userSettings"
+  },
+  {
+    "date": "2023-10-02T14:22:16.964Z",
+    "duration": 138,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.965Z",
+    "duration": 210,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.966Z",
+    "duration": 177,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:16.969Z",
+    "duration": 219,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.971Z",
+    "duration": 164,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:16.976Z",
+    "duration": 183,
+    "requestType": "userSettings"
+  },
+  {
+    "date": "2023-10-02T14:22:16.985Z",
+    "duration": 197,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.986Z",
+    "duration": 203,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.988Z",
+    "duration": 198,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.989Z",
+    "duration": 192,
+    "requestType": "userSettings"
+  },
+  {
+    "date": "2023-10-02T14:22:16.989Z",
+    "duration": 136,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:16.991Z",
+    "duration": 199,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.995Z",
+    "duration": 210,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:16.998Z",
+    "duration": 206,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.000Z",
+    "duration": 251,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.003Z",
+    "duration": 134,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.007Z",
+    "duration": 144,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.008Z",
+    "duration": 157,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.009Z",
+    "duration": 200,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.011Z",
+    "duration": 157,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.011Z",
+    "duration": 216,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.013Z",
+    "duration": 260,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.015Z",
+    "duration": 206,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.015Z",
+    "duration": 141,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.017Z",
+    "duration": 163,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.025Z",
+    "duration": 207,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.025Z",
+    "duration": 144,
+    "requestType": "userSettings"
+  },
+  {
+    "date": "2023-10-02T14:22:17.025Z",
+    "duration": 203,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.025Z",
+    "duration": 138,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.030Z",
+    "duration": 146,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.033Z",
+    "duration": 149,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.039Z",
+    "duration": 140,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.040Z",
+    "duration": 178,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.044Z",
+    "duration": 146,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.046Z",
+    "duration": 138,
+    "requestType": "userSettings"
+  },
+  {
+    "date": "2023-10-02T14:22:17.051Z",
+    "duration": 154,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.063Z",
+    "duration": 136,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.070Z",
+    "duration": 139,
+    "requestType": "userSettings"
+  },
+  {
+    "date": "2023-10-02T14:22:17.071Z",
+    "duration": 403,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.078Z",
+    "duration": 149,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.081Z",
+    "duration": 216,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.090Z",
+    "duration": 149,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.091Z",
+    "duration": 161,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.095Z",
+    "duration": 225,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.096Z",
+    "duration": 151,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.097Z",
+    "duration": 138,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.098Z",
+    "duration": 160,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.106Z",
+    "duration": 146,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.107Z",
+    "duration": 153,
+    "requestType": "userSettings"
+  },
+  {
+    "date": "2023-10-02T14:22:17.108Z",
+    "duration": 172,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.108Z",
+    "duration": 143,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.119Z",
+    "duration": 152,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.123Z",
+    "duration": 192,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.133Z",
+    "duration": 140,
+    "requestType": "userSettings"
+  },
+  {
+    "date": "2023-10-02T14:22:17.139Z",
+    "duration": 126,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.140Z",
+    "duration": 133,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.145Z",
+    "duration": 182,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.148Z",
+    "duration": 139,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.153Z",
+    "duration": 176,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.153Z",
+    "duration": 186,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.155Z",
+    "duration": 210,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.157Z",
+    "duration": 153,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.161Z",
+    "duration": 197,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.163Z",
+    "duration": 187,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.167Z",
+    "duration": 139,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.167Z",
+    "duration": 207,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.168Z",
+    "duration": 178,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.175Z",
+    "duration": 144,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.176Z",
+    "duration": 196,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.176Z",
+    "duration": 216,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.180Z",
+    "duration": 220,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.181Z",
+    "duration": 191,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.182Z",
+    "duration": 160,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.183Z",
+    "duration": 162,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.184Z",
+    "duration": 193,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.185Z",
+    "duration": 134,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.186Z",
+    "duration": 235,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.186Z",
+    "duration": 150,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.189Z",
+    "duration": 170,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.190Z",
+    "duration": 218,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.191Z",
+    "duration": 185,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.193Z",
+    "duration": 149,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.194Z",
+    "duration": 188,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.196Z",
+    "duration": 209,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.198Z",
+    "duration": 202,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.201Z",
+    "duration": 175,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.203Z",
+    "duration": 155,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.210Z",
+    "duration": 146,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.210Z",
+    "duration": 184,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.212Z",
+    "duration": 195,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.224Z",
+    "duration": 134,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.228Z",
+    "duration": 157,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.233Z",
+    "duration": 227,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.233Z",
+    "duration": 204,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.234Z",
+    "duration": 184,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.236Z",
+    "duration": 139,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.237Z",
+    "duration": 156,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.241Z",
+    "duration": 143,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.248Z",
+    "duration": 149,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.248Z",
+    "duration": 141,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.250Z",
+    "duration": 158,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.252Z",
+    "duration": 181,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.256Z",
+    "duration": 238,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.260Z",
+    "duration": 152,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.271Z",
+    "duration": 147,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.273Z",
+    "duration": 164,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.275Z",
+    "duration": 168,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.285Z",
+    "duration": 211,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.293Z",
+    "duration": 151,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.296Z",
+    "duration": 176,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.301Z",
+    "duration": 155,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.315Z",
+    "duration": 147,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.316Z",
+    "duration": 164,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.316Z",
+    "duration": 170,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.317Z",
+    "duration": 146,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.317Z",
+    "duration": 148,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.329Z",
+    "duration": 129,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.331Z",
+    "duration": 137,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.340Z",
+    "duration": 219,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.345Z",
+    "duration": 180,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.347Z",
+    "duration": 190,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.349Z",
+    "duration": 160,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.350Z",
+    "duration": 177,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.352Z",
+    "duration": 157,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.353Z",
+    "duration": 177,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.354Z",
+    "duration": 169,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.355Z",
+    "duration": 151,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.356Z",
+    "duration": 153,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.357Z",
+    "duration": 156,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.358Z",
+    "duration": 165,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.358Z",
+    "duration": 145,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.359Z",
+    "duration": 173,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.359Z",
+    "duration": 161,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.360Z",
+    "duration": 150,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.360Z",
+    "duration": 217,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.361Z",
+    "duration": 162,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.363Z",
+    "duration": 160,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.363Z",
+    "duration": 175,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.363Z",
+    "duration": 160,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.365Z",
+    "duration": 172,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.366Z",
+    "duration": 151,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.369Z",
+    "duration": 154,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.369Z",
+    "duration": 213,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.374Z",
+    "duration": 132,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.374Z",
+    "duration": 171,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.376Z",
+    "duration": 164,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.377Z",
+    "duration": 150,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.380Z",
+    "duration": 138,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.388Z",
+    "duration": 146,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.388Z",
+    "duration": 204,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.394Z",
+    "duration": 158,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.399Z",
+    "duration": 169,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.404Z",
+    "duration": 155,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.406Z",
+    "duration": 153,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.413Z",
+    "duration": 161,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.419Z",
+    "duration": 182,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.424Z",
+    "duration": 162,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.431Z",
+    "duration": 182,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.432Z",
+    "duration": 196,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.441Z",
+    "duration": 181,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.447Z",
+    "duration": 172,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.449Z",
+    "duration": 267,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.458Z",
+    "duration": 182,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.467Z",
+    "duration": 137,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.475Z",
+    "duration": 148,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.476Z",
+    "duration": 178,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.478Z",
+    "duration": 177,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.479Z",
+    "duration": 150,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.483Z",
+    "duration": 193,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.484Z",
+    "duration": 141,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.487Z",
+    "duration": 160,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.493Z",
+    "duration": 142,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.494Z",
+    "duration": 158,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.495Z",
+    "duration": 145,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.496Z",
+    "duration": 162,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.497Z",
+    "duration": 178,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.501Z",
+    "duration": 140,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.502Z",
+    "duration": 178,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.504Z",
+    "duration": 162,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.505Z",
+    "duration": 163,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.506Z",
+    "duration": 152,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.507Z",
+    "duration": 170,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.507Z",
+    "duration": 204,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.509Z",
+    "duration": 141,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.510Z",
+    "duration": 146,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.513Z",
+    "duration": 162,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.514Z",
+    "duration": 134,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.515Z",
+    "duration": 162,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.515Z",
+    "duration": 167,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.515Z",
+    "duration": 177,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.516Z",
+    "duration": 158,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.517Z",
+    "duration": 144,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.517Z",
+    "duration": 151,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.522Z",
+    "duration": 144,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.523Z",
+    "duration": 133,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.526Z",
+    "duration": 145,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.530Z",
+    "duration": 155,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.536Z",
+    "duration": 142,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.542Z",
+    "duration": 164,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.546Z",
+    "duration": 201,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.547Z",
+    "duration": 199,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.551Z",
+    "duration": 145,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.552Z",
+    "duration": 131,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.552Z",
+    "duration": 152,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.560Z",
+    "duration": 135,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.564Z",
+    "duration": 157,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.571Z",
+    "duration": 181,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.571Z",
+    "duration": 214,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.573Z",
+    "duration": 207,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.574Z",
+    "duration": 196,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.575Z",
+    "duration": 241,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:17.580Z",
+    "duration": 142,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.590Z",
+    "duration": 133,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.598Z",
+    "duration": 140,
     "requestType": "unsubscribeEmail"
   },
   {
-    "date": "2023-09-24T20:32:59.141Z",
-    "duration": 89,
+    "date": "2023-10-02T14:22:17.598Z",
+    "duration": 149,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.614Z",
+    "duration": 146,
     "requestType": "roomsInvitations"
   },
   {
-    "date": "2023-09-24T20:32:59.160Z",
-    "duration": 94,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-24T20:32:59.268Z",
-    "duration": 127,
+    "date": "2023-10-02T14:22:17.623Z",
+    "duration": 151,
     "requestType": "roomsInvitations"
   },
   {
-    "date": "2023-09-24T20:32:59.270Z",
-    "duration": 110,
+    "date": "2023-10-02T14:22:17.628Z",
+    "duration": 140,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.637Z",
+    "duration": 150,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.643Z",
+    "duration": 165,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.645Z",
+    "duration": 165,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.647Z",
+    "duration": 150,
     "requestType": "gameFilter"
   },
   {
-    "date": "2023-09-24T20:32:59.358Z",
-    "duration": 88,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-24T20:32:59.464Z",
-    "duration": 104,
+    "date": "2023-10-02T14:22:17.653Z",
+    "duration": 165,
     "requestType": "unsubscribeEmail"
   },
   {
-    "date": "2023-09-24T20:32:59.546Z",
-    "duration": 82,
+    "date": "2023-10-02T14:22:17.653Z",
+    "duration": 143,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.655Z",
+    "duration": 151,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.656Z",
+    "duration": 154,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.662Z",
+    "duration": 151,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.663Z",
+    "duration": 152,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.663Z",
+    "duration": 161,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.664Z",
+    "duration": 157,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.664Z",
+    "duration": 162,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.668Z",
+    "duration": 159,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.670Z",
+    "duration": 155,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.674Z",
+    "duration": 141,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.674Z",
+    "duration": 142,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.676Z",
+    "duration": 167,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.677Z",
+    "duration": 159,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.680Z",
+    "duration": 156,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.683Z",
+    "duration": 153,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.684Z",
+    "duration": 157,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.684Z",
+    "duration": 167,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.689Z",
+    "duration": 172,
     "requestType": "gameFilter"
   },
   {
-    "date": "2023-09-24T20:32:59.655Z",
-    "duration": 109,
+    "date": "2023-10-02T14:22:17.693Z",
+    "duration": 130,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.693Z",
+    "duration": 151,
     "requestType": "gameFilter"
   },
   {
-    "date": "2023-09-24T20:32:59.763Z",
-    "duration": 106,
+    "date": "2023-10-02T14:22:17.703Z",
+    "duration": 142,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.709Z",
+    "duration": 137,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.710Z",
+    "duration": 150,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-10-02T14:22:17.713Z",
+    "duration": 149,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.718Z",
+    "duration": 144,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.723Z",
+    "duration": 146,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.725Z",
+    "duration": 134,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.733Z",
+    "duration": 186,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.739Z",
+    "duration": 164,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.744Z",
+    "duration": 146,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.752Z",
+    "duration": 155,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.774Z",
+    "duration": 150,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.775Z",
+    "duration": 152,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.786Z",
+    "duration": 193,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.792Z",
+    "duration": 140,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-10-02T14:22:17.799Z",
+    "duration": 155,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.802Z",
+    "duration": 150,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.805Z",
+    "duration": 150,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.806Z",
+    "duration": 149,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.811Z",
+    "duration": 141,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.813Z",
+    "duration": 141,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.815Z",
+    "duration": 151,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.816Z",
+    "duration": 150,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.817Z",
+    "duration": 178,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.822Z",
+    "duration": 152,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.823Z",
+    "duration": 157,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.826Z",
+    "duration": 157,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.828Z",
+    "duration": 143,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.830Z",
+    "duration": 152,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.831Z",
+    "duration": 130,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-10-02T14:22:17.831Z",
+    "duration": 146,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.833Z",
+    "duration": 150,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.836Z",
+    "duration": 152,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.837Z",
+    "duration": 183,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.841Z",
+    "duration": 144,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.842Z",
+    "duration": 132,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.849Z",
+    "duration": 133,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-10-02T14:22:17.852Z",
+    "duration": 143,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.853Z",
+    "duration": 163,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.863Z",
+    "duration": 153,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.867Z",
+    "duration": 141,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.872Z",
+    "duration": 141,
+    "requestType": "unreadChats"
+  },
+  {
+    "date": "2023-10-02T14:22:17.875Z",
+    "duration": 135,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-10-02T14:22:17.895Z",
+    "duration": 154,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-10-02T14:22:17.895Z",
+    "duration": 149,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-10-02T14:22:17.925Z",
+    "duration": 173,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.937Z",
+    "duration": 145,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.949Z",
+    "duration": 158,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.960Z",
+    "duration": 157,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.983Z",
+    "duration": 146,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.984Z",
+    "duration": 161,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.984Z",
+    "duration": 147,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.995Z",
+    "duration": 144,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:17.997Z",
+    "duration": 166,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:17.998Z",
+    "duration": 148,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.000Z",
+    "duration": 147,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:18.014Z",
+    "duration": 146,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-10-02T14:22:18.019Z",
+    "duration": 146,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:18.026Z",
+    "duration": 162,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.039Z",
+    "duration": 164,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.049Z",
+    "duration": 167,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:18.052Z",
+    "duration": 157,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.055Z",
+    "duration": 160,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.091Z",
+    "duration": 165,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.118Z",
+    "duration": 169,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.133Z",
+    "duration": 150,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:18.134Z",
+    "duration": 173,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.144Z",
+    "duration": 140,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:18.149Z",
+    "duration": 150,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.152Z",
+    "duration": 154,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.163Z",
+    "duration": 143,
+    "requestType": "roomsInvitations"
+  },
+  {
+    "date": "2023-10-02T14:22:18.180Z",
+    "duration": 166,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.187Z",
+    "duration": 161,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.203Z",
+    "duration": 164,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.203Z",
+    "duration": 151,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.219Z",
+    "duration": 163,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.230Z",
+    "duration": 133,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-10-02T14:22:18.268Z",
+    "duration": 149,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.276Z",
+    "duration": 140,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-10-02T14:22:18.309Z",
+    "duration": 161,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.311Z",
+    "duration": 159,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.333Z",
+    "duration": 153,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.334Z",
+    "duration": 144,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-10-02T14:22:18.349Z",
+    "duration": 146,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.361Z",
+    "duration": 158,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.376Z",
+    "duration": 146,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.376Z",
+    "duration": 156,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.424Z",
+    "duration": 143,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-10-02T14:22:18.439Z",
+    "duration": 164,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.454Z",
+    "duration": 140,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-10-02T14:22:18.466Z",
+    "duration": 153,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-10-02T14:22:18.490Z",
+    "duration": 157,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.495Z",
+    "duration": 161,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.507Z",
+    "duration": 148,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-10-02T14:22:18.521Z",
+    "duration": 148,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-10-02T14:22:18.530Z",
+    "duration": 154,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.540Z",
+    "duration": 152,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-10-02T14:22:18.571Z",
+    "duration": 147,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.595Z",
+    "duration": 155,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.603Z",
+    "duration": 149,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.630Z",
+    "duration": 165,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.652Z",
+    "duration": 156,
+    "requestType": "unsubscribeEmail"
+  },
+  {
+    "date": "2023-10-02T14:22:18.670Z",
+    "duration": 175,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.674Z",
+    "duration": 167,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.680Z",
+    "duration": 159,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.702Z",
+    "duration": 162,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.706Z",
+    "duration": 166,
     "requestType": "getBalance"
   },
   {
-    "date": "2023-09-24T20:32:59.868Z",
-    "duration": 103,
+    "date": "2023-10-02T14:22:18.731Z",
+    "duration": 159,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.755Z",
+    "duration": 160,
     "requestType": "getBalance"
   },
   {
-    "date": "2023-09-24T20:33:00.162Z",
+    "date": "2023-10-02T14:22:18.758Z",
+    "duration": 155,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.787Z",
+    "duration": 157,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.810Z",
+    "duration": 159,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.838Z",
+    "duration": 156,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.843Z",
+    "duration": 168,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.849Z",
+    "duration": 170,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:18.855Z",
+    "duration": 145,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:18.874Z",
+    "duration": 171,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:18.885Z",
+    "duration": 144,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:18.899Z",
+    "duration": 143,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:18.926Z",
+    "duration": 155,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:18.952Z",
+    "duration": 151,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:18.965Z",
+    "duration": 154,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:19.000Z",
+    "duration": 151,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:19.008Z",
+    "duration": 159,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:19.011Z",
+    "duration": 147,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:19.022Z",
+    "duration": 147,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:19.073Z",
+    "duration": 178,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:19.086Z",
+    "duration": 144,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:19.107Z",
+    "duration": 150,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:19.127Z",
+    "duration": 154,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:19.167Z",
+    "duration": 162,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:19.177Z",
+    "duration": 158,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:19.178Z",
+    "duration": 314,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.180Z",
+    "duration": 146,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:19.204Z",
+    "duration": 294,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.289Z",
+    "duration": 146,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:19.304Z",
+    "duration": 284,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.363Z",
+    "duration": 282,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.367Z",
+    "duration": 280,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.413Z",
+    "duration": 301,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.471Z",
+    "duration": 282,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.478Z",
+    "duration": 303,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.479Z",
+    "duration": 289,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.491Z",
+    "duration": 301,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.521Z",
+    "duration": 301,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.591Z",
+    "duration": 292,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.591Z",
+    "duration": 277,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.634Z",
+    "duration": 153,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-10-02T14:22:19.651Z",
+    "duration": 276,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.671Z",
+    "duration": 296,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.687Z",
+    "duration": 158,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-10-02T14:22:19.701Z",
+    "duration": 281,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.742Z",
+    "duration": 150,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-10-02T14:22:19.773Z",
+    "duration": 292,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.803Z",
+    "duration": 322,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.823Z",
+    "duration": 170,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-10-02T14:22:19.824Z",
+    "duration": 326,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.841Z",
+    "duration": 156,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-10-02T14:22:19.866Z",
+    "duration": 152,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-10-02T14:22:19.901Z",
+    "duration": 309,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:19.964Z",
+    "duration": 190,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-10-02T14:22:19.969Z",
+    "duration": 332,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:19.982Z",
+    "duration": 158,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.007Z",
+    "duration": 201,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.030Z",
+    "duration": 343,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.099Z",
+    "duration": 185,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.118Z",
+    "duration": 372,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.157Z",
+    "duration": 320,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.165Z",
+    "duration": 313,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.188Z",
+    "duration": 305,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.323Z",
+    "duration": 315,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.373Z",
+    "duration": 408,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.383Z",
+    "duration": 400,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.413Z",
+    "duration": 301,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.440Z",
+    "duration": 466,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.499Z",
+    "duration": 468,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.614Z",
+    "duration": 441,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.620Z",
+    "duration": 173,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:20.622Z",
+    "duration": 494,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.638Z",
+    "duration": 465,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.649Z",
+    "duration": 460,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.650Z",
+    "duration": 150,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:20.775Z",
+    "duration": 160,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:20.778Z",
+    "duration": 454,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.779Z",
+    "duration": 148,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:20.804Z",
+    "duration": 153,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:20.805Z",
+    "duration": 160,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:20.818Z",
+    "duration": 159,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:20.839Z",
+    "duration": 215,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:20.850Z",
+    "duration": 476,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.873Z",
+    "duration": 459,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.881Z",
+    "duration": 497,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:20.926Z",
+    "duration": 144,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:20.944Z",
+    "duration": 131,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:20.948Z",
+    "duration": 165,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:20.974Z",
+    "duration": 168,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:20.983Z",
+    "duration": 164,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:20.987Z",
+    "duration": 208,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:20.988Z",
+    "duration": 148,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:21.007Z",
+    "duration": 155,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:21.037Z",
+    "duration": 148,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:21.048Z",
+    "duration": 159,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:21.065Z",
+    "duration": 132,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:21.103Z",
+    "duration": 153,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:21.105Z",
+    "duration": 155,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:21.121Z",
+    "duration": 139,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:21.130Z",
+    "duration": 149,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:21.144Z",
+    "duration": 148,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:21.149Z",
+    "duration": 153,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:21.165Z",
+    "duration": 154,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:21.185Z",
+    "duration": 147,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:21.203Z",
+    "duration": 154,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:21.218Z",
+    "duration": 145,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:21.251Z",
+    "duration": 132,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:21.282Z",
+    "duration": 131,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:21.284Z",
+    "duration": 166,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:21.286Z",
+    "duration": 152,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:21.286Z",
+    "duration": 136,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:21.319Z",
+    "duration": 138,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:21.335Z",
+    "duration": 138,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:21.356Z",
+    "duration": 143,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:21.410Z",
+    "duration": 150,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:21.434Z",
+    "duration": 205,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:21.436Z",
+    "duration": 146,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:21.437Z",
+    "duration": 147,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:21.442Z",
+    "duration": 151,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:21.491Z",
+    "duration": 200,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:21.573Z",
+    "duration": 439,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:21.584Z",
+    "duration": 146,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:21.618Z",
+    "duration": 205,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:21.638Z",
+    "duration": 194,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:21.645Z",
+    "duration": 201,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:21.650Z",
+    "duration": 205,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:21.697Z",
+    "duration": 190,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:21.731Z",
+    "duration": 156,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:21.786Z",
+    "duration": 451,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:21.788Z",
+    "duration": 190,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:21.805Z",
+    "duration": 439,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:21.822Z",
+    "duration": 471,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:21.847Z",
+    "duration": 187,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:21.862Z",
+    "duration": 240,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:21.876Z",
+    "duration": 236,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:21.878Z",
+    "duration": 218,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:21.892Z",
+    "duration": 187,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:21.945Z",
+    "duration": 146,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:21.960Z",
+    "duration": 146,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:21.983Z",
+    "duration": 154,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:21.991Z",
+    "duration": 193,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:22.067Z",
+    "duration": 187,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:22.069Z",
+    "duration": 191,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:22.071Z",
+    "duration": 197,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:22.140Z",
+    "duration": 187,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:22.153Z",
+    "duration": 293,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:22.177Z",
+    "duration": 209,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:22.186Z",
+    "duration": 188,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:22.191Z",
+    "duration": 193,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:22.192Z",
+    "duration": 299,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:22.340Z",
+    "duration": 268,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:22.385Z",
+    "duration": 234,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:22.398Z",
+    "duration": 203,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:22.427Z",
+    "duration": 246,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:22.432Z",
+    "duration": 356,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:22.446Z",
+    "duration": 293,
+    "requestType": "getRoom"
+  },
+  {
+    "date": "2023-10-02T14:22:22.446Z",
+    "duration": 371,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:22.487Z",
+    "duration": 291,
+    "requestType": "getRoom"
+  },
+  {
+    "date": "2023-10-02T14:22:22.527Z",
+    "duration": 332,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:22.583Z",
+    "duration": 184,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:22.583Z",
+    "duration": 186,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:22.613Z",
+    "duration": 185,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:22.638Z",
+    "duration": 297,
+    "requestType": "getRoom"
+  },
+  {
+    "date": "2023-10-02T14:22:22.639Z",
+    "duration": 181,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:22.667Z",
+    "duration": 178,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:22.745Z",
+    "duration": 297,
+    "requestType": "getRoom"
+  },
+  {
+    "date": "2023-10-02T14:22:22.752Z",
+    "duration": 307,
+    "requestType": "getRoom"
+  },
+  {
+    "date": "2023-10-02T14:22:22.814Z",
+    "duration": 278,
+    "requestType": "getRoom"
+  },
+  {
+    "date": "2023-10-02T14:22:22.822Z",
+    "duration": 178,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:22.849Z",
+    "duration": 181,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:22.879Z",
+    "duration": 235,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:22.884Z",
+    "duration": 287,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:22.906Z",
+    "duration": 321,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:22.946Z",
+    "duration": 1209,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:22.951Z",
+    "duration": 186,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:22.951Z",
+    "duration": 186,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:23.006Z",
+    "duration": 182,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:23.017Z",
+    "duration": 191,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:23.078Z",
+    "duration": 449,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:23.126Z",
+    "duration": 276,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:23.147Z",
+    "duration": 194,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:23.150Z",
+    "duration": 187,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:23.175Z",
+    "duration": 288,
+    "requestType": "getRoom"
+  },
+  {
+    "date": "2023-10-02T14:22:23.175Z",
+    "duration": 288,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:23.181Z",
+    "duration": 234,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:23.207Z",
+    "duration": 289,
+    "requestType": "getRoom"
+  },
+  {
+    "date": "2023-10-02T14:22:23.208Z",
+    "duration": 190,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:23.386Z",
+    "duration": 307,
+    "requestType": "getRoom"
+  },
+  {
+    "date": "2023-10-02T14:22:23.386Z",
+    "duration": 208,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:23.388Z",
+    "duration": 380,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:23.392Z",
+    "duration": 183,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:23.407Z",
+    "duration": 213,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:23.413Z",
+    "duration": 250,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:23.439Z",
+    "duration": 288,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:23.561Z",
+    "duration": 352,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:23.586Z",
+    "duration": 192,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:23.587Z",
+    "duration": 192,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:23.589Z",
+    "duration": 196,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:23.615Z",
+    "duration": 437,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:23.648Z",
+    "duration": 517,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:23.712Z",
+    "duration": 302,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:23.770Z",
+    "duration": 155,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:23.778Z",
+    "duration": 185,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:23.812Z",
+    "duration": 398,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:23.830Z",
+    "duration": 181,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:23.845Z",
+    "duration": 405,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:23.848Z",
+    "duration": 261,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:23.869Z",
+    "duration": 475,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:23.887Z",
+    "duration": 294,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:23.941Z",
+    "duration": 165,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:23.967Z",
+    "duration": 154,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:23.994Z",
+    "duration": 281,
+    "requestType": "getRoom"
+  },
+  {
+    "date": "2023-10-02T14:22:23.997Z",
+    "duration": 159,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:24.003Z",
+    "duration": 157,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:24.013Z",
+    "duration": 450,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:24.019Z",
+    "duration": 149,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:24.079Z",
+    "duration": 288,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:24.127Z",
+    "duration": 152,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:24.150Z",
+    "duration": 143,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:24.169Z",
+    "duration": 149,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:24.180Z",
+    "duration": 145,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:24.186Z",
+    "duration": 180,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:24.260Z",
+    "duration": 407,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:24.263Z",
+    "duration": 197,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:24.324Z",
+    "duration": 210,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:24.328Z",
+    "duration": 152,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:24.337Z",
+    "duration": 449,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:24.378Z",
+    "duration": 186,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:24.428Z",
+    "duration": 159,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:24.446Z",
+    "duration": 193,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:24.458Z",
+    "duration": 190,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:24.471Z",
+    "duration": 202,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:24.486Z",
+    "duration": 142,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:24.487Z",
+    "duration": 188,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:24.523Z",
+    "duration": 194,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:24.527Z",
+    "duration": 444,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:24.585Z",
+    "duration": 148,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:24.621Z",
+    "duration": 154,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:24.644Z",
+    "duration": 192,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:24.644Z",
+    "duration": 192,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:24.651Z",
+    "duration": 153,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:24.659Z",
+    "duration": 187,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:24.665Z",
+    "duration": 274,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:24.675Z",
+    "duration": 187,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:24.677Z",
+    "duration": 154,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:24.700Z",
+    "duration": 171,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:24.831Z",
+    "duration": 179,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:24.833Z",
+    "duration": 151,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:24.841Z",
+    "duration": 189,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:24.848Z",
+    "duration": 181,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:24.858Z",
+    "duration": 145,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:24.934Z",
+    "duration": 221,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:24.940Z",
+    "duration": 196,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:24.967Z",
+    "duration": 192,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:25.020Z",
+    "duration": 214,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:25.023Z",
+    "duration": 171,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:25.126Z",
+    "duration": 185,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:25.128Z",
+    "duration": 193,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:25.132Z",
+    "duration": 464,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:25.140Z",
+    "duration": 181,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:25.146Z",
+    "duration": 172,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:25.162Z",
+    "duration": 203,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:25.167Z",
+    "duration": 193,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:25.191Z",
+    "duration": 217,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:25.228Z",
+    "duration": 193,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:25.288Z",
+    "duration": 156,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:25.291Z",
+    "duration": 161,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:25.308Z",
+    "duration": 180,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:25.322Z",
+    "duration": 178,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:25.330Z",
+    "duration": 183,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:25.333Z",
+    "duration": 158,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:25.350Z",
+    "duration": 186,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:25.357Z",
+    "duration": 216,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:25.382Z",
+    "duration": 177,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:25.390Z",
+    "duration": 155,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:25.445Z",
+    "duration": 150,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:25.491Z",
+    "duration": 149,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:25.514Z",
+    "duration": 186,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:25.515Z",
+    "duration": 157,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:25.528Z",
+    "duration": 155,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:25.545Z",
+    "duration": 156,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:25.594Z",
+    "duration": 175,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:25.622Z",
+    "duration": 187,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:25.627Z",
+    "duration": 176,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:25.681Z",
+    "duration": 152,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:25.694Z",
+    "duration": 180,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:25.769Z",
+    "duration": 195,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:25.793Z",
+    "duration": 187,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:25.798Z",
+    "duration": 177,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:25.813Z",
+    "duration": 177,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:25.824Z",
+    "duration": 187,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:25.825Z",
+    "duration": 189,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:25.846Z",
+    "duration": 195,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:25.849Z",
+    "duration": 183,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:25.897Z",
+    "duration": 200,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:25.968Z",
+    "duration": 164,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:25.981Z",
+    "duration": 177,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:25.989Z",
+    "duration": 216,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:25.990Z",
+    "duration": 186,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:25.997Z",
+    "duration": 184,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:26.010Z",
+    "duration": 175,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:26.033Z",
+    "duration": 183,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:26.047Z",
+    "duration": 183,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:26.067Z",
+    "duration": 156,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:26.158Z",
+    "duration": 154,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:26.159Z",
+    "duration": 154,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:26.162Z",
+    "duration": 156,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:26.167Z",
+    "duration": 185,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:26.174Z",
+    "duration": 164,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.175Z",
+    "duration": 341,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:26.197Z",
+    "duration": 162,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:26.203Z",
+    "duration": 152,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:26.218Z",
+    "duration": 151,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.290Z",
+    "duration": 194,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:26.320Z",
+    "duration": 158,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.327Z",
+    "duration": 168,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.329Z",
+    "duration": 154,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:26.346Z",
+    "duration": 172,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.347Z",
+    "duration": 150,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.368Z",
+    "duration": 149,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.460Z",
+    "duration": 178,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:26.473Z",
+    "duration": 191,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:26.474Z",
+    "duration": 154,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.479Z",
+    "duration": 152,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.488Z",
+    "duration": 175,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:26.494Z",
+    "duration": 196,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:26.502Z",
+    "duration": 155,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.505Z",
+    "duration": 158,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.512Z",
+    "duration": 182,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.517Z",
+    "duration": 148,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.636Z",
+    "duration": 155,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.646Z",
+    "duration": 171,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.654Z",
+    "duration": 187,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:26.656Z",
+    "duration": 150,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.657Z",
+    "duration": 154,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.658Z",
+    "duration": 159,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:26.667Z",
+    "duration": 155,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.675Z",
+    "duration": 193,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:26.675Z",
+    "duration": 158,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.789Z",
+    "duration": 153,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.807Z",
+    "duration": 161,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.815Z",
+    "duration": 158,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.818Z",
+    "duration": 161,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.821Z",
+    "duration": 153,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.823Z",
+    "duration": 157,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:26.845Z",
+    "duration": 163,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:26.914Z",
+    "duration": 417,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:26.968Z",
+    "duration": 153,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.973Z",
+    "duration": 150,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.974Z",
+    "duration": 199,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:26.976Z",
+    "duration": 155,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:26.986Z",
+    "duration": 181,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:27.076Z",
+    "duration": 161,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:27.110Z",
+    "duration": 196,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:27.121Z",
+    "duration": 148,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:27.134Z",
+    "duration": 173,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:27.138Z",
+    "duration": 169,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:27.143Z",
+    "duration": 197,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:27.151Z",
+    "duration": 221,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:27.168Z",
+    "duration": 192,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:27.175Z",
+    "duration": 183,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:27.241Z",
+    "duration": 164,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:27.274Z",
+    "duration": 152,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:27.296Z",
+    "duration": 158,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:27.302Z",
+    "duration": 202,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:27.304Z",
+    "duration": 190,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:27.321Z",
+    "duration": 152,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:27.321Z",
+    "duration": 187,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:27.337Z",
+    "duration": 147,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:27.340Z",
+    "duration": 195,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:27.345Z",
+    "duration": 185,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:27.394Z",
+    "duration": 154,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:27.427Z",
+    "duration": 153,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:27.477Z",
+    "duration": 166,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:27.490Z",
+    "duration": 164,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:27.497Z",
+    "duration": 187,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:27.506Z",
+    "duration": 149,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:27.512Z",
+    "duration": 171,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:27.557Z",
+    "duration": 162,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:27.615Z",
+    "duration": 195,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:27.630Z",
+    "duration": 180,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:27.641Z",
+    "duration": 151,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:27.642Z",
+    "duration": 177,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:27.663Z",
+    "duration": 153,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:27.704Z",
+    "duration": 147,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:27.751Z",
+    "duration": 195,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:27.803Z",
+    "duration": 161,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:27.806Z",
+    "duration": 188,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:27.818Z",
+    "duration": 185,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:27.819Z",
+    "duration": 185,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:27.829Z",
+    "duration": 186,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:27.944Z",
+    "duration": 188,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:27.960Z",
+    "duration": 156,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:27.962Z",
+    "duration": 176,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:27.975Z",
+    "duration": 159,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:27.977Z",
+    "duration": 146,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:27.979Z",
+    "duration": 148,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:27.984Z",
+    "duration": 382,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:28.006Z",
+    "duration": 371,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:28.007Z",
+    "duration": 187,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:28.019Z",
+    "duration": 187,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:28.110Z",
+    "duration": 150,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:28.111Z",
+    "duration": 155,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:28.147Z",
+    "duration": 184,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:28.173Z",
+    "duration": 187,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:28.175Z",
+    "duration": 158,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:28.201Z",
+    "duration": 183,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:28.215Z",
+    "duration": 182,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:28.270Z",
+    "duration": 176,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:28.277Z",
+    "duration": 183,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:28.316Z",
+    "duration": 207,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:28.318Z",
+    "duration": 170,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:28.351Z",
+    "duration": 149,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:28.362Z",
+    "duration": 174,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:28.368Z",
+    "duration": 151,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:28.420Z",
+    "duration": 186,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:28.422Z",
+    "duration": 189,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:28.457Z",
+    "duration": 186,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:28.468Z",
+    "duration": 189,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:28.470Z",
+    "duration": 175,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:28.506Z",
+    "duration": 189,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:28.613Z",
+    "duration": 192,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:28.619Z",
+    "duration": 196,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:28.627Z",
+    "duration": 149,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:28.632Z",
+    "duration": 170,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:28.634Z",
+    "duration": 186,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:28.641Z",
+    "duration": 177,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:28.658Z",
+    "duration": 180,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:28.660Z",
+    "duration": 152,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:28.663Z",
+    "duration": 192,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:28.664Z",
+    "duration": 170,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:28.772Z",
+    "duration": 155,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:28.784Z",
+    "duration": 152,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:28.799Z",
+    "duration": 172,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:28.809Z",
+    "duration": 149,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:28.830Z",
+    "duration": 152,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:28.838Z",
+    "duration": 191,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:28.841Z",
+    "duration": 194,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:28.869Z",
+    "duration": 206,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:28.870Z",
+    "duration": 192,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:28.931Z",
+    "duration": 176,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:28.951Z",
+    "duration": 152,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:28.965Z",
+    "duration": 156,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:28.980Z",
+    "duration": 150,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:28.997Z",
+    "duration": 150,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:29.001Z",
+    "duration": 154,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:29.022Z",
+    "duration": 144,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:29.025Z",
+    "duration": 147,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:29.066Z",
+    "duration": 174,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:29.068Z",
+    "duration": 175,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:29.110Z",
+    "duration": 159,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.114Z",
+    "duration": 149,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.120Z",
+    "duration": 182,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:29.144Z",
+    "duration": 163,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.149Z",
+    "duration": 152,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.165Z",
+    "duration": 164,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.187Z",
+    "duration": 165,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.259Z",
+    "duration": 193,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:29.268Z",
+    "duration": 148,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:29.272Z",
+    "duration": 196,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:29.277Z",
+    "duration": 157,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:29.281Z",
+    "duration": 160,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:29.295Z",
+    "duration": 151,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.302Z",
+    "duration": 153,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.322Z",
+    "duration": 156,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.334Z",
+    "duration": 147,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.338Z",
+    "duration": 185,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:29.428Z",
+    "duration": 156,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:29.435Z",
+    "duration": 154,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.449Z",
+    "duration": 176,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:29.450Z",
+    "duration": 146,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:29.456Z",
+    "duration": 167,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:29.460Z",
+    "duration": 172,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:29.460Z",
+    "duration": 157,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.474Z",
+    "duration": 151,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.486Z",
+    "duration": 152,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.523Z",
+    "duration": 184,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:29.600Z",
+    "duration": 165,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.608Z",
+    "duration": 151,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:29.618Z",
+    "duration": 156,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:29.625Z",
+    "duration": 169,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.641Z",
+    "duration": 153,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:29.645Z",
+    "duration": 157,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:29.686Z",
+    "duration": 152,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:29.723Z",
+    "duration": 294,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:29.743Z",
+    "duration": 179,
+    "requestType": "message"
+  },
+  {
+    "date": "2023-10-02T14:22:29.755Z",
+    "duration": 155,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.766Z",
+    "duration": 293,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:29.777Z",
+    "duration": 152,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.779Z",
+    "duration": 160,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:29.802Z",
+    "duration": 145,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:29.809Z",
+    "duration": 152,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:29.841Z",
+    "duration": 154,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.914Z",
+    "duration": 303,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:29.916Z",
+    "duration": 151,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:29.928Z",
+    "duration": 185,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:29.930Z",
+    "duration": 153,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:29.992Z",
+    "duration": 152,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:30.015Z",
+    "duration": 282,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:30.067Z",
+    "duration": 287,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:30.083Z",
+    "duration": 166,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:30.085Z",
     "duration": 291,
     "requestType": "opponentInfo"
   },
   {
-    "date": "2023-09-24T20:33:00.347Z",
-    "duration": 184,
+    "date": "2023-10-02T14:22:30.085Z",
+    "duration": 152,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:30.086Z",
+    "duration": 153,
+    "requestType": "getListMessages"
+  },
+  {
+    "date": "2023-10-02T14:22:30.099Z",
+    "duration": 289,
     "requestType": "opponentInfo"
   },
   {
-    "date": "2023-09-24T20:33:00.449Z",
-    "duration": 102,
+    "date": "2023-10-02T14:22:30.107Z",
+    "duration": 282,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:30.141Z",
+    "duration": 149,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:30.179Z",
+    "duration": 154,
     "requestType": "createGame"
   },
   {
-    "date": "2023-09-24T20:33:00.626Z",
-    "duration": 174,
-    "requestType": "inviteToGame"
-  },
-  {
-    "date": "2023-09-24T20:33:00.862Z",
-    "duration": 236,
-    "requestType": "acceptGame"
-  },
-  {
-    "date": "2023-09-24T20:33:00.971Z",
-    "duration": 106,
-    "requestType": "transactionsCardGenerateCode"
-  },
-  {
-    "date": "2023-09-24T20:33:01.073Z",
-    "duration": 103,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-24T20:33:01.186Z",
-    "duration": 110,
-    "requestType": "replenishmentInfo"
-  },
-  {
-    "date": "2023-09-24T20:33:01.279Z",
-    "duration": 91,
-    "requestType": "minReplenishment"
-  },
-  {
-    "date": "2023-09-24T20:33:01.406Z",
-    "duration": 124,
-    "requestType": "transactionsCrypto"
-  },
-  {
-    "date": "2023-09-24T20:33:01.504Z",
-    "duration": 97,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-24T20:33:01.627Z",
-    "duration": 121,
-    "requestType": "setRoomBid"
-  },
-  {
-    "date": "2023-09-24T20:33:01.731Z",
-    "duration": 102,
-    "requestType": "setRoomBid"
-  },
-  {
-    "date": "2023-09-24T20:33:01.849Z",
-    "duration": 115,
-    "requestType": "setReady"
-  },
-  {
-    "date": "2023-09-24T20:33:02.005Z",
-    "duration": 156,
-    "requestType": "setReady"
-  },
-  {
-    "date": "2023-09-24T20:33:02.214Z",
-    "duration": 206,
-    "requestType": "getRoom"
-  },
-  {
-    "date": "2023-09-24T20:33:02.324Z",
-    "duration": 109,
-    "requestType": "setPlayersUserName"
-  },
-  {
-    "date": "2023-09-24T20:33:02.433Z",
-    "duration": 107,
-    "requestType": "setPlayersUserName"
-  },
-  {
-    "date": "2023-09-24T20:33:02.581Z",
-    "duration": 146,
-    "requestType": "setVerdict"
-  },
-  {
-    "date": "2023-09-24T20:33:02.785Z",
-    "duration": 202,
-    "requestType": "setVerdict"
-  },
-  {
-    "date": "2023-09-24T20:33:02.888Z",
-    "duration": 102,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-24T20:33:02.981Z",
-    "duration": 90,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-24T20:33:03.414Z",
-    "duration": 325,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-24T20:33:03.582Z",
-    "duration": 167,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-24T20:33:03.689Z",
-    "duration": 106,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-24T20:33:03.911Z",
-    "duration": 114,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-24T20:33:04.030Z",
-    "duration": 118,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-24T20:33:04.125Z",
-    "duration": 95,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-24T20:33:04.328Z",
-    "duration": 98,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-24T20:33:04.450Z",
-    "duration": 121,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-24T20:33:04.552Z",
-    "duration": 100,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-24T20:33:04.636Z",
-    "duration": 83,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-24T20:33:04.733Z",
-    "duration": 96,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-24T20:33:04.830Z",
-    "duration": 97,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-24T20:33:04.932Z",
-    "duration": 101,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-24T20:33:05.180Z",
-    "duration": 142,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-24T20:33:05.306Z",
-    "duration": 124,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-24T20:33:05.403Z",
-    "duration": 95,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-24T20:33:05.615Z",
-    "duration": 108,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-24T20:33:05.750Z",
-    "duration": 134,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-24T20:33:05.841Z",
-    "duration": 91,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-24T20:33:06.046Z",
-    "duration": 97,
-    "requestType": "message"
-  },
-  {
-    "date": "2023-09-24T20:33:06.173Z",
-    "duration": 125,
-    "requestType": "userInfo"
-  },
-  {
-    "date": "2023-09-24T20:33:06.276Z",
-    "duration": 102,
-    "requestType": "getListMessages"
-  },
-  {
-    "date": "2023-09-24T20:33:06.377Z",
-    "duration": 101,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-24T20:33:06.470Z",
-    "duration": 92,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-24T20:33:06.564Z",
-    "duration": 93,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-24T20:33:06.660Z",
-    "duration": 94,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-24T20:33:06.756Z",
-    "duration": 94,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-24T20:33:06.964Z",
-    "duration": 206,
+    "date": "2023-10-02T14:22:30.213Z",
+    "duration": 296,
     "requestType": "opponentInfo"
   },
   {
-    "date": "2023-09-24T20:33:07.145Z",
-    "duration": 179,
-    "requestType": "opponentInfo"
-  },
-  {
-    "date": "2023-09-24T20:33:07.240Z",
-    "duration": 93,
+    "date": "2023-10-02T14:22:30.235Z",
+    "duration": 163,
     "requestType": "createGame"
   },
   {
-    "date": "2023-09-24T20:33:07.408Z",
-    "duration": 165,
-    "requestType": "inviteToGame"
-  },
-  {
-    "date": "2023-09-24T20:33:07.693Z",
-    "duration": 284,
-    "requestType": "acceptGame"
-  },
-  {
-    "date": "2023-09-24T20:33:07.804Z",
-    "duration": 111,
-    "requestType": "transactionsCardGenerateCode"
-  },
-  {
-    "date": "2023-09-24T20:33:07.899Z",
-    "duration": 94,
+    "date": "2023-10-02T14:22:30.241Z",
+    "duration": 154,
     "requestType": "getBalance"
   },
   {
-    "date": "2023-09-24T20:33:07.997Z",
-    "duration": 97,
-    "requestType": "replenishmentInfo"
+    "date": "2023-10-02T14:22:30.243Z",
+    "duration": 158,
+    "requestType": "gameFilter"
   },
   {
-    "date": "2023-09-24T20:33:08.094Z",
-    "duration": 94,
-    "requestType": "minReplenishment"
-  },
-  {
-    "date": "2023-09-24T20:33:08.201Z",
-    "duration": 106,
-    "requestType": "transactionsCrypto"
-  },
-  {
-    "date": "2023-09-24T20:33:08.299Z",
-    "duration": 96,
+    "date": "2023-10-02T14:22:30.298Z",
+    "duration": 149,
     "requestType": "getBalance"
   },
   {
-    "date": "2023-09-24T20:33:08.421Z",
-    "duration": 121,
-    "requestType": "setRoomBid"
-  },
-  {
-    "date": "2023-09-24T20:33:08.550Z",
-    "duration": 128,
-    "requestType": "setRoomBid"
-  },
-  {
-    "date": "2023-09-24T20:33:09.066Z",
-    "duration": 514,
-    "requestType": "setReady"
-  },
-  {
-    "date": "2023-09-24T20:33:09.214Z",
+    "date": "2023-10-02T14:22:30.373Z",
     "duration": 147,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-10-02T14:22:30.378Z",
+    "duration": 290,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:30.393Z",
+    "duration": 291,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:30.395Z",
+    "duration": 151,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:30.402Z",
+    "duration": 283,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:30.403Z",
+    "duration": 315,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:30.461Z",
+    "duration": 160,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:30.505Z",
+    "duration": 309,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:30.539Z",
+    "duration": 143,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:30.543Z",
+    "duration": 286,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:30.543Z",
+    "duration": 307,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:30.561Z",
+    "duration": 150,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-10-02T14:22:30.566Z",
+    "duration": 170,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-10-02T14:22:30.584Z",
+    "duration": 173,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-10-02T14:22:30.658Z",
+    "duration": 277,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:30.693Z",
+    "duration": 313,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:30.700Z",
+    "duration": 151,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:30.748Z",
+    "duration": 276,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:30.819Z",
+    "duration": 148,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-10-02T14:22:30.846Z",
+    "duration": 145,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:30.863Z",
+    "duration": 301,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:30.871Z",
+    "duration": 322,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:30.905Z",
+    "duration": 326,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:30.922Z",
+    "duration": 328,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:30.966Z",
+    "duration": 448,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:31.005Z",
+    "duration": 457,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:31.035Z",
+    "duration": 149,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-10-02T14:22:31.037Z",
+    "duration": 288,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:31.130Z",
+    "duration": 274,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:31.133Z",
+    "duration": 155,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:31.139Z",
+    "duration": 314,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:31.155Z",
+    "duration": 461,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:31.166Z",
+    "duration": 160,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:31.195Z",
+    "duration": 156,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-10-02T14:22:31.301Z",
+    "duration": 157,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:31.314Z",
+    "duration": 158,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:31.320Z",
+    "duration": 145,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:31.331Z",
+    "duration": 295,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:31.360Z",
+    "duration": 489,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:31.367Z",
+    "duration": 450,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:31.390Z",
+    "duration": 458,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:31.439Z",
+    "duration": 294,
+    "requestType": "opponentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:31.465Z",
+    "duration": 150,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:31.470Z",
+    "duration": 155,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:31.472Z",
+    "duration": 142,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:31.499Z",
+    "duration": 303,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:31.526Z",
+    "duration": 165,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:31.530Z",
+    "duration": 162,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:31.560Z",
+    "duration": 168,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:31.596Z",
+    "duration": 456,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:31.605Z",
+    "duration": 140,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:31.617Z",
+    "duration": 166,
+    "requestType": "createGame"
+  },
+  {
+    "date": "2023-10-02T14:22:31.621Z",
+    "duration": 141,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:31.627Z",
+    "duration": 146,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:31.683Z",
+    "duration": 152,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:31.690Z",
+    "duration": 148,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:31.724Z",
+    "duration": 151,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:31.758Z",
+    "duration": 152,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:31.787Z",
+    "duration": 152,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:31.790Z",
+    "duration": 155,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:31.799Z",
+    "duration": 194,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:31.801Z",
+    "duration": 457,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:31.831Z",
+    "duration": 134,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:31.834Z",
+    "duration": 137,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:31.864Z",
+    "duration": 137,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:31.939Z",
+    "duration": 321,
+    "requestType": "inviteToGame"
+  },
+  {
+    "date": "2023-10-02T14:22:31.945Z",
+    "duration": 154,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:31.953Z",
+    "duration": 149,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:31.969Z",
+    "duration": 165,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:31.972Z",
+    "duration": 198,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:31.979Z",
+    "duration": 468,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:31.980Z",
+    "duration": 191,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:31.993Z",
+    "duration": 128,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:31.994Z",
+    "duration": 144,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:32.099Z",
+    "duration": 142,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:32.127Z",
+    "duration": 155,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:32.147Z",
+    "duration": 145,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:32.151Z",
+    "duration": 194,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:32.165Z",
+    "duration": 163,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:32.167Z",
+    "duration": 194,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:32.169Z",
+    "duration": 189,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:32.177Z",
+    "duration": 197,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:32.262Z",
+    "duration": 428,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:32.289Z",
+    "duration": 149,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:32.366Z",
+    "duration": 196,
     "requestType": "setReady"
   },
   {
-    "date": "2023-09-24T20:33:09.402Z",
-    "duration": 186,
+    "date": "2023-10-02T14:22:32.384Z",
+    "duration": 284,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:32.385Z",
+    "duration": 200,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:32.395Z",
+    "duration": 240,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:32.402Z",
+    "duration": 247,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:32.423Z",
+    "duration": 130,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:32.429Z",
+    "duration": 489,
+    "requestType": "acceptGame"
+  },
+  {
+    "date": "2023-10-02T14:22:32.434Z",
+    "duration": 157,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:32.442Z",
+    "duration": 271,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:32.502Z",
+    "duration": 317,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:32.547Z",
+    "duration": 160,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:32.599Z",
+    "duration": 167,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:32.604Z",
+    "duration": 174,
+    "requestType": "transactionsCardGenerateCode"
+  },
+  {
+    "date": "2023-10-02T14:22:32.606Z",
+    "duration": 188,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:32.607Z",
+    "duration": 204,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:32.646Z",
+    "duration": 198,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:32.647Z",
+    "duration": 200,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:32.665Z",
+    "duration": 281,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:32.665Z",
+    "duration": 293,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:32.667Z",
+    "duration": 157,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:32.747Z",
+    "duration": 191,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:32.765Z",
+    "duration": 160,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:32.795Z",
+    "duration": 188,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:32.802Z",
+    "duration": 200,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:32.821Z",
+    "duration": 173,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:32.842Z",
+    "duration": 195,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:32.896Z",
+    "duration": 279,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:32.912Z",
+    "duration": 140,
+    "requestType": "replenishmentInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:32.952Z",
+    "duration": 196,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:32.969Z",
+    "duration": 302,
     "requestType": "getRoom"
   },
   {
-    "date": "2023-09-24T20:33:09.524Z",
-    "duration": 121,
-    "requestType": "setPlayersUserName"
+    "date": "2023-10-02T14:22:32.978Z",
+    "duration": 312,
+    "requestType": "getRoom"
   },
   {
-    "date": "2023-09-24T20:33:09.629Z",
-    "duration": 102,
-    "requestType": "setPlayersUserName"
+    "date": "2023-10-02T14:22:33.022Z",
+    "duration": 173,
+    "requestType": "setReady"
   },
   {
-    "date": "2023-09-24T20:33:09.769Z",
-    "duration": 140,
-    "requestType": "setVerdict"
+    "date": "2023-10-02T14:22:33.024Z",
+    "duration": 207,
+    "requestType": "setRoomBid"
   },
   {
-    "date": "2023-09-24T20:33:09.968Z",
-    "duration": 198,
-    "requestType": "setVerdict"
-  },
-  {
-    "date": "2023-09-24T20:33:10.078Z",
-    "duration": 108,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-24T20:33:10.167Z",
-    "duration": 88,
-    "requestType": "getBalance"
-  },
-  {
-    "date": "2023-09-24T20:33:10.260Z",
-    "duration": 92,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-24T20:33:10.362Z",
-    "duration": 102,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-24T20:33:10.461Z",
-    "duration": 99,
-    "requestType": "gameFilter"
-  },
-  {
-    "date": "2023-09-24T20:33:10.562Z",
-    "duration": 99,
-    "requestType": "resetStats"
-  },
-  {
-    "date": "2023-09-24T20:33:10.652Z",
-    "duration": 90,
-    "requestType": "resetStats"
-  },
-  {
-    "date": "2023-09-24T20:33:10.780Z",
+    "date": "2023-10-02T14:22:33.052Z",
     "duration": 127,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:33.071Z",
+    "duration": 275,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:33.121Z",
+    "duration": 289,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:33.141Z",
+    "duration": 462,
+    "requestType": "minReplenishment"
+  },
+  {
+    "date": "2023-10-02T14:22:33.149Z",
+    "duration": 195,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:33.176Z",
+    "duration": 190,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:33.180Z",
+    "duration": 208,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:33.199Z",
+    "duration": 291,
+    "requestType": "getRoom"
+  },
+  {
+    "date": "2023-10-02T14:22:33.211Z",
+    "duration": 149,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:33.224Z",
+    "duration": 192,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:33.320Z",
+    "duration": 165,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:33.321Z",
+    "duration": 289,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:33.362Z",
+    "duration": 184,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:33.395Z",
+    "duration": 315,
+    "requestType": "getRoom"
+  },
+  {
+    "date": "2023-10-02T14:22:33.395Z",
+    "duration": 193,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:33.406Z",
+    "duration": 220,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:33.420Z",
+    "duration": 202,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:33.429Z",
+    "duration": 279,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:33.435Z",
+    "duration": 310,
+    "requestType": "getRoom"
+  },
+  {
+    "date": "2023-10-02T14:22:33.515Z",
+    "duration": 191,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:33.516Z",
+    "duration": 283,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:33.605Z",
+    "duration": 205,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:33.610Z",
+    "duration": 210,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:33.619Z",
+    "duration": 298,
+    "requestType": "getRoom"
+  },
+  {
+    "date": "2023-10-02T14:22:33.620Z",
+    "duration": 250,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:33.620Z",
+    "duration": 190,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:33.631Z",
+    "duration": 196,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:33.669Z",
+    "duration": 262,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:33.705Z",
+    "duration": 189,
+    "requestType": "setRoomBid"
+  },
+  {
+    "date": "2023-10-02T14:22:33.728Z",
+    "duration": 298,
+    "requestType": "getRoom"
+  },
+  {
+    "date": "2023-10-02T14:22:33.801Z",
+    "duration": 180,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:33.802Z",
+    "duration": 187,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:33.816Z",
+    "duration": 299,
+    "requestType": "getRoom"
+  },
+  {
+    "date": "2023-10-02T14:22:33.820Z",
+    "duration": 190,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:33.843Z",
+    "duration": 211,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:33.887Z",
+    "duration": 273,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:33.919Z",
+    "duration": 183,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:33.923Z",
+    "duration": 201,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:34.008Z",
+    "duration": 178,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:34.068Z",
+    "duration": 239,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:34.078Z",
+    "duration": 276,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:34.087Z",
+    "duration": 242,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:34.101Z",
+    "duration": 426,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:34.117Z",
+    "duration": 488,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:34.123Z",
+    "duration": 202,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:34.125Z",
+    "duration": 312,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:34.211Z",
+    "duration": 287,
+    "requestType": "setReady"
+  },
+  {
+    "date": "2023-10-02T14:22:34.251Z",
+    "duration": 182,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:34.270Z",
+    "duration": 150,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:34.278Z",
+    "duration": 265,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:34.322Z",
+    "duration": 432,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:34.362Z",
+    "duration": 239,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:34.406Z",
+    "duration": 317,
+    "requestType": "getRoom"
+  },
+  {
+    "date": "2023-10-02T14:22:34.429Z",
+    "duration": 158,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:34.429Z",
+    "duration": 325,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:34.478Z",
+    "duration": 146,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:34.514Z",
+    "duration": 302,
+    "requestType": "getRoom"
+  },
+  {
+    "date": "2023-10-02T14:22:34.516Z",
+    "duration": 427,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:34.557Z",
+    "duration": 301,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:34.587Z",
+    "duration": 156,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:34.590Z",
+    "duration": 151,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:34.605Z",
+    "duration": 182,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:34.623Z",
+    "duration": 489,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:34.628Z",
+    "duration": 145,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:34.664Z",
+    "duration": 147,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:34.708Z",
+    "duration": 178,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:34.722Z",
+    "duration": 436,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:34.743Z",
+    "duration": 155,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:34.773Z",
+    "duration": 183,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:34.775Z",
+    "duration": 412,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:34.777Z",
+    "duration": 148,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:34.782Z",
+    "duration": 147,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:34.804Z",
+    "duration": 183,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:34.829Z",
+    "duration": 149,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:34.874Z",
+    "duration": 147,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:34.889Z",
+    "duration": 146,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:34.903Z",
+    "duration": 192,
+    "requestType": "setPlayersUserName"
+  },
+  {
+    "date": "2023-10-02T14:22:34.931Z",
+    "duration": 145,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:34.943Z",
+    "duration": 169,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:34.943Z",
+    "duration": 157,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:34.947Z",
+    "duration": 169,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:34.987Z",
+    "duration": 157,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:35.022Z",
+    "duration": 144,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:35.029Z",
+    "duration": 137,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:35.035Z",
+    "duration": 477,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:35.084Z",
+    "duration": 152,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:35.094Z",
+    "duration": 151,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:35.096Z",
+    "duration": 288,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:35.098Z",
+    "duration": 144,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:35.099Z",
+    "duration": 151,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:35.137Z",
+    "duration": 150,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:35.171Z",
+    "duration": 149,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:35.183Z",
+    "duration": 147,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:35.194Z",
+    "duration": 163,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:35.195Z",
+    "duration": 287,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:35.233Z",
+    "duration": 133,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:35.238Z",
+    "duration": 153,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:35.247Z",
+    "duration": 140,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:35.255Z",
+    "duration": 156,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:35.290Z",
+    "duration": 153,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:35.328Z",
+    "duration": 157,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:35.345Z",
+    "duration": 148,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:35.386Z",
+    "duration": 148,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:35.388Z",
+    "duration": 193,
     "requestType": "userInfo"
   },
   {
-    "date": "2023-09-24T20:33:10.924Z",
+    "date": "2023-10-02T14:22:35.399Z",
+    "duration": 157,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:35.404Z",
+    "duration": 149,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:35.418Z",
+    "duration": 169,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:35.440Z",
+    "duration": 137,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:35.499Z",
+    "duration": 170,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:35.512Z",
+    "duration": 167,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:35.528Z",
+    "duration": 132,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:35.556Z",
+    "duration": 152,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:35.593Z",
+    "duration": 197,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:35.596Z",
+    "duration": 499,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:35.604Z",
+    "duration": 193,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:35.617Z",
+    "duration": 161,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:35.633Z",
+    "duration": 207,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:35.645Z",
     "duration": 143,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:35.656Z",
+    "duration": 458,
+    "requestType": "setVerdict"
+  },
+  {
+    "date": "2023-10-02T14:22:35.663Z",
+    "duration": 150,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:35.689Z",
+    "duration": 155,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:35.695Z",
+    "duration": 129,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:35.759Z",
+    "duration": 149,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:35.796Z",
+    "duration": 185,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:35.804Z",
+    "duration": 186,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:35.808Z",
+    "duration": 145,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:35.815Z",
+    "duration": 159,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:35.822Z",
+    "duration": 165,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:35.873Z",
+    "duration": 171,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:35.877Z",
+    "duration": 187,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:35.906Z",
+    "duration": 146,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:35.962Z",
+    "duration": 138,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:35.970Z",
+    "duration": 146,
+    "requestType": "getBalance"
+  },
+  {
+    "date": "2023-10-02T14:22:36.003Z",
+    "duration": 179,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:36.005Z",
+    "duration": 195,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:36.056Z",
+    "duration": 182,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:36.071Z",
+    "duration": 186,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:36.075Z",
+    "duration": 169,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:36.124Z",
+    "duration": 161,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:36.137Z",
+    "duration": 167,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:36.230Z",
+    "duration": 154,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:36.256Z",
+    "duration": 250,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:36.290Z",
+    "duration": 152,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:36.314Z",
+    "duration": 185,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:36.316Z",
+    "duration": 249,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:36.386Z",
+    "duration": 157,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:36.442Z",
+    "duration": 153,
+    "requestType": "gameFilter"
+  },
+  {
+    "date": "2023-10-02T14:22:36.520Z",
+    "duration": 193,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:36.534Z",
+    "duration": 144,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:36.593Z",
+    "duration": 141,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:36.699Z",
+    "duration": 164,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:36.774Z",
+    "duration": 164,
+    "requestType": "resetStats"
+  },
+  {
+    "date": "2023-10-02T14:22:36.900Z",
+    "duration": 196,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:36.975Z",
+    "duration": 193,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:37.102Z",
+    "duration": 196,
+    "requestType": "userInfo"
+  },
+  {
+    "date": "2023-10-02T14:22:37.169Z",
+    "duration": 184,
     "requestType": "userInfo"
   }
 ]

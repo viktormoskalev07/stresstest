@@ -91,12 +91,12 @@ export const app = async (id) => {
   await delayedFunctionCall(async () => await instanceUser2("/transactions/"), 1, "transactions")
   performData && performDataRequests(instanceUser1, instanceUser2)
 
-  await delayedFunctionCall(async () => await instanceUser1("/transactions/withdrawal-requests/"), 1, "withdrawalTransactions")
-  await delayedFunctionCall(async () => await instanceUser2("/transactions/withdrawal-requests/"), 1, "withdrawalTransactions")
+  // await delayedFunctionCall(async () => await instanceUser1("/transactions/withdrawal-requests/"), 1, "withdrawalTransactions")
+  // await delayedFunctionCall(async () => await instanceUser2("/transactions/withdrawal-requests/"), 1, "withdrawalTransactions")
   performData && performDataRequests(instanceUser1, instanceUser2)
 
-  await delayedFunctionCall(async () => await instanceUser1("/transactions/check-withdrawal-availability"), 1, "checkWithdrawAvailability")
-  await delayedFunctionCall(async () => await instanceUser2("/transactions/check-withdrawal-availability"), 1, "checkWithdrawAvailability")
+  // await delayedFunctionCall(async () => await instanceUser1("/transactions/check-withdrawal-availability"), 1, "checkWithdrawAvailability")
+  // await delayedFunctionCall(async () => await instanceUser2("/transactions/check-withdrawal-availability"), 1, "checkWithdrawAvailability")
   performData && performDataRequests(instanceUser1, instanceUser2)
 
 
