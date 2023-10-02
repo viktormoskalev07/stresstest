@@ -49,8 +49,8 @@
         delete: "#a6ffac",
         checkReferral: "#28572b",
         deleteacc: "#8d5f42",
-        "user/info":"#3eceb1",
-        "userInfo":"#ff00fd",
+        "user/info": "#3eceb1",
+        userInfo: "#ff00fd",
         getBalance: "#cabd7f",
         acceptGame: "#dee529",
         message: "#00ff00",
@@ -103,7 +103,8 @@
           dataWarn.push(warnings.combined[i]?.length || 0);
         }
 
-        shiftedDuration = durationEveryRequest.data.slice(1, 10000);
+        shiftedDuration = durationEveryRequest.data.slice(1, 2000);
+
         const allColors = {};
         const ping = {
           label: shiftedDuration.map((_, i) => i),
