@@ -1,1 +1,80 @@
-[]
+[
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 400",
+        {
+          "detail": "This room does not place a bet"
+        },
+        "set ready"
+      ],
+      "user11": 50576,
+      "user22": 50575
+    },
+    "date": "2023-10-06T09:25:39.549Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 400",
+        {
+          "detail": "This room does not place a bet"
+        },
+        "set ready"
+      ],
+      "user11": 50574,
+      "user22": 50573
+    },
+    "date": "2023-10-06T09:25:40.229Z"
+  },
+  {
+    "message": {
+      "message": [
+        "Request failed with status code 400",
+        {
+          "detail": "This room does not place a bet"
+        },
+        "set ready"
+      ],
+      "user11": 50587,
+      "user22": 50591
+    },
+    "date": "2023-10-06T09:25:40.400Z"
+  },
+  {
+    "message": {
+      "message": [
+        {
+          "user1BalanceFinish": "1.000",
+          "user1Replenishment": 0,
+          "user1BalanceStart": "8.000",
+          "user2BalanceFinish": "1.000",
+          "user2Replenishment": 0,
+          "user2BalanceStart": "8.000",
+          "BID": 7
+        }
+      ],
+      "user11": 50580,
+      "user22": 50579
+    },
+    "date": "2023-10-06T09:25:40.725Z"
+  },
+  {
+    "message": {
+      "message": [
+        {
+          "user1BalanceFinish": "-6.000",
+          "user1Replenishment": 0,
+          "user1BalanceStart": "8.000",
+          "user2BalanceFinish": "7.300",
+          "user2Replenishment": 0,
+          "user2BalanceStart": "8.000",
+          "BID": 7
+        }
+      ],
+      "user11": 50592,
+      "user22": 50588
+    },
+    "date": "2023-10-06T09:25:41.604Z"
+  }
+]

@@ -16,7 +16,7 @@ import { performDataRequests } from "./performDataRequests/performDataRequests.j
 
 
 
-export const showLogs = true
+export const showLogs = false
 const changeUserName = true
 const performData = true
 const playGames = true
@@ -121,7 +121,7 @@ export const app = async (id) => {
   await delayedFunctionCall(async () => await unsubscribeEmail(instanceUser2), 1, "unsubscribeEmail")
   getGames && await getGamesWithFilters(instanceUser2)
   getGames && await getGamesWithFilters(instanceUser1)
-  playGames && await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
+  // playGames && await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
 
   // go to home page
   sendMessages && await sendMessage(instanceUser1)
@@ -143,8 +143,8 @@ export const app = async (id) => {
   getGames && await getGamesWithFilters(instanceUser1)
 
   //reset stats
-  await delayedFunctionCall(async () => await instanceUser1.post("/user/reset-stats/"), 1, "resetStats")
-  await delayedFunctionCall(async () => await instanceUser2.post("/user/reset-stats/"), 1, "resetStats")
+  // await delayedFunctionCall(async () => await instanceUser1.post("/user/reset-stats/"), 1, "resetStats")
+  // await delayedFunctionCall(async () => await instanceUser2.post("/user/reset-stats/"), 1, "resetStats")
   performData && performDataRequests(instanceUser1, instanceUser2)
 
   // delete account

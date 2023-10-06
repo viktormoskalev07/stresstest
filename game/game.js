@@ -15,7 +15,7 @@ const createGame = async (instanceUser) => {
 			// {game: "mw2_console", bid: 12},
 			// {game: "mw2_pc", bid: 12},
 			// {game: "dota", bid: 12},
-			{ game: "csgo", bid: 1 },
+			{ game: "csgo", bid: 6 },
 		],
 		ready_to_play: true
 	}
@@ -32,7 +32,7 @@ const createGame = async (instanceUser) => {
 const inviteToGame = async (instanceUser, userId) => {
 
 	const body = {
-		price: 122,
+		price: 6,
 		player_id: userId,
 		game: "fifa23_new",
 		account_type: "cash"
@@ -161,12 +161,13 @@ const setVerdict = async (instanceUser, userId) => {
 	try {
 		const setVerdictResponse = await instanceUser.post(`/rooms/${roomId}/set-verdict/`, body)
 		showLogs && console.log(setVerdictResponse.data, 'set verdict')
+		return setVerdictResponse
 
 	} catch (e) {
 		console.error(e.message, e?.response?.data, 'set verdict')
 		// await delayedFunctionCall(() => deleteAccount(instanceUser) , 1 ,"delete")
 	}
-	return 1
+	return "error"
 }
 
 export const cancelGame = async (instanceUser) => {
@@ -204,7 +205,7 @@ export const playGame = async (instanceUser1, instanceUser2, user1, user2, saveT
 	const opponentInfo = await delayedFunctionCall(async () => await instanceUser1("/user/users/" + user2.userId), 1, "opponentInfo")
 	const opponentInfo2 = await delayedFunctionCall(async () => await instanceUser2("/user/users/" + user1.userId), 1, "opponentInfo")
 
-	const BID = 2
+	const BID = 7
 	// firs user created game
 	const timeout = Math.random() * 2
 	await delayedFunctionCall(() => createGame(instanceUser1), timeout, "createGame")
@@ -240,10 +241,14 @@ export const playGame = async (instanceUser1, instanceUser2, user1, user2, saveT
 	await delayedFunctionCall(() => setRoomBid(instanceUser2, BID), timeout, "setRoomBid")
 
 	// first user ready
-	await delayedFunctionCall(() => setReady(instanceUser1), timeout, "setReady")
-
+				delayedFunctionCall(() => setReady(instanceUser1), timeout, "setReady")
+				delayedFunctionCall(() => setReady(instanceUser2), timeout, "setReady")
+				delayedFunctionCall(() => setReady(instanceUser1), timeout, "setReady")
+				delayedFunctionCall(() => setReady(instanceUser2), timeout, "setReady")
+		await 	delayedFunctionCall(() => setReady(instanceUser1), timeout, "setReady")
+		await 	delayedFunctionCall(() => setReady(instanceUser2), timeout, "setReady")
 	// second user ready
-	await delayedFunctionCall(() => setReady(instanceUser2), timeout, "setReady")
+
 
 	// add players user names
 	await delayedFunctionCall(() => getRoom(instanceUser1), timeout, "getRoom")
@@ -252,11 +257,17 @@ export const playGame = async (instanceUser1, instanceUser2, user1, user2, saveT
 
 	await delayedFunctionCall(() => setPlayersUserName(instanceUser2), timeout, "setPlayersUserName")
 
-	// first user lose
-	await delayedFunctionCall(() => setVerdict(instanceUser1, user2.userId), timeout, "setVerdict")
 
-	// second user win
-	await delayedFunctionCall(() => setVerdict(instanceUser2, user2.userId), timeout, "setVerdict")
+	 delayedFunctionCall(async() =>await setVerdict(instanceUser1, user2.userId), timeout, "setVerdict").then(res=>{console.log(res.data)})
+	 delayedFunctionCall(async() =>await setVerdict(instanceUser2, user2.userId), timeout, "setVerdict").then(res=>{console.log(res.data)})
+
+	 delayedFunctionCall(async () =>await setVerdict(instanceUser1, user2.userId), timeout, "setVerdict").then(res=>{console.log(res.data  ,user2.userId  )})
+	 delayedFunctionCall(async() =>await setVerdict(instanceUser2, user2.userId), timeout, "setVerdict").then(res=>{console.log(res.data ,user1.userId)})
+
+	await delayedFunctionCall(async() => await setVerdict(instanceUser1, user2.userId), timeout, "setVerdict")
+	await delayedFunctionCall(async() =>await setVerdict(instanceUser2, user2.userId), timeout, "setVerdict")
+
+
 	const _user1BalanceFinish = await delayedFunctionCall(async () => await getBalance(instanceUser1, setInitialBalance), 1, "getBalance")
 	const user1BalanceFinish = _user1BalanceFinish?.cash
 	const _user2BalanceFinish = await delayedFunctionCall(async () => await getBalance(instanceUser2, setInitialBalance), 1, "getBalance")
@@ -273,7 +284,7 @@ export const playGame = async (instanceUser1, instanceUser2, user1, user2, saveT
 	if (user1Error || user2Error) {
 		console.error({ user1BalanceFinish, user1Replenishment, user1BalanceStart, user2BalanceFinish, user2Replenishment, user2BalanceStart, BID })
 	}
-
+	console.log({ user1BalanceFinish, user1Replenishment, user1BalanceStart, user2BalanceFinish, user2Replenishment, user2BalanceStart, BID })
 	showLogs && console.log('game finished')
 
 
