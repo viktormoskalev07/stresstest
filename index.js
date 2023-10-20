@@ -23,7 +23,7 @@ const playGames = true
 export const getGames = true
 const sendMessages = true
 export const connectSocket = true
-export const pingMaxTimeError = 1500
+export const pingMaxTimeError = 900
 
 
 const createAxiosInstance = (baseURL) => {
@@ -127,7 +127,8 @@ export const app = async (id) => {
   sendMessages && await sendMessage(instanceUser1)
 
   getGames && await getGamesWithFilters(instanceUser2)
-  getGames && await getGamesWithFilters(instanceUser1)
+  const randomDelay = Math.floor(Math.random() * 10000)
+  getGames && await delayedFunctionCall( await getGamesWithFilters(instanceUser1) , randomDelay)
 
   getGames && await getGamesWithFilters(instanceUser2)
   getGames && await getGamesWithFilters(instanceUser1)
@@ -136,7 +137,18 @@ export const app = async (id) => {
   getGames && await getGamesWithFilters(instanceUser2)
   getGames && await getGamesWithFilters(instanceUser1)
   getGames && await getGamesWithFilters(instanceUser2)
-  playGames && await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
+  function randomTrueOneOutOfTen() {
+    const randomNum = Math.floor(Math.random() * 10) + 1;
+    if(randomNum === 10 ){
+      console.log("play")
+    }else{
+
+    }
+    return randomNum === 10;
+  }
+
+
+  playGames &&randomTrueOneOutOfTen()&& await playGame(instanceUser1, instanceUser2, user1, user2, saveToFile)
   getGames && await getGamesWithFilters(instanceUser1)
 
   getGames && await getGamesWithFilters(instanceUser2)

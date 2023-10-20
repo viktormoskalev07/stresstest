@@ -1,6 +1,7 @@
 import {deleteAccount} from "./deleteAccount.js"
 import {delayedFunctionCall} from "../helpers/delayFunc.js"
 import {showLogs} from "../index.js";
+import {messageTarget} from "../helpers/constants.js";
 
 
 const delay2 = (ms) => new Promise(resolve => setTimeout(resolve, ms));
@@ -11,7 +12,7 @@ export const sendMessage = async (instanceUser) => {
 			await delay2(100*del);
 
 				const message =async ()=>{
-					return await instanceUser.post(`/chats/${1}/send-message/`, {
+					return await instanceUser.post(`/chats/${messageTarget}/send-message/`, {
 						text: 'I am spam bot i am testing a website',
 						type: 'default',
 					})

@@ -279,7 +279,7 @@ export const playGame = async (instanceUser1, instanceUser2, user1, user2, saveT
 	const result2 = round10(user2BalanceFinish - user2BalanceStart);
 
 	const user1Error = result1 !== (-BID + user1Replenishment)
-	const user2Error = result2 !== (round10(BID * 0.9) + user2Replenishment)
+	const user2Error = result2 !== (round10(BID * 0.85) + user2Replenishment)
 	console.log({ result1, result2, user1Error, user2Error })
 	if (user1Error || user2Error) {
 		console.error({ user1BalanceFinish, user1Replenishment, user1BalanceStart, user2BalanceFinish, user2Replenishment, user2BalanceStart, BID })
